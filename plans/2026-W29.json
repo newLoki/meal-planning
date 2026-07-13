@@ -1,0 +1,83 @@
+{
+  "week_label": "2026-W29",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-07-17",
+      "name": "Thai Rotes Curry mit H\u00e4hnchen",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 30,
+      "category": "Hauptgericht",
+      "tagline": "W\u00fcrziges asiatisches Curry, glutenfrei mit Tamari.",
+      "ingredients": [
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 500, "unit": "g", "name": "H\u00e4hnchenbrust" },
+        { "amount": 500, "unit": "g", "name": "Karotten" },
+        { "amount": 2, "unit": "EL", "name": "Tamari (glutenfrei)" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 200, "unit": "g", "name": "Reis" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Reis nach Packungsanweisung kochen.",
+        "H\u00e4hnchen w\u00fcrfeln und anbraten.",
+        "Karotten und Knoblauch zugeben, Currypaste anr\u00f6sten.",
+        "Mit Kokosmilch abl\u00f6schen, 15 Min. k\u00f6cheln, mit Tamari abschmecken."
+      ],
+      "tips": [
+        "Auf glutenfreie Currypaste achten \u2013 viele enthalten Weizen.",
+        "Statt Fischsauce Tamari verwenden."
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "name": "Mediterrane Ofengem\u00fcse-Bowl",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 35,
+      "category": "Hauptgericht",
+      "tagline": "Bunte Bowl aus dem Ofen, laktosefrei.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Dose", "name": "Kichererbsen" },
+        { "amount": 200, "unit": "g", "name": "Reis" },
+        { "amount": 2, "unit": "EL", "name": "Oliven\u00f6l" },
+        { "amount": 1, "unit": "Bund", "name": "Petersilie" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Gem\u00fcse und Kichererbsen mit \u00d6l und Gew\u00fcrzen mischen.",
+        "Bei 200 \u00b0C 35 Min. backen.",
+        "Mit Reis und Petersilie servieren."
+      ],
+      "tips": [
+        "Reste eignen sich gut als Lunch am Folgetag."
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Rinderhack-Pfanne mit GF-Nudeln",
+      "type": "meat",
+      "prep_min": 10,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Schnelle Pfanne, glutenfreie Nudeln.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 250, "unit": "g", "name": "glutenfreie Nudeln" },
+        { "amount": 400, "unit": "ml", "name": "passierte Tomaten" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Nudeln kochen.",
+        "Hack anbraten, Knoblauch zugeben.",
+        "Tomaten zugeben, 15 Min. k\u00f6cheln, mit Nudeln mischen."
+      ],
+      "tips": [
+        "Glutenfreie Nudeln nicht \u00fcberkochen \u2013 sie werden schnell weich."
+      ]
+    }
+  ]
+}

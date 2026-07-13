@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wochenpl&auml;ne</title>
+<style>
+  :root{--fg:#1a1a1a;--muted:#6b6b6b;--card:#f5f4f1}
+  body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
+  main{max-width:640px;margin:0 auto;padding:24px 20px 72px}
+  h1{font-size:1.5rem;margin:.4em 0 1em}
+  ul{list-style:none;padding:0;margin:0}
+  li{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 12px}
+  li a{font-weight:600;color:var(--fg);text-decoration:none}
+  li .c{color:var(--muted);font-size:13px;margin-left:8px}
+  footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Wochenpl&auml;ne</h1>
+  <ul>
+  {% for w in weeks %}
+    <li><a href="{{ w.path }}">{{ w.year }} &middot; Woche {{ w.week }}</a><span class="c">{{ w.count }} Rezepte</span></li>
+  {% endfor %}
+  </ul>
+  <footer>Generiert {{ built }}</footer>
+</main>
+</body>
+</html>
