@@ -33,6 +33,10 @@ SITE = ROOT / "site"
 TEMPLATES = ROOT / "templates"
 PLANS_GLOB = str(ROOT / "plans" / "**" / "*.json")
 
+# Bring! requires an `author` on the schema.org/Recipe or it rejects the page as
+# "no valid recipe" (see its integration checker). Recipes/plans may override it.
+DEFAULT_AUTHOR = "MealAI"
+
 TYPE_ICON = {"meat": "\U0001F969", "vegetarian": "\U0001F33F", "fish": "\U0001F41F"}
 UMLAUTS = {
     "ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss",
@@ -101,7 +105,7 @@ def deeplink_for(url: str, servings: int) -> str:
 # --------------------------------------------------------------------------- #
 # Validation / normalisation
 # --------------------------------------------------------------------------- #
-def normalise_recipe(r: dict, plan_servings: int, src: str) -> dict:
+def normalise_recipe(r: dict, plan_servings: int, src: str, plan_author: str) -> dict:
     def req(key):
         if key not in r or r[key] in (None, "", []):
             die(f"{src}: recipe missing required field '{key}': {json.dumps(r, ensure_ascii=False)[:120]}")
@@ -127,6 +131,7 @@ def normalise_recipe(r: dict, plan_servings: int, src: str) -> dict:
         "date": d,
         "date_str": d.isoformat(),
         "name": req("name"),
+        "author": (str(r.get("author") or "").strip() or plan_author),
         "type": rtype,
         "icon": TYPE_ICON[rtype],
         "prep_min": int(r.get("prep_min", 0)),
@@ -163,10 +168,11 @@ def load_recipes() -> list[dict]:
         except json.JSONDecodeError as e:
             die(f"{f}: invalid JSON ({e})")
         servings = int(data.get("servings", 2))
+        author = str(data.get("author") or "").strip() or DEFAULT_AUTHOR
         recipes = data.get("recipes")
         if not isinstance(recipes, list) or not recipes:
             die(f"{f}: top-level 'recipes' must be a non-empty list")
-        norm = [normalise_recipe(r, servings, os.path.relpath(f, ROOT)) for r in recipes]
+        norm = [normalise_recipe(r, servings, os.path.relpath(f, ROOT), author) for r in recipes]
         anchor = min(r["date"] for r in norm)
         wk = week_key_for(anchor, data.get("folder"))
         for r in norm:
@@ -225,7 +231,8 @@ def main() -> None:
         merged = []
         for r in items:
             merged.extend(r["ingredient_strings"])
-        week_recipe = {"name": f"Wocheneinkauf KW {ww}/{year}", "type": "meat",
+        week_recipe = {"name": f"Wocheneinkauf KW {ww}/{year}", "author": items[0]["author"],
+                       "type": "meat",
                        "prep_min": 0, "cook_min": 0, "image": "", "category": "",
                        "tagline": "Alle Zutaten der Woche als eine Liste.", "steps": [], "tips": []}
         week_page_url = f"{web_dir}/week.html"
