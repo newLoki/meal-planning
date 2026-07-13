@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ r.name }}</title>
+{% if jsonld %}<script type="application/ld+json">{{ jsonld | tojson }}</script>{% endif %}
 <style>
   :root{--fg:#1a1a1a;--muted:#6b6b6b;--accent:#d1021b;--bg:#fff;--card:#f5f4f1}
   *{box-sizing:border-box}

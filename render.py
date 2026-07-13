@@ -102,6 +102,35 @@ def deeplink_for(url: str, servings: int) -> str:
     )
 
 
+def recipe_jsonld(*, name, author, servings, ingredient_strings, steps,
+                  prep_min=0, cook_min=0, category="", image="", description="") -> dict:
+    """schema.org/Recipe as a JSON-LD dict. Bring's live parser reads JSON-LD
+    reliably; the page also carries microdata, so both formats are present."""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        "name": name,
+        "author": {"@type": "Organization", "name": author},
+        "recipeYield": str(servings),
+        "recipeIngredient": list(ingredient_strings),
+    }
+    if steps:
+        data["recipeInstructions"] = [{"@type": "HowToStep", "text": s} for s in steps]
+    if prep_min:
+        data["prepTime"] = f"PT{prep_min}M"
+    if cook_min:
+        data["cookTime"] = f"PT{cook_min}M"
+    if prep_min or cook_min:
+        data["totalTime"] = f"PT{prep_min + cook_min}M"
+    if category:
+        data["recipeCategory"] = category
+    if image:
+        data["image"] = image
+    if description:
+        data["description"] = description
+    return data
+
+
 # --------------------------------------------------------------------------- #
 # Validation / normalisation
 # --------------------------------------------------------------------------- #
@@ -218,10 +247,15 @@ def main() -> None:
             fname = f"{r['date_str']}-{r['slug']}.html"
             page_url = f"{web_dir}/{fname}"
             deeplink = deeplink_for(page_url, r["servings"])
+            jsonld = recipe_jsonld(
+                name=r["name"], author=r["author"], servings=r["servings"],
+                ingredient_strings=r["ingredient_strings"], steps=r["steps"],
+                prep_min=r["prep_min"], cook_min=r["cook_min"],
+                category=r["category"], image=r["image"], description=r["tagline"])
             (wdir / fname).write_text(
                 tpl_recipe.render(r=r, servings=r["servings"], icon=r["icon"],
                                   ingredient_strings=r["ingredient_strings"],
-                                  deeplink=deeplink, built=built, source_path=r["src"]),
+                                  deeplink=deeplink, jsonld=jsonld, built=built, source_path=r["src"]),
                 encoding="utf-8")
             entries.append({"name": r["name"], "icon": r["icon"], "date": r["date_str"],
                             "total": r["prep_min"] + r["cook_min"], "filename": fname,
@@ -237,10 +271,14 @@ def main() -> None:
                        "tagline": "Alle Zutaten der Woche als eine Liste.", "steps": [], "tips": []}
         week_page_url = f"{web_dir}/week.html"
         week_deeplink = deeplink_for(week_page_url, items[0]["servings"])
+        week_jsonld = recipe_jsonld(
+            name=week_recipe["name"], author=week_recipe["author"],
+            servings=items[0]["servings"], ingredient_strings=merged, steps=[],
+            description=week_recipe["tagline"])
         (wdir / "week.html").write_text(
             tpl_recipe.render(r=week_recipe, servings=items[0]["servings"], icon="\U0001F6D2",
                               ingredient_strings=merged, deeplink=week_deeplink,
-                              built=built, source_path="(kombiniert)"),
+                              jsonld=week_jsonld, built=built, source_path="(kombiniert)"),
             encoding="utf-8")
 
         (wdir / "index.html").write_text(
