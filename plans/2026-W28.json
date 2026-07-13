@@ -1,0 +1,94 @@
+{
+  "week_label": "2026-W28",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-07-13",
+      "name": "Schneller Rinder-Burger mit Paprika-Relish",
+      "type": "meat",
+      "prep_min": 10,
+      "cook_min": 10,
+      "category": "Hauptgericht",
+      "tagline": "Ein saftiger Feierabend-Burger mit fixem, warmem Paprika-Relish für eine Person.",
+      "ingredients": [
+        { "amount": 1, "unit": "Stück", "name": "GF Burger-Bun" },
+        { "amount": 150, "unit": "g", "name": "Rinder-Patty" },
+        { "amount": 2, "unit": "Scheiben", "name": "laktosefreier Cheddar" },
+        { "amount": 1, "unit": "Stück", "name": "rote Paprika" },
+        { "amount": 0.33, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 3, "unit": "Blätter", "name": "Eisbergsalat" },
+        { "name": "Pflanzenöl" },
+        { "name": "Salz & Pfeffer" }
+      ],
+      "steps": [
+        "Die rote Paprika entkernen und fein würfeln. Das untere Drittel der Frühlingszwiebeln in feine Ringe schneiden.",
+        "Das Rinder-Patty in einer heißen Pfanne mit etwas Öl von beiden Seiten scharf anbraten, salzen, pfeffern, mit Cheddar belegen und schmelzen lassen.",
+        "Das Patty aus der Pfanne nehmen. Paprikawürfel und Frühlingszwiebeln im Bratfett 3-4 Minuten dünsten, bis sie weich sind (Relish).",
+        "Das glutenfreie Burger-Bun kurz toasten, mit Eisbergsalat, Patty und dem warmen Paprika-Relish belegen."
+      ],
+      "tips": [
+        "Achte beim Rinder-Patty penibel auf glutenfreie Deklaration oder forme es frisch aus 100% reinem Rinderhackfleisch.",
+        "Glutenfreie Buns brechen weniger leicht, wenn sie vor dem Toasten ganz leicht mit Wasser besprüht werden."
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "name": "Wok-Hähnchen in Kokos-Erdnuss-Sauce",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Ein farbenfrohes, asiatisches Wokgericht mit cremiger, glutenfreier Erdnuss-Kokos-Sauce für zwei Personen.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 1, "unit": "Stück", "name": "gelbe Paprika" },
+        { "amount": 1, "unit": "Stück", "name": "grüne Paprika" },
+        { "amount": 0.33, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 3, "unit": "EL", "name": "cremige Erdnussbutter" },
+        { "amount": 2, "unit": "EL", "name": "Tamari (glutenfreie Sojasauce)" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
+        { "name": "Limettensaft" }
+      ],
+      "steps": [
+        "Den Jasminreis nach Packungsanleitung aufsetzen.",
+        "Hähnchenbrustfilet in Streifen schneiden. Gelbe und grüne Paprika entkernen und in mundgerechte Stücke schneiden. Das zweite Drittel der Frühlingszwiebeln in Ringe schneiden.",
+        "Hähnchenstreifen im Wok oder einer großen Pfanne scharf anbraten, dann herausnehmen. Paprika und Frühlingszwiebeln im gleichen Fett ca. 5 Minuten pfannenrühren.",
+        "Mit Kokosmilch ablöschen, Erdnussbutter und Tamari einrühren, bis eine cremige Sauce entsteht. Hähnchen wieder hinzufügen und kurz darin gar ziehen lassen. Mit Limettensaft abschmecken."
+      ],
+      "tips": [
+        "Nutze zwingend Tamari, da herkömmliche Sojasaucen Weizen enthalten.",
+        "Erdnussbutter ohne Zuckerzusatz sorgt für das beste, authentischste Aroma."
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "name": "Deftiges Schweinefilet in Pilz-Rahm-Sauce",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Ein deutsches, herzhaftes Pfannengericht mit feiner Pilzrahm-Sauce für zwei Personen.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Schweinefilet" },
+        { "amount": 250, "unit": "g", "name": "braune Champignons" },
+        { "amount": 0.34, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 200, "unit": "ml", "name": "laktosefreie Sahne" },
+        { "amount": 1, "unit": "TL", "name": "GF Senf" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
+        { "name": "Salz & Pfeffer" },
+        { "name": "Butterschmalz" }
+      ],
+      "steps": [
+        "Den Reis aufsetzen (oder optional GF Spätzle nach Packungsanleitung zubereiten).",
+        "Schweinefilet in ca. 2 cm dicke Medaillons schneiden. Champignons putzen und vierteln. Die restlichen Frühlingszwiebeln in Ringe schneiden.",
+        "Butterschmalz in einer Pfanne stark erhitzen. Die Medaillons von jeder Seite ca. 2 Minuten scharf anbraten, mit Salz und Pfeffer würzen, herausnehmen und in Alufolie ruhen lassen.",
+        "Im Bratensatz die Champignons und Frühlingszwiebeln kräftig anbraten. Mit laktosefreier Sahne ablöschen, glutenfreien Senf einrühren und die Sauce ca. 5 Minuten leicht einkochen lassen. Medaillons mitsamt Fleischsaft wieder hineingeben und 2 Minuten erwärmen."
+      ],
+      "tips": [
+        "Prüfe den Senf auf die Aufschrift 'glutenfrei', da manche Marken Weizenmehl als Bindemittel nutzen.",
+        "Laktosefreie Sahne süßt beim Einkochen etwas stärker nach; ein zusätzlicher Spritzer Zitronensaft oder mehr Senf gleicht das perfekt aus."
+      ]
+    }
+  ]
+}
