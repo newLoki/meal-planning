@@ -177,12 +177,23 @@ def normalise_recipe(r: dict, plan_servings: int, src: str, plan_author: str) ->
     }
 
 
-def week_key_for(anchor: date, override: dict | None) -> tuple:
-    """(year, 'MM', 'WW') a plan lives under. Default: ISO week of the anchor
-    (earliest) date, so a Fri->Tue plan stays in ONE folder. An explicit
-    {"year":..,"month":..,"week":..} block in the plan overrides this."""
+WEEK_LABEL_RE = re.compile(r"^\s*(\d{4})-W(\d{1,2})\s*$", re.IGNORECASE)
+
+
+def week_key_for(anchor: date, override: dict | None, week_label: str | None = None) -> tuple:
+    """(year, 'MM', 'WW') a plan lives under. Priority:
+      1. explicit {"year":..,"month":..,"week":..} folder override
+      2. the plan's own `week_label` (e.g. "2026-W28") — the user's authoritative
+         week identity; needed because two plans in the same ISO week (e.g. a
+         Mon-Wed and a Fri-Tue plan) would otherwise collide in one folder
+      3. ISO week of the anchor (earliest) date, so a Fri->Tue plan stays in ONE folder
+    Month always comes from the anchor date."""
     if override:
         return (int(override["year"]), f"{int(override['month']):02d}", f"{int(override['week']):02d}")
+    if week_label:
+        m = WEEK_LABEL_RE.match(str(week_label))
+        if m:
+            return (int(m.group(1)), f"{anchor.month:02d}", f"{int(m.group(2)):02d}")
     return (anchor.year, f"{anchor.month:02d}", f"{anchor.isocalendar().week:02d}")
 
 
@@ -203,7 +214,7 @@ def load_recipes() -> list[dict]:
             die(f"{f}: top-level 'recipes' must be a non-empty list")
         norm = [normalise_recipe(r, servings, os.path.relpath(f, ROOT), author) for r in recipes]
         anchor = min(r["date"] for r in norm)
-        wk = week_key_for(anchor, data.get("folder"))
+        wk = week_key_for(anchor, data.get("folder"), data.get("week_label"))
         for r in norm:
             r["wk_key"] = wk
         out.extend(norm)
