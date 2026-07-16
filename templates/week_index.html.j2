@@ -28,8 +28,8 @@
   ol.cal li.day.wbreak{margin-top:20px}
 
   .acts{margin-left:auto;display:flex;gap:6px}
-  a.btn{display:inline-flex;align-items:center;justify-content:center;gap:.35em;color:#fff;text-decoration:none;font-weight:600;border-radius:8px;padding:.4em .6em;font-size:13px;white-space:nowrap}
-  a.btn .ico{font-size:20px;line-height:1}
+  a.btn{display:inline-flex;align-items:center;gap:.4em;color:#fff;text-decoration:none;font-weight:600;border-radius:8px;padding:.35em .6em .35em .35em;font-size:13px;white-space:nowrap}
+  a.btn .ico{display:inline-flex;align-items:center;justify-content:center;background:#fff;border-radius:6px;padding:2px 4px;font-size:16px;line-height:1}
   a.bring{background:var(--accent)}
   a.gcal{background:#1a73e8}
   a.bring.big{display:flex;margin:22px 0 0;justify-content:center;padding:.8em;font-size:1rem}
@@ -50,8 +50,8 @@
         <div class="rec">
           <a class="title" href="{{ it.filename }}">{{ it.icon }} {{ it.name }}</a>
           <span class="acts">
-            <a class="btn bring" href="{{ it.deeplink }}" aria-label="Zu Bring! hinzuf&uuml;gen"><span class="ico">&#128722;</span></a>
-            {% if it.gcal_link %}<a class="btn gcal" href="{{ it.gcal_link }}" target="_blank" rel="noopener" aria-label="In Google Kalender"><span class="ico">&#128197;</span></a>{% endif %}
+            <a class="btn bring" href="{{ it.deeplink }}"><span class="ico">&#128722;</span> Bring!</a>
+            {% if it.gcal_link %}<a class="btn gcal" href="{{ it.gcal_link }}" target="_blank" rel="noopener"><span class="ico">&#128197;</span> Kalender</a>{% endif %}
           </span>
         </div>
         {% endfor %}
