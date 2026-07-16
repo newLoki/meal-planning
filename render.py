@@ -393,18 +393,31 @@ def _span_label(a: date, b: date) -> str:
     return f"{a.day}.{a.month:02d}.–{b.day}.{b.month:02d}."
 
 
+_WEEKDAY_NUM = {"monday": 0, "tuesday": 1, "wednesday": 2, "thursday": 3,
+                "friday": 4, "saturday": 5, "sunday": 6}
+
+
+def week_start_weekday() -> int:
+    """The weekday a display week starts on (Mon=0 … Sun=6). Configurable via the
+    WEEK_START env var (a day name or 0–6); defaults to Thursday."""
+    v = os.environ.get("WEEK_START", "thursday").strip().lower()
+    return int(v) % 7 if v.isdigit() else _WEEKDAY_NUM.get(v, 3)
+
+
 def day_grid(items: list[dict], entries: list[dict]) -> list[dict]:
-    """A 14-day (two full Mon–Sun weeks) grid starting from the Monday on/before
-    the week's earliest recipe. Days with a recipe carry its entry(ies); empty
-    days are flagged so the template can grey them out."""
+    """A rolling 7-day week starting on the configured start day (default
+    Thursday): from the start day on/before the week's earliest recipe through
+    the following six days. Days without a recipe are flagged so the template
+    can grey them out."""
     by_date: dict = {}
     for r, e in zip(items, entries):
         by_date.setdefault(r["date"], []).append(e)
     anchor = min(r["date"] for r in items)
-    grid_start = anchor - timedelta(days=anchor.weekday())  # Monday on/before
+    start = week_start_weekday()
+    grid_start = anchor - timedelta(days=(anchor.weekday() - start) % 7)
     today = date.today()
     grid = []
-    for i in range(14):
+    for i in range(7):
         d = grid_start + timedelta(days=i)
         grid.append({
             "wd": WEEKDAYS_DE[d.weekday()],
@@ -412,7 +425,6 @@ def day_grid(items: list[dict], entries: list[dict]) -> list[dict]:
             "recipes": by_date.get(d, []),
             "active": d in by_date,
             "is_today": d == today,
-            "week_start": i == 7,  # divider before the second week
         })
     return grid
 
