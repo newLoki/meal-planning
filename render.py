@@ -22,9 +22,9 @@ import json
 import os
 import re
 import sys
-from datetime import date, datetime, timezone
+from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -100,6 +100,44 @@ def deeplink_for(url: str, servings: int) -> str:
         f"?url={quote(url, safe='')}&source=web"
         f"&baseQuantity={servings}&requestedQuantity={servings}"
     )
+
+
+DINNER_TIME = time(19, 30)  # target time the meal should be ready to eat
+CAL_TS = "%Y%m%dT%H%M%S"    # floating local time (no timezone suffix)
+
+
+def cook_window(recipe: dict, dinner: time = DINNER_TIME) -> tuple[datetime, datetime]:
+    """(start, end) of the cooking event: it ends at dinner time (19:30) and
+    starts prep+cook minutes earlier, so the food is ready to eat on time.
+    Returned as floating datetimes (interpreted in the viewer's local zone)."""
+    total = int(recipe.get("prep_min", 0)) + int(recipe.get("cook_min", 0))
+    end = datetime.combine(recipe["date"], dinner)
+    return end - timedelta(minutes=total), end
+
+
+def event_summary(recipe: dict) -> str:
+    return f"Kochen: {recipe['name']}"
+
+
+def event_description(url: str, recipe: dict) -> str:
+    """Event body: a link back to the recipe plus a short, numbered step-by-step."""
+    steps = recipe.get("steps") or []
+    body = f"Rezept: {url}"
+    if steps:
+        body += "\n\n" + "\n".join(f"{i}. {s}" for i, s in enumerate(steps, 1))
+    return body
+
+
+def gcal_link_for(url: str, recipe: dict, dinner: time = DINNER_TIME) -> str:
+    """A Google Calendar "add event" link for cooking this recipe."""
+    start, end = cook_window(recipe, dinner)
+    params = {
+        "action": "TEMPLATE",
+        "text": event_summary(recipe),
+        "dates": f"{start.strftime(CAL_TS)}/{end.strftime(CAL_TS)}",
+        "details": event_description(url, recipe),
+    }
+    return "https://calendar.google.com/calendar/render?" + urlencode(params)
 
 
 def recipe_jsonld(*, name, author, servings, ingredient_strings, steps,
@@ -258,6 +296,7 @@ def main() -> None:
             fname = f"{r['date_str']}-{r['slug']}.html"
             page_url = f"{web_dir}/{fname}"
             deeplink = deeplink_for(page_url, r["servings"])
+            gcal_link = gcal_link_for(page_url, r)
             jsonld = recipe_jsonld(
                 name=r["name"], author=r["author"], servings=r["servings"],
                 ingredient_strings=r["ingredient_strings"], steps=r["steps"],
@@ -266,7 +305,8 @@ def main() -> None:
             (wdir / fname).write_text(
                 tpl_recipe.render(r=r, servings=r["servings"], icon=r["icon"],
                                   ingredient_strings=r["ingredient_strings"],
-                                  deeplink=deeplink, jsonld=jsonld, built=built, source_path=r["src"]),
+                                  deeplink=deeplink, gcal_link=gcal_link, jsonld=jsonld,
+                                  built=built, source_path=r["src"]),
                 encoding="utf-8")
             entries.append({"name": r["name"], "icon": r["icon"], "date": r["date_str"],
                             "total": r["prep_min"] + r["cook_min"], "filename": fname,

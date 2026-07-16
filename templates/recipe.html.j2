@@ -18,8 +18,11 @@
   li{margin:.28em 0}
   img.hero{width:100%;border-radius:12px;margin:.6em 0}
   .tips{background:var(--card);border-radius:10px;padding:.4em 1em;margin-top:.6em}
-  .bring{display:inline-block;margin-top:1.9em;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:.72em 1.2em;border-radius:10px}
-  .bring:active{opacity:.85}
+  .actions{display:flex;flex-wrap:wrap;gap:.6em;margin-top:1.9em}
+  .btn{display:inline-block;color:#fff;text-decoration:none;font-weight:600;padding:.72em 1.2em;border-radius:10px}
+  .btn:active{opacity:.85}
+  .bring{background:var(--accent)}
+  .gcal{background:#1a73e8}
   footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
 </style>
 </head>
@@ -65,7 +68,10 @@
   </div>
   {% endif %}
 
-  <a class="bring" href="{{ deeplink }}">&#128722; Zu Bring! hinzuf&uuml;gen</a>
+  <div class="actions">
+    <a class="btn bring" href="{{ deeplink }}">&#128722; Zu Bring! hinzuf&uuml;gen</a>
+    {% if gcal_link %}<a class="btn gcal" href="{{ gcal_link }}" target="_blank" rel="noopener">&#128197; In Google Kalender</a>{% endif %}
+  </div>
   <footer>Generiert {{ built }} &middot; Quelle: {{ source_path }}</footer>
 </main>
 </body>
