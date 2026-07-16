@@ -351,6 +351,36 @@ def load_recipes() -> list[dict]:
     return out
 
 
+def _iso_week(d: date) -> tuple[int, str]:
+    c = d.isocalendar()
+    return (c[0], f"{c[1]:02d}")
+
+
+def select_weeks(week_keys, recipes) -> tuple[set, bool]:
+    """Decide which weeks to (re)render, returning (weeks, build_all).
+
+    Default (BUILD_SCOPE=recent): the current + previous ISO week, plus any week
+    whose plan file changed in this push (CHANGED_PLANS, a whitespace-separated
+    list of repo-relative paths). Every other week keeps its already-generated
+    files, so older weeks stay in place.
+
+    A FULL build (every week) is forced when BUILD_SCOPE is not "recent", or when
+    there is no existing site output to preserve (first build / cache miss) — that
+    way older weeks can never be lost, only regenerated from their plan JSON."""
+    scope = os.environ.get("BUILD_SCOPE", "all").strip().lower()
+    site_has_output = (SITE / "index.html").exists()
+    if scope != "recent" or not site_has_output:
+        return set(week_keys), True
+
+    recent = {_iso_week(date.today()), _iso_week(date.today() - timedelta(days=7))}
+    selected = {wk for wk in week_keys if (wk[0], wk[2]) in recent}
+
+    changed = {c.strip() for c in os.environ.get("CHANGED_PLANS", "").split() if c.strip()}
+    if changed:
+        selected |= {r["wk_key"] for r in recipes if r["src"] in changed}
+    return selected, False
+
+
 # --------------------------------------------------------------------------- #
 # Rendering
 # --------------------------------------------------------------------------- #
@@ -376,36 +406,34 @@ def main() -> None:
     for r in recipes:
         weeks.setdefault(r["wk_key"], []).append(r)
 
-    if SITE.exists():
-        import shutil
+    import shutil
+    to_build, build_all = select_weeks(weeks.keys(), recipes)
+    if build_all and SITE.exists():
         shutil.rmtree(SITE)
-    SITE.mkdir(parents=True)
+    SITE.mkdir(parents=True, exist_ok=True)
 
-    events = []  # accumulates one cooking event per recipe for the .ics feed
+    events = []  # one cooking event per recipe -> global .ics feed (all weeks)
     week_summaries = []
+    rendered = 0
     for (year, mm, ww), items in sorted(weeks.items()):
         items.sort(key=lambda x: x["date"])
-        wdir = SITE / "recipes" / str(year) / mm / f"W{ww}"
-        wdir.mkdir(parents=True, exist_ok=True)
         web_dir = f"{base}/recipes/{year}/{mm}/W{ww}"
+        wdir = SITE / "recipes" / str(year) / mm / f"W{ww}"
+        write_week = (year, mm, ww) in to_build
+        if write_week:
+            rendered += 1
+            if wdir.exists():  # rebuild from scratch so removed recipes don't linger
+                shutil.rmtree(wdir)
+            wdir.mkdir(parents=True, exist_ok=True)
 
+        # The per-recipe loop always runs: the global index + .ics feed must cover
+        # every week, even ones whose HTML we leave in place. Only the file writes
+        # are gated on write_week.
         entries = []
         for r in items:
             fname = f"{r['date_str']}-{r['slug']}.html"
             page_url = f"{web_dir}/{fname}"
             deeplink = deeplink_for(page_url, r["servings"])
-            gcal_link = gcal_link_for(page_url, r)
-            jsonld = recipe_jsonld(
-                name=r["name"], author=r["author"], servings=r["servings"],
-                ingredient_strings=r["ingredient_strings"], steps=r["steps"],
-                prep_min=r["prep_min"], cook_min=r["cook_min"],
-                category=r["category"], image=r["image"], description=r["tagline"])
-            (wdir / fname).write_text(
-                tpl_recipe.render(r=r, servings=r["servings"], icon=r["icon"],
-                                  ingredient_strings=r["ingredient_strings"],
-                                  deeplink=deeplink, gcal_link=gcal_link, jsonld=jsonld,
-                                  built=built, source_path=r["src"]),
-                encoding="utf-8")
             entries.append({"name": r["name"], "icon": r["icon"], "date": r["date_str"],
                             "total": r["prep_min"] + r["cook_min"], "filename": fname,
                             "deeplink": deeplink})
@@ -418,6 +446,26 @@ def main() -> None:
                 "description": event_description(page_url, r),
                 "url": page_url,
             })
+
+            if not write_week:
+                continue
+            gcal_link = gcal_link_for(page_url, r)
+            jsonld = recipe_jsonld(
+                name=r["name"], author=r["author"], servings=r["servings"],
+                ingredient_strings=r["ingredient_strings"], steps=r["steps"],
+                prep_min=r["prep_min"], cook_min=r["cook_min"],
+                category=r["category"], image=r["image"], description=r["tagline"])
+            (wdir / fname).write_text(
+                tpl_recipe.render(r=r, servings=r["servings"], icon=r["icon"],
+                                  ingredient_strings=r["ingredient_strings"],
+                                  deeplink=deeplink, gcal_link=gcal_link, jsonld=jsonld,
+                                  built=built, source_path=r["src"]),
+                encoding="utf-8")
+
+        week_summaries.append({"year": year, "week": ww, "count": len(items),
+                               "path": f"recipes/{year}/{mm}/W{ww}/"})
+        if not write_week:
+            continue
 
         # Combined weekly shopping list (schema.org) -> single-tap "whole week".
         # Ingredients shared across recipes are merged, summing amounts.
@@ -443,9 +491,6 @@ def main() -> None:
                             week_deeplink=week_deeplink, built=built),
             encoding="utf-8")
 
-        week_summaries.append({"year": year, "week": ww, "count": len(items),
-                               "path": f"recipes/{year}/{mm}/W{ww}/"})
-
     events.sort(key=lambda e: e["start"])
     (SITE / "meals.ics").write_text(
         build_ics(events, cal_name="Wochenpläne – Kochtermine", dtstamp=dtstamp),
@@ -457,7 +502,8 @@ def main() -> None:
                         feed_webcal=feed_webcal, feed_url=feed_url),
         encoding="utf-8")
 
-    print(f"Rendered {len(recipes)} recipe(s) across {len(weeks)} week(s) into {SITE}/ (base: {base})")
+    scope = "all weeks" if build_all else f"{rendered} of {len(weeks)} week(s) (current+previous+changed)"
+    print(f"Rendered {scope} into {SITE}/ (base: {base}); {len(recipes)} recipe(s) total")
     print(f"Wrote {len(events)}-event feed -> {SITE / 'meals.ics'}")
 
 
