@@ -381,6 +381,78 @@ def select_weeks(week_keys, recipes) -> tuple[set, bool]:
     return selected, False
 
 
+WEEKDAYS_DE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+
+
+def _span_label(a: date, b: date) -> str:
+    """Compact German date range, e.g. "13.–15.07." or "29.06.–02.07."."""
+    if a == b:
+        return f"{a.day}.{a.month:02d}."
+    if a.month == b.month:
+        return f"{a.day}.–{b.day}.{b.month:02d}."
+    return f"{a.day}.{a.month:02d}.–{b.day}.{b.month:02d}."
+
+
+def day_grid(items: list[dict], entries: list[dict]) -> list[dict]:
+    """A 14-day (two full Mon–Sun weeks) grid starting from the Monday on/before
+    the week's earliest recipe. Days with a recipe carry its entry(ies); empty
+    days are flagged so the template can grey them out."""
+    by_date: dict = {}
+    for r, e in zip(items, entries):
+        by_date.setdefault(r["date"], []).append(e)
+    anchor = min(r["date"] for r in items)
+    grid_start = anchor - timedelta(days=anchor.weekday())  # Monday on/before
+    today = date.today()
+    grid = []
+    for i in range(14):
+        d = grid_start + timedelta(days=i)
+        grid.append({
+            "wd": WEEKDAYS_DE[d.weekday()],
+            "label": f"{d.day}.{d.month}.",
+            "recipes": by_date.get(d, []),
+            "active": d in by_date,
+            "is_today": d == today,
+            "week_start": i == 7,  # divider before the second week
+        })
+    return grid
+
+
+def weeks_calendar(week_summaries: list[dict]) -> tuple[list[dict], int]:
+    """Rolling week list for the overview: one entry per ISO week from two weeks
+    before to two weeks after the span of (today + all planned weeks). Each week
+    is placed at the Monday of its label's ISO week, so two plans that share a
+    calendar week (by anchor date) still get distinct rows. Returns
+    (weeks, index_of_todays_week)."""
+    today = date.today()
+    ty, tw, _ = today.isocalendar()
+    today_mon = date.fromisocalendar(ty, tw, 1)
+    planned = {date.fromisocalendar(int(w["year"]), int(w["week"]), 1): w
+               for w in week_summaries}
+    mons = sorted(planned) or [today_mon]
+    start = min([today_mon] + mons) - timedelta(weeks=2)
+    end = max([today_mon] + mons) + timedelta(weeks=2)
+
+    weeks, current_index, mon, i = [], 0, start, 0
+    while mon <= end:
+        iso = mon.isocalendar()
+        w = planned.get(mon)
+        is_current = mon == today_mon
+        if is_current:
+            current_index = i
+        weeks.append({
+            "key": f"{iso[0]}-W{iso[1]:02d}",
+            "iso_week": f"{iso[1]:02d}",
+            "range": _span_label(w["first"], w["last"]) if w else _span_label(mon, mon + timedelta(days=6)),
+            "active": w is not None,
+            "path": w["path"] if w else "",
+            "count": w["count"] if w else 0,
+            "is_current": is_current,
+        })
+        mon += timedelta(weeks=1)
+        i += 1
+    return weeks, current_index
+
+
 # --------------------------------------------------------------------------- #
 # Rendering
 # --------------------------------------------------------------------------- #
@@ -463,7 +535,8 @@ def main() -> None:
                 encoding="utf-8")
 
         week_summaries.append({"year": year, "week": ww, "count": len(items),
-                               "path": f"recipes/{year}/{mm}/W{ww}/"})
+                               "path": f"recipes/{year}/{mm}/W{ww}/",
+                               "first": items[0]["date"], "last": items[-1]["date"]})
         if not write_week:
             continue
 
@@ -487,8 +560,8 @@ def main() -> None:
             encoding="utf-8")
 
         (wdir / "index.html").write_text(
-            tpl_week.render(year=year, week=ww, items=entries, root_rel="../../../../",
-                            week_deeplink=week_deeplink, built=built),
+            tpl_week.render(year=year, week=ww, days=day_grid(items, entries),
+                            root_rel="../../../../", week_deeplink=week_deeplink, built=built),
             encoding="utf-8")
 
     events.sort(key=lambda e: e["start"])
@@ -496,9 +569,9 @@ def main() -> None:
         build_ics(events, cal_name="Wochenpläne – Kochtermine", dtstamp=dtstamp),
         encoding="utf-8")
 
-    week_summaries.sort(key=lambda w: (w["year"], w["week"]), reverse=True)
+    weeks_cal, current_index = weeks_calendar(week_summaries)
     (SITE / "index.html").write_text(
-        tpl_root.render(weeks=week_summaries, built=built,
+        tpl_root.render(weeks_cal=weeks_cal, current_index=current_index, built=built,
                         feed_webcal=feed_webcal, feed_url=feed_url),
         encoding="utf-8")
 

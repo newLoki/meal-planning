@@ -5,20 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Woche {{ week }} &middot; {{ year }}</title>
 <style>
-  :root{--fg:#1a1a1a;--muted:#6b6b6b;--accent:#338a7e;--card:#f5f4f1}
+  :root{--fg:#1a1a1a;--muted:#6b6b6b;--accent:#338a7e;--card:#f5f4f1;--line:#e6e5e2}
   *{box-sizing:border-box}
   body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
   main{max-width:640px;margin:0 auto;padding:24px 20px 72px}
   a.back{color:var(--muted);text-decoration:none;font-size:14px}
   h1{font-size:1.5rem;margin:.5em 0 1em}
-  ul.cards{list-style:none;padding:0;margin:0}
-  ul.cards li{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
-  ul.cards li a.title{font-weight:600;color:var(--fg);text-decoration:none;font-size:1.05rem}
-  ul.cards li .d{color:var(--muted);font-size:13px}
-  a.bring{background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:.4em .8em;border-radius:8px;font-size:14px;white-space:nowrap}
-  a.gcal{background:#1a73e8;color:#fff;text-decoration:none;font-weight:600;padding:.4em .8em;border-radius:8px;font-size:14px;white-space:nowrap}
-  ul.cards li .acts{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
-  a.bring.big{display:block;margin:22px 0 0;text-align:center;padding:.8em;font-size:1rem}
+
+  ol.cal{list-style:none;padding:0;margin:0}
+  ol.cal li.day{display:flex;gap:12px;align-items:stretch;border:1px solid var(--line);border-radius:12px;margin:0 0 8px;padding:10px 12px;min-height:56px}
+  ol.cal li.day .dt{flex:0 0 52px;display:flex;flex-direction:column;justify-content:center;text-align:center;border-right:1px solid var(--line);padding-right:10px}
+  ol.cal li.day .dt .wd{font-weight:700;font-size:.9rem}
+  ol.cal li.day .dt .dn{color:var(--muted);font-size:12px}
+  ol.cal li.day .bd{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:6px;min-width:0}
+  ol.cal li.day .rec{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  ol.cal li.day .rec .title{font-weight:600;color:var(--fg);text-decoration:none;font-size:1.02rem}
+  ol.cal li.day .none{color:#c4c3bf}
+  ol.cal li.day.empty{background:var(--card);border-color:transparent}
+  ol.cal li.day.empty .dt{border-right-color:#dedcd7}
+  ol.cal li.day.empty .dt .wd{color:#b7b6b2}
+  ol.cal li.day.today{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+  ol.cal li.day.wbreak{margin-top:20px}
+
+  .acts{margin-left:auto;display:flex;gap:6px}
+  a.btn{display:inline-flex;align-items:center;justify-content:center;gap:.35em;color:#fff;text-decoration:none;font-weight:600;border-radius:8px;padding:.4em .6em;font-size:13px;white-space:nowrap}
+  a.btn .ico{font-size:20px;line-height:1}
+  a.bring{background:var(--accent)}
+  a.gcal{background:#1a73e8}
+  a.bring.big{display:flex;margin:22px 0 0;justify-content:center;padding:.8em;font-size:1rem}
   footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
 </style>
 </head>
@@ -26,20 +40,30 @@
 <main>
   <a class="back" href="{{ root_rel }}">&larr; Alle Wochen</a>
   <h1>Woche {{ week }} &middot; {{ year }}</h1>
-  <ul class="cards">
-  {% for it in items %}
-    <li>
-      <a class="title" href="{{ it.filename }}">{{ it.icon }} {{ it.name }}</a>
-      <span class="d">{{ it.date }} &middot; {{ it.total }} min</span>
-      <span class="acts">
-        <a class="bring" href="{{ it.deeplink }}">&#128722; Bring!</a>
-        {% if it.gcal_link %}<a class="gcal" href="{{ it.gcal_link }}" target="_blank" rel="noopener">&#128197; Kalender</a>{% endif %}
-      </span>
+  <ol class="cal">
+  {% for d in days %}
+    <li class="day{% if not d.active %} empty{% endif %}{% if d.is_today %} today{% endif %}{% if d.week_start %} wbreak{% endif %}">
+      <div class="dt"><span class="wd">{{ d.wd }}</span><span class="dn">{{ d.label }}</span></div>
+      <div class="bd">
+      {% if d.recipes %}
+        {% for it in d.recipes %}
+        <div class="rec">
+          <a class="title" href="{{ it.filename }}">{{ it.icon }} {{ it.name }}</a>
+          <span class="acts">
+            <a class="btn bring" href="{{ it.deeplink }}" aria-label="Zu Bring! hinzuf&uuml;gen"><span class="ico">&#128722;</span></a>
+            {% if it.gcal_link %}<a class="btn gcal" href="{{ it.gcal_link }}" target="_blank" rel="noopener" aria-label="In Google Kalender"><span class="ico">&#128197;</span></a>{% endif %}
+          </span>
+        </div>
+        {% endfor %}
+      {% else %}
+        <span class="none">&ndash;</span>
+      {% endif %}
+      </div>
     </li>
   {% endfor %}
-  </ul>
+  </ol>
   {% if week_deeplink %}
-  <a class="bring big" href="{{ week_deeplink }}">&#128722; Ganze Woche zu Bring! hinzuf&uuml;gen</a>
+  <a class="btn bring big" href="{{ week_deeplink }}"><span class="ico">&#128722;</span> Ganze Woche zu Bring! hinzuf&uuml;gen</a>
   {% endif %}
   <footer>Generiert {{ built }}</footer>
 </main>

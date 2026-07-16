@@ -5,19 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wochenpl&auml;ne</title>
 <style>
-  :root{--fg:#1a1a1a;--muted:#6b6b6b;--card:#f5f4f1}
+  :root{--fg:#1a1a1a;--muted:#6b6b6b;--accent:#338a7e;--card:#f5f4f1;--line:#e6e5e2}
+  *{box-sizing:border-box}
   body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
   main{max-width:640px;margin:0 auto;padding:24px 20px 72px}
-  h1{font-size:1.5rem;margin:.4em 0 1em}
-  ul{list-style:none;padding:0;margin:0}
-  li{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 12px}
-  li a{font-weight:600;color:var(--fg);text-decoration:none}
-  li .c{color:var(--muted);font-size:13px;margin-left:8px}
+  h1{font-size:1.5rem;margin:.4em 0 .8em}
   .sub{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 20px}
   .sub h2{font-size:1rem;margin:0 0 .5em}
   .sub a.gcal{display:inline-block;background:#1a73e8;color:#fff;text-decoration:none;font-weight:600;padding:.6em 1em;border-radius:8px;font-size:14px}
   .sub code{display:block;margin-top:.7em;font-size:12px;color:var(--muted);word-break:break-all}
   .sub p{margin:.6em 0 0;font-size:12px;color:var(--muted)}
+
+  .calnav{display:flex;gap:8px;align-items:center;margin:0 0 12px}
+  .calnav button{flex:0 0 auto;border:1px solid var(--line);background:#fff;color:var(--fg);font-size:18px;line-height:1;padding:.45em .7em;border-radius:8px;cursor:pointer}
+  .calnav button:hover{background:var(--card)}
+  .calnav select{flex:1 1 auto;min-width:0;font:inherit;font-size:14px;padding:.5em .6em;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--fg)}
+
+  ol.weeks{list-style:none;padding:0;margin:0}
+  ol.weeks li{border:1px solid var(--line);border-radius:12px;margin:0 0 10px;overflow:hidden}
+  ol.weeks li a,ol.weeks li .inactive{display:flex;align-items:baseline;gap:10px;padding:14px 16px;text-decoration:none;color:var(--fg)}
+  ol.weeks li .kw{font-weight:700;font-size:1.05rem;white-space:nowrap}
+  ol.weeks li .rng{color:var(--muted);font-size:13px}
+  ol.weeks li .c{margin-left:auto;font-size:13px;color:var(--muted);white-space:nowrap}
+  ol.weeks li a .c{color:var(--accent);font-weight:600}
+  ol.weeks li.empty{background:var(--card);border-color:transparent}
+  ol.weeks li.empty .kw,ol.weeks li.empty .rng,ol.weeks li.empty .c{color:#b7b6b2}
+  ol.weeks li.current{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
   footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
 </style>
 </head>
@@ -33,12 +46,57 @@
     <code>{{ feed_url }}</code>
   </div>
   {% endif %}
-  <ul>
-  {% for w in weeks %}
-    <li><a href="{{ w.path }}">{{ w.year }} &middot; Woche {{ w.week }}</a><span class="c">{{ w.count }} Rezepte</span></li>
+
+  <div class="calnav">
+    <button id="prev" type="button" aria-label="Fr&uuml;here Wochen">&larr;</button>
+    <select id="weekpick" aria-label="Woche w&auml;hlen">
+    {% for w in weeks_cal %}
+      <option value="{{ w.key }}"{% if loop.index0 == current_index %} selected{% endif %}>KW {{ w.iso_week }} &middot; {{ w.range }}{% if w.active %} ({{ w.count }}){% endif %}</option>
+    {% endfor %}
+    </select>
+    <button id="next" type="button" aria-label="Sp&auml;tere Wochen">&rarr;</button>
+  </div>
+
+  <ol class="weeks" id="weeks">
+  {% for w in weeks_cal %}
+    <li class="wk{% if not w.active %} empty{% endif %}{% if w.is_current %} current{% endif %}" data-key="{{ w.key }}">
+      {% if w.active %}
+      <a href="{{ w.path }}">
+        <span class="kw">KW {{ w.iso_week }}</span>
+        <span class="rng">{{ w.range }}</span>
+        <span class="c">{{ w.count }} Rezepte</span>
+      </a>
+      {% else %}
+      <div class="inactive">
+        <span class="kw">KW {{ w.iso_week }}</span>
+        <span class="rng">{{ w.range }}</span>
+        <span class="c">&ndash;</span>
+      </div>
+      {% endif %}
+    </li>
   {% endfor %}
-  </ul>
+  </ol>
   <footer>Generiert {{ built }}</footer>
 </main>
+<script>
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll('#weeks > li'));
+    var pick = document.getElementById('weekpick');
+    var n = items.length, WINDOW = 2, center = {{ current_index }};
+    function clamp(i) { return Math.max(0, Math.min(n - 1, i)); }
+    function render() {
+      center = clamp(center);
+      for (var i = 0; i < n; i++) items[i].style.display = (i >= center - WINDOW && i <= center + WINDOW) ? '' : 'none';
+      if (pick && items[center]) pick.value = items[center].getAttribute('data-key');
+    }
+    document.getElementById('prev').addEventListener('click', function () { center -= 1; render(); });
+    document.getElementById('next').addEventListener('click', function () { center += 1; render(); });
+    if (pick) pick.addEventListener('change', function () {
+      for (var i = 0; i < n; i++) if (items[i].getAttribute('data-key') === pick.value) { center = i; break; }
+      render();
+    });
+    render();
+  })();
+</script>
 </body>
 </html>
