@@ -94,6 +94,40 @@ def ingredient_str(ing: dict) -> str:
     return " ".join(p for p in parts if p)
 
 
+def merge_week_ingredients(recipes: list[dict]) -> list[str]:
+    """Combine a week's ingredients into one shopping list: entries with the same
+    name and unit are merged, summing numeric amounts (e.g. 150 g + 150 g -> 300 g,
+    0.33 + 0.33 + 0.34 Bund -> 1 Bund). Order follows first appearance. Ingredients
+    with a non-numeric amount (e.g. "etwas") can't be summed and are kept separate."""
+    groups: dict = {}
+    order: list = []
+    uniq = 0
+    for r in recipes:
+        for ing in r.get("ingredients", []):
+            name = (ing.get("name") or "").strip()
+            unit = (ing.get("unit") or "").strip()
+            amount = ing.get("amount")
+            numeric = isinstance(amount, (int, float)) and not isinstance(amount, bool)
+            if numeric or amount in (None, ""):
+                key = (name.lower(), unit.lower())
+            else:  # unmergeable amount -> keep as its own standalone entry
+                key, uniq = ("\0uniq", uniq), uniq + 1
+            g = groups.get(key)
+            if g is None:
+                groups[key] = {"name": name, "unit": unit,
+                               "sum": float(amount) if numeric else None,
+                               "raw": amount}
+                order.append(key)
+            elif numeric:
+                g["sum"] = (g["sum"] or 0.0) + float(amount)
+    out = []
+    for key in order:
+        g = groups[key]
+        amount = g["sum"] if g["sum"] is not None else g["raw"]
+        out.append(ingredient_str({"amount": amount, "unit": g["unit"], "name": g["name"]}))
+    return out
+
+
 def deeplink_for(url: str, servings: int) -> str:
     return (
         "https://api.getbring.com/rest/bringrecipes/deeplink"
@@ -264,6 +298,7 @@ def normalise_recipe(r: dict, plan_servings: int, src: str, plan_author: str) ->
         "image": r.get("image") or "",
         "category": r.get("category") or "",
         "tagline": r.get("tagline") or "",
+        "ingredients": ings,
         "ingredient_strings": ing_strs,
         "steps": req("steps"),
         "tips": r.get("tips") or [],
@@ -384,10 +419,9 @@ def main() -> None:
                 "url": page_url,
             })
 
-        # Combined weekly shopping list (schema.org) -> single-tap "whole week"
-        merged = []
-        for r in items:
-            merged.extend(r["ingredient_strings"])
+        # Combined weekly shopping list (schema.org) -> single-tap "whole week".
+        # Ingredients shared across recipes are merged, summing amounts.
+        merged = merge_week_ingredients(items)
         week_recipe = {"name": f"Wocheneinkauf KW {ww}/{year}", "author": items[0]["author"],
                        "type": "meat",
                        "prep_min": 0, "cook_min": 0, "image": "", "category": "",
