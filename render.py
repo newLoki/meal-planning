@@ -137,7 +137,30 @@ def deeplink_for(url: str, servings: int) -> str:
 
 
 DINNER_TIME = time(19, 30)  # target time the meal should be ready to eat
-CAL_TS = "%Y%m%dT%H%M%S"    # floating local time (no timezone suffix)
+CAL_TS = "%Y%m%dT%H%M%S"    # local wall-clock time (paired with a TZID below)
+TZID = "Europe/Berlin"      # event times are German dinner times
+
+# Europe/Berlin VTIMEZONE (EU DST: last Sun Mar 02:00->03:00, last Sun Oct 03:00->02:00).
+# Without this, calendar apps read the floating times as UTC and shift the events.
+VTIMEZONE = [
+    "BEGIN:VTIMEZONE",
+    f"TZID:{TZID}",
+    "BEGIN:DAYLIGHT",
+    "TZOFFSETFROM:+0100",
+    "TZOFFSETTO:+0200",
+    "TZNAME:CEST",
+    "DTSTART:19700329T020000",
+    "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU",
+    "END:DAYLIGHT",
+    "BEGIN:STANDARD",
+    "TZOFFSETFROM:+0200",
+    "TZOFFSETTO:+0100",
+    "TZNAME:CET",
+    "DTSTART:19701025T030000",
+    "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU",
+    "END:STANDARD",
+    "END:VTIMEZONE",
+]
 
 
 def cook_window(recipe: dict, dinner: time = DINNER_TIME) -> tuple[datetime, datetime]:
@@ -169,6 +192,7 @@ def gcal_link_for(url: str, recipe: dict, dinner: time = DINNER_TIME) -> str:
         "action": "TEMPLATE",
         "text": event_summary(recipe),
         "dates": f"{start.strftime(CAL_TS)}/{end.strftime(CAL_TS)}",
+        "ctz": TZID,  # interpret the (floating) times as Berlin, not UTC
         "details": event_description(url, recipe),
     }
     return "https://calendar.google.com/calendar/render?" + urlencode(params)
@@ -212,16 +236,18 @@ def build_ics(events: list[dict], *, cal_name: str, dtstamp: str) -> str:
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{_ics_escape(cal_name)}",
         f"NAME:{_ics_escape(cal_name)}",
+        f"X-WR-TIMEZONE:{TZID}",
         "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
         "X-PUBLISHED-TTL:PT12H",
+        *VTIMEZONE,
     ]
     for e in events:
         lines += [
             "BEGIN:VEVENT",
             f"UID:{e['uid']}",
             f"DTSTAMP:{dtstamp}",
-            f"DTSTART:{e['start'].strftime(CAL_TS)}",
-            f"DTEND:{e['end'].strftime(CAL_TS)}",
+            f"DTSTART;TZID={TZID}:{e['start'].strftime(CAL_TS)}",
+            f"DTEND;TZID={TZID}:{e['end'].strftime(CAL_TS)}",
             f"SUMMARY:{_ics_escape(e['summary'])}",
             f"DESCRIPTION:{_ics_escape(e['description'])}",
             f"URL:{e['url']}",
