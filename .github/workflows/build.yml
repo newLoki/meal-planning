@@ -11,14 +11,15 @@ on:
       - ".github/workflows/build.yml"
   workflow_dispatch:
 
+# Pages is served from the `gh-pages` branch (Settings -> Pages -> Source =
+# "Deploy from a branch" -> gh-pages / root). This job builds the site and
+# pushes it there; GitHub then deploys the branch automatically.
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
-# Never run two Pages deployments at once.
+# Never build two versions of the branch at once.
 concurrency:
-  group: pages
+  group: gh-pages
   cancel-in-progress: true
 
 jobs:
@@ -26,6 +27,56 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # need history to diff this push and find changed weeks
+
+      # Restore the previously published site from the gh-pages branch so older
+      # weeks persist. Pages serves the whole branch, so anything missing here
+      # would vanish; render.py rebuilds only the weeks that need it and leaves
+      # the rest of the restored output untouched. Durable across runs (unlike a
+      # cache) because it lives in the repo.
+      - name: Restore previous site from gh-pages
+        run: |
+          set -euo pipefail
+          rm -rf site && mkdir -p site
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch --depth=1 origin gh-pages
+            git archive origin/gh-pages | tar -x -C site
+            echo "Restored $(find site -type f | wc -l | tr -d ' ') file(s) from gh-pages"
+          else
+            echo "No gh-pages branch yet -> first build renders every week"
+          fi
+
+      - name: Determine build scope
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" != "push" ]; then
+            echo "Trigger '${{ github.event_name }}' -> full rebuild (all weeks)"
+            echo "BUILD_SCOPE=all" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          before="${{ github.event.before }}"
+          if [ -z "$before" ] || ! git cat-file -e "${before}^{commit}" 2>/dev/null; then
+            echo "No usable base commit -> full rebuild (all weeks)"
+            echo "BUILD_SCOPE=all" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          changed="$(git diff --name-only "$before" "${{ github.sha }}")"
+          echo "Changed files:"; echo "$changed"
+          non_plan="$(printf '%s\n' "$changed" | grep -vE '^plans/.*\.json$' | grep -v '^$' || true)"
+          deleted="$(git diff --name-only --diff-filter=D "$before" "${{ github.sha }}" -- 'plans/*.json' || true)"
+          if [ -n "$non_plan" ] || [ -n "$deleted" ]; then
+            # Template/code/requirements change, or a removed plan -> rebuild everything
+            # so shared markup and the week list / feed stay consistent.
+            echo "Global or structural change -> full rebuild (all weeks)"
+            echo "BUILD_SCOPE=all" >> "$GITHUB_ENV"
+          else
+            plans="$(printf '%s\n' "$changed" | grep -E '^plans/.*\.json$' | tr '\n' ' ')"
+            echo "Only plan JSON changed -> incremental (current+previous+changed)"
+            echo "BUILD_SCOPE=recent" >> "$GITHUB_ENV"
+            echo "CHANGED_PLANS=$plans" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -36,16 +87,23 @@ jobs:
           # Optional: only needed if you use a custom domain (CNAME).
           # Otherwise the base URL is derived from the repo automatically.
           PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+          # BUILD_SCOPE / CHANGED_PLANS are exported above via $GITHUB_ENV.
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish to gh-pages
+        run: |
+          set -euo pipefail
+          touch site/.nojekyll  # serve files verbatim; skip Jekyll processing
+          cd site
+          git init -q
+          git checkout -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+          git commit -q -m "Build site from ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

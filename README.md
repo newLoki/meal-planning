@@ -43,7 +43,7 @@ design: it removes the one fragile link (an LLM regenerating exact microdata).
 ├── requirements-dev.txt          ← dev dep (jsonschema, for validate.py)
 ├── Makefile                      ← install / build / serve / validate / clean
 ├── .gitignore
-├── .github/workflows/build.yml   ← render + deploy to Pages on push to plans/**
+├── .github/workflows/build.yml   ← render + push site to gh-pages on push to plans/**
 ├── templates/
 │   ├── recipe.html.j2            ← the schema.org Recipe page Bring parses
 │   ├── week_index.html.j2        ← per-week listing with Bring buttons
@@ -82,10 +82,14 @@ PAGES_BASE_URL="https://<owner>.github.io/<repo>" python render.py
 
 ## Notes
 
-- **Action versions** are pinned to current majors (`checkout@v4`, `setup-python@v5`,
-  `upload-pages-artifact@v3`, `deploy-pages@v4`). Bump if GitHub ships newer majors.
-- **Deploy delay:** Pages needs ~30–60s after a push; don't tap a Bring button
-  before the run finishes or it will fetch a 404.
+- **Action versions** are pinned to current majors (`checkout@v4`, `setup-python@v5`).
+  Bump if GitHub ships newer majors.
+- **Durable output:** the built site is stored on the `gh-pages` branch and served
+  from it, so older weeks persist. By default only the current + previous week (plus
+  any week whose plan changed) is rebuilt; template/`render.py`/requirements changes
+  and manual runs rebuild every week. See `docs/SETUP.md`.
+- **Deploy delay:** after the build pushes to `gh-pages`, Pages needs ~30–60s to
+  deploy; don't tap a Bring button before it finishes or it will fetch a 404.
 - **Unverified externally:** Bring's exact `.json` schema isn't public, so this uses
   the documented **HTML/schema.org** format. Run the smoke test in SETUP.md once
   before relying on it.

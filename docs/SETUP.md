@@ -22,13 +22,17 @@ Two things to set up: the **GitHub repo + Pages** (hosts the recipe pages), and 
    git push -u origin main
    ```
 
-3. **Enable Pages via Actions.** Repo **Settings → Pages → Build and deployment →
-   Source: GitHub Actions**. Do **not** choose "Deploy from a branch" — this repo
-   deploys through the workflow in `.github/workflows/build.yml`.
+3. **Trigger the first build.** The push already triggers the workflow in
+   `.github/workflows/build.yml`; otherwise go to **Actions → "Build & deploy recipe
+   site" → Run workflow**. It renders the site and pushes it to a `gh-pages` branch.
+   Wait for it to go green (this also creates the `gh-pages` branch).
 
-4. **Trigger the first build.** The push already triggers it; otherwise go to
-   **Actions → "Build & deploy recipe site" → Run workflow**. When it's green, your
-   site is live at:
+4. **Enable Pages from the branch.** Repo **Settings → Pages → Build and deployment →
+   Source: Deploy from a branch → Branch: `gh-pages` / `(root)`** → Save. The built
+   site is stored durably on that branch, so older weeks persist across runs; the
+   workflow rebuilds only the current + previous week (plus any changed week) by
+   default and leaves the rest in place. After Pages finishes deploying, your site is
+   live at:
    ```
    https://<owner>.github.io/<repo>/
    ```
