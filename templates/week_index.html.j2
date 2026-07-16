@@ -15,7 +15,9 @@
   ul.cards li{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
   ul.cards li a.title{font-weight:600;color:var(--fg);text-decoration:none;font-size:1.05rem}
   ul.cards li .d{color:var(--muted);font-size:13px}
-  a.bring{margin-left:auto;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:.4em .8em;border-radius:8px;font-size:14px;white-space:nowrap}
+  a.bring{background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:.4em .8em;border-radius:8px;font-size:14px;white-space:nowrap}
+  a.gcal{background:#1a73e8;color:#fff;text-decoration:none;font-weight:600;padding:.4em .8em;border-radius:8px;font-size:14px;white-space:nowrap}
+  ul.cards li .acts{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
   a.bring.big{display:block;margin:22px 0 0;text-align:center;padding:.8em;font-size:1rem}
   footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
 </style>
@@ -29,7 +31,10 @@
     <li>
       <a class="title" href="{{ it.filename }}">{{ it.icon }} {{ it.name }}</a>
       <span class="d">{{ it.date }} &middot; {{ it.total }} min</span>
-      <a class="bring" href="{{ it.deeplink }}">&#128722; Bring!</a>
+      <span class="acts">
+        <a class="bring" href="{{ it.deeplink }}">&#128722; Bring!</a>
+        {% if it.gcal_link %}<a class="gcal" href="{{ it.gcal_link }}" target="_blank" rel="noopener">&#128197; Kalender</a>{% endif %}
+      </span>
     </li>
   {% endfor %}
   </ul>

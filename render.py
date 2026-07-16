@@ -434,9 +434,10 @@ def main() -> None:
             fname = f"{r['date_str']}-{r['slug']}.html"
             page_url = f"{web_dir}/{fname}"
             deeplink = deeplink_for(page_url, r["servings"])
+            gcal_link = gcal_link_for(page_url, r)
             entries.append({"name": r["name"], "icon": r["icon"], "date": r["date_str"],
                             "total": r["prep_min"] + r["cook_min"], "filename": fname,
-                            "deeplink": deeplink})
+                            "deeplink": deeplink, "gcal_link": gcal_link})
 
             start, end = cook_window(r)
             events.append({
@@ -449,7 +450,6 @@ def main() -> None:
 
             if not write_week:
                 continue
-            gcal_link = gcal_link_for(page_url, r)
             jsonld = recipe_jsonld(
                 name=r["name"], author=r["author"], servings=r["servings"],
                 ingredient_strings=r["ingredient_strings"], steps=r["steps"],
