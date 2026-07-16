@@ -4,79 +4,148 @@
   "recipes": [
     {
       "date": "2026-07-17",
-      "name": "Thai Rotes Curry mit H\u00e4hnchen",
+      "name": "Sommerliche Reisnudel-Pfanne mit Rindfleisch & Gemüse",
       "type": "meat",
       "prep_min": 20,
-      "cook_min": 30,
+      "cook_min": 15,
       "category": "Hauptgericht",
-      "tagline": "W\u00fcrziges asiatisches Curry, glutenfrei mit Tamari.",
+      "tagline": "Knackiges asiatisches Wok-Gericht mit glutenfreier Tamari-Sauce.",
       "ingredients": [
-        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-        { "amount": 500, "unit": "g", "name": "H\u00e4hnchenbrust" },
-        { "amount": 500, "unit": "g", "name": "Karotten" },
-        { "amount": 2, "unit": "EL", "name": "Tamari (glutenfrei)" },
+        { "amount": 300, "unit": "g", "name": "Rindergeschnetzeltes" },
+        { "amount": 150, "unit": "g", "name": "Glutenfreie Reisnudeln" },
+        { "amount": 200, "unit": "g", "name": "Karotten (Aufschnitt)" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika rot" },
+        { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln" },
         { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-        { "amount": 200, "unit": "g", "name": "Reis" },
-        { "name": "Salz" }
+        { "amount": 1, "unit": "Stück", "name": "Ingwer (daumengroß)" },
+        { "amount": 4, "unit": "EL", "name": "Tamari (Glutenfreie Sojasauce)" },
+        { "amount": 2, "unit": "EL", "name": "Sesamöl" }
       ],
       "steps": [
-        "Reis nach Packungsanweisung kochen.",
-        "H\u00e4hnchen w\u00fcrfeln und anbraten.",
-        "Karotten und Knoblauch zugeben, Currypaste anr\u00f6sten.",
-        "Mit Kokosmilch abl\u00f6schen, 15 Min. k\u00f6cheln, mit Tamari abschmecken."
+        "Reisnudeln nach Packungsanleitung in heißem Wasser einweichen und abtropfen lassen.",
+        "Ingwer und Knoblauch fein hacken. Karotten in feine Stifte, Frühlingszwiebeln in Ringe und Paprika in Streifen schneiden.",
+        "Sesamöl im Wok oder einer großen Pfanne stark erhitzen. Rindergeschnetzeltes darin 2-3 Minuten scharf anbraten, dann herausnehmen.",
+        "Hitze leicht reduzieren. Knoblauch, Ingwer und das Gemüse (Karotten, Paprika, weiße Teile der Frühlingszwiebeln) 5 Minuten unter Rühren anbraten.",
+        "Nudeln und Fleisch wieder dazugeben. Mit Tamari-Sojasauce ablöschen und alles gut vermengen. Mit den grünen Frühlingszwiebelringen garniert servieren."
       ],
       "tips": [
-        "Auf glutenfreie Currypaste achten \u2013 viele enthalten Weizen.",
-        "Statt Fischsauce Tamari verwenden."
+        "Achte beim Kauf der Sojasauce unbedingt auf die Kennzeichnung 'Tamari' oder explizit 'glutenfrei', da herkömmliche Sojasaucen Weizen enthalten."
       ]
     },
     {
       "date": "2026-07-18",
-      "name": "Mediterrane Ofengem\u00fcse-Bowl",
-      "type": "vegetarian",
-      "prep_min": 15,
-      "cook_min": 35,
+      "name": "Rindfleisch-Eintopf mit Sommergemüse & Kartoffeln",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 60,
       "category": "Hauptgericht",
-      "tagline": "Bunte Bowl aus dem Ofen, laktosefrei.",
+      "tagline": "Ein wärmender, leichter Sonntagsklassiker – schon am Samstag serviert.",
       "ingredients": [
-        { "amount": 500, "unit": "g", "name": "Karotten" },
-        { "amount": 1, "unit": "Dose", "name": "Kichererbsen" },
-        { "amount": 200, "unit": "g", "name": "Reis" },
-        { "amount": 2, "unit": "EL", "name": "Oliven\u00f6l" },
-        { "amount": 1, "unit": "Bund", "name": "Petersilie" },
-        { "name": "Salz" }
+        { "amount": 400, "unit": "g", "name": "Rinder-Suppenfleisch (oder Gulasch)" },
+        { "amount": 500, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 300, "unit": "g", "name": "Karotten" },
+        { "amount": 150, "unit": "g", "name": "Grüne Bohnen (frisch oder TK)" },
+        { "amount": 1, "unit": "Liter", "name": "Rinderbrühe (glutenfrei zertifiziert)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz und Pfeffer" }
       ],
       "steps": [
-        "Gem\u00fcse und Kichererbsen mit \u00d6l und Gew\u00fcrzen mischen.",
-        "Bei 200 \u00b0C 35 Min. backen.",
-        "Mit Reis und Petersilie servieren."
+        "Das Rindfleisch in mundgerechte Würfel schneiden. Zwiebel fein würfeln.",
+        "Kartoffeln und Karotten schälen und ebenfalls würfeln. Bohnen putzen und halbieren.",
+        "In einem großen Topf das Öl erhitzen. Fleisch scharf anbraten, Zwiebeln hinzufügen und glasig dünsten.",
+        "Mit der glutenfreien Rinderbrühe ablöschen. Den Deckel auflegen und bei mittlerer Hitze ca. 40 Minuten köcheln lassen, bis das Fleisch weicher wird.",
+        "Kartoffeln, Karotten und Bohnen dazugeben und weitere 20 Minuten garen, bis das Gemüse weich und das Fleisch zart ist. Mit Salz und Pfeffer abschmecken."
       ],
       "tips": [
-        "Reste eignen sich gut als Lunch am Folgetag."
+        "Fertige Brühen enthalten oft verstecktes Gluten als Geschmacksträger. Verwende nur explizit als glutenfrei gekennzeichnete Rinderbrühe."
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "name": "Schweinefilet in Senf-Sahnesauce mit Brokkoli & Kartoffeln",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Zartes Schweinefilet in cremiger Sauce mit frischem Gemüse.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Schweinefilet" },
+        { "amount": 200, "unit": "ml", "name": "Laktosefreie Sahne (oder pflanzliche Alternative)" },
+        { "amount": 2, "unit": "EL", "name": "Mittelscharfer Senf" },
+        { "amount": 1, "unit": "Kopf", "name": "Brokkoli" },
+        { "amount": 400, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 1, "unit": "Stück", "name": "Schalotte" },
+        { "amount": 1, "unit": "EL", "name": "Butterschmalz (oder Öl)" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Kartoffeln schälen, vierteln und in Salzwasser ca. 20 Minuten gar kochen.",
+        "Brokkoli in Röschen teilen und die letzten 8 Minuten über den Kartoffeln dämpfen oder separat kochen.",
+        "Schweinefilet in ca. 2 cm dicke Medaillons schneiden. Schalotte fein würfeln.",
+        "Butterschmalz in einer Pfanne stark erhitzen. Medaillons von jeder Seite ca. 2-3 Minuten scharf anbraten, salzen, pfeffern, aus der Pfanne nehmen und warmhalten.",
+        "In derselben Pfanne die Schalotte glasig dünsten. Mit laktosefreier Sahne ablöschen, Senf einrühren und 2 Minuten einköcheln lassen. Fleisch samt Fleischsaft zurück in die Sauce geben und kurz erwärmen. Mit Kartoffeln und Brokkoli anrichten."
+      ],
+      "tips": [
+        "Senf ist von Natur aus meist glutenfrei, kontrolliere dennoch die Zutatenliste auf Weizenmehl als Bindemittel."
       ]
     },
     {
       "date": "2026-07-20",
-      "name": "Rinderhack-Pfanne mit GF-Nudeln",
+      "name": "Bunter Sommersalat mit gebratenen Hähnchenbruststreifen",
       "type": "meat",
-      "prep_min": 10,
-      "cook_min": 25,
+      "prep_min": 15,
+      "cook_min": 15,
       "category": "Hauptgericht",
-      "tagline": "Schnelle Pfanne, glutenfreie Nudeln.",
+      "tagline": "Knackiger, frischer Salat für eine Person mit saftigem Hähnchen.",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
-        { "amount": 250, "unit": "g", "name": "glutenfreie Nudeln" },
-        { "amount": 400, "unit": "ml", "name": "passierte Tomaten" },
-        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-        { "name": "Salz" }
+        { "amount": 150, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 100, "unit": "g", "name": "Gemischter Blattsalat" },
+        { "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
+        { "amount": 100, "unit": "g", "name": "Kirschtomaten" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "EL", "name": "Zitronensaft" },
+        { "amount": 1, "unit": "TL", "name": "Honig" },
+        { "name": "Salz und Pfeffer" }
       ],
       "steps": [
-        "Nudeln kochen.",
-        "Hack anbraten, Knoblauch zugeben.",
-        "Tomaten zugeben, 15 Min. k\u00f6cheln, mit Nudeln mischen."
+        "Hähnchenbrustfilet in Streifen schneiden, salzen und pfeffern.",
+        "Salat waschen und trocken schleudern. Gurke in Scheiben schneiden, Kirschtomaten halbieren.",
+        "Für das Dressing Olivenöl, Zitronensaft, Honig, Salz und Pfeffer kräftig verquirlen.",
+        "In einer Pfanne etwas Olivenöl erhitzen und die Hähnchenstreifen darin ca. 6-8 Minuten rundherum goldbraun und durchgaren.",
+        "Salat, Gurken und Tomaten auf einem Teller anrichten, mit dem Dressing beträufeln und die warmen Hähnchenstreifen darauf anrichten."
       ],
       "tips": [
-        "Glutenfreie Nudeln nicht \u00fcberkochen \u2013 sie werden schnell weich."
+        "Achte bei abgepackten Salat-Mischungen auf absolute Frische, oder greife zu ganzen Salatköpfen, um Kreuzkontaminationen zu minimieren."
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "name": "Glutenfreie Pasta mit fruchtiger Tomaten-Basilikum-Sauce",
+      "type": "vegetarian",
+      "prep_min": 10,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Fruchtiger, mediterraner Pasta-Klassiker – komplett glutenfrei.",
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Glutenfreie Penne (z.B. aus Mais/Reis)" },
+        { "amount": 1, "unit": "Dose", "name": "Stückige Tomaten (400g)" },
+        { "amount": 150, "unit": "g", "name": "Kirschtomaten" },
+        { "amount": 1, "unit": "Bund", "name": "Frisches Basilikum" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 30, "unit": "g", "name": "Laktosefreier Parmesan (oder vegane Alternative)" },
+        { "name": "Salz, Pfeffer und eine Prise Zucker" }
+      ],
+      "steps": [
+        "Glutenfreie Pasta in reichlich Salzwasser nach Packungsanleitung al dente kochen. (Tipp: Glutenfreie Pasta benötigt oft reichlich Wasser und Bewegung, damit sie nicht verklebt).",
+        "Knoblauch fein hacken. Kirschtomaten halbieren.",
+        "Olivenöl in einer Pfanne erhitzen, Knoblauch und Kirschtomaten darin 3 Minuten andünsten, bis die Tomaten leicht aufplatzen.",
+        "Die stückigen Dosentomaten hinzufügen, mit einer Prise Zucker, Salz und Pfeffer würzen und bei mittlerer Hitze 12-15 Minuten köcheln lassen.",
+        "Die Pasta abgießen, direkt zur Sauce in die Pfanne geben und durchschwenken. Frischen Basilikum unterheben und mit laktosefreiem Parmesan bestreut servieren."
+      ],
+      "tips": [
+        "Glutenfreie Nudeln neigen dazu, nach dem Kochen schnell nachzugaren und weich zu werden. Gieße sie daher lieber eine Minute vor der angegebenen Kochzeit ab."
       ]
     }
   ]
