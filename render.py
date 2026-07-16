@@ -140,6 +140,63 @@ def gcal_link_for(url: str, recipe: dict, dinner: time = DINNER_TIME) -> str:
     return "https://calendar.google.com/calendar/render?" + urlencode(params)
 
 
+# --------------------------------------------------------------------------- #
+# iCalendar feed (subscribable) — one VEVENT per recipe across all weeks.
+# Subscribing once (webcal://…/meals.ics) surfaces every current and future
+# cooking event and lets the client refresh them automatically.
+# --------------------------------------------------------------------------- #
+def _ics_escape(text: str) -> str:
+    """Escape a TEXT value per RFC 5545 (backslash, semicolon, comma, newline)."""
+    return (text.replace("\\", "\\\\").replace(";", "\\;")
+                .replace(",", "\\,").replace("\r\n", "\n").replace("\n", "\\n"))
+
+
+def _ics_fold(line: str) -> str:
+    """Fold a content line to <=75 octets, continuations prefixed with a space,
+    without splitting a multi-byte UTF-8 character (RFC 5545 sec. 3.1)."""
+    raw = line.encode("utf-8")
+    if len(raw) <= 75:
+        return line
+    chunks, first = [], True
+    while len(raw) > 75:
+        cut = 75 if first else 74  # continuation lines lose one octet to the space
+        while cut > 0 and (raw[cut] & 0xC0) == 0x80:  # don't split inside a codepoint
+            cut -= 1
+        chunks.append((b"" if first else b" ") + raw[:cut])
+        raw, first = raw[cut:], False
+    chunks.append(b" " + raw)
+    return "\r\n".join(c.decode("utf-8") for c in chunks)
+
+
+def build_ics(events: list[dict], *, cal_name: str, dtstamp: str) -> str:
+    """Serialise cooking events into a VCALENDAR string (CRLF line endings)."""
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//meal-plans//recipe-feed//DE",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        f"X-WR-CALNAME:{_ics_escape(cal_name)}",
+        f"NAME:{_ics_escape(cal_name)}",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
+        "X-PUBLISHED-TTL:PT12H",
+    ]
+    for e in events:
+        lines += [
+            "BEGIN:VEVENT",
+            f"UID:{e['uid']}",
+            f"DTSTAMP:{dtstamp}",
+            f"DTSTART:{e['start'].strftime(CAL_TS)}",
+            f"DTEND:{e['end'].strftime(CAL_TS)}",
+            f"SUMMARY:{_ics_escape(e['summary'])}",
+            f"DESCRIPTION:{_ics_escape(e['description'])}",
+            f"URL:{e['url']}",
+            "END:VEVENT",
+        ]
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(_ics_fold(ln) for ln in lines) + "\r\n"
+
+
 def recipe_jsonld(*, name, author, servings, ingredient_strings, steps,
                   prep_min=0, cook_min=0, category="", image="", description="") -> dict:
     """schema.org/Recipe as a JSON-LD dict. Bring's live parser reads JSON-LD
@@ -264,7 +321,12 @@ def load_recipes() -> list[dict]:
 # --------------------------------------------------------------------------- #
 def main() -> None:
     base = pages_base_url()
-    built = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    now = datetime.now(timezone.utc)
+    built = now.strftime("%Y-%m-%d %H:%M UTC")
+    dtstamp = now.strftime("%Y%m%dT%H%M%SZ")
+    host = base.split("://", 1)[-1]           # e.g. owner.github.io/repo
+    feed_url = f"{base}/meals.ics"            # https, for "add by URL"
+    feed_webcal = f"webcal://{host}/meals.ics"  # one-tap subscribe
     env = Environment(loader=FileSystemLoader(str(TEMPLATES)),
                       autoescape=select_autoescape(["html", "j2"]),
                       trim_blocks=True, lstrip_blocks=True)
@@ -284,6 +346,7 @@ def main() -> None:
         shutil.rmtree(SITE)
     SITE.mkdir(parents=True)
 
+    events = []  # accumulates one cooking event per recipe for the .ics feed
     week_summaries = []
     for (year, mm, ww), items in sorted(weeks.items()):
         items.sort(key=lambda x: x["date"])
@@ -311,6 +374,15 @@ def main() -> None:
             entries.append({"name": r["name"], "icon": r["icon"], "date": r["date_str"],
                             "total": r["prep_min"] + r["cook_min"], "filename": fname,
                             "deeplink": deeplink})
+
+            start, end = cook_window(r)
+            events.append({
+                "uid": f"{r['date_str']}-{r['slug']}@{host}",
+                "start": start, "end": end,
+                "summary": event_summary(r),
+                "description": event_description(page_url, r),
+                "url": page_url,
+            })
 
         # Combined weekly shopping list (schema.org) -> single-tap "whole week"
         merged = []
@@ -340,10 +412,19 @@ def main() -> None:
         week_summaries.append({"year": year, "week": ww, "count": len(items),
                                "path": f"recipes/{year}/{mm}/W{ww}/"})
 
+    events.sort(key=lambda e: e["start"])
+    (SITE / "meals.ics").write_text(
+        build_ics(events, cal_name="Wochenpläne – Kochtermine", dtstamp=dtstamp),
+        encoding="utf-8")
+
     week_summaries.sort(key=lambda w: (w["year"], w["week"]), reverse=True)
-    (SITE / "index.html").write_text(tpl_root.render(weeks=week_summaries, built=built), encoding="utf-8")
+    (SITE / "index.html").write_text(
+        tpl_root.render(weeks=week_summaries, built=built,
+                        feed_webcal=feed_webcal, feed_url=feed_url),
+        encoding="utf-8")
 
     print(f"Rendered {len(recipes)} recipe(s) across {len(weeks)} week(s) into {SITE}/ (base: {base})")
+    print(f"Wrote {len(events)}-event feed -> {SITE / 'meals.ics'}")
 
 
 if __name__ == "__main__":

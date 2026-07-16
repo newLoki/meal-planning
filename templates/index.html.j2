@@ -13,12 +13,26 @@
   li{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 12px}
   li a{font-weight:600;color:var(--fg);text-decoration:none}
   li .c{color:var(--muted);font-size:13px;margin-left:8px}
+  .sub{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 20px}
+  .sub h2{font-size:1rem;margin:0 0 .5em}
+  .sub a.gcal{display:inline-block;background:#1a73e8;color:#fff;text-decoration:none;font-weight:600;padding:.6em 1em;border-radius:8px;font-size:14px}
+  .sub code{display:block;margin-top:.7em;font-size:12px;color:var(--muted);word-break:break-all}
+  .sub p{margin:.6em 0 0;font-size:12px;color:var(--muted)}
   footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
 </style>
 </head>
 <body>
 <main>
   <h1>Wochenpl&auml;ne</h1>
+  {% if feed_webcal %}
+  <div class="sub">
+    <h2>&#128197; Kochtermine abonnieren</h2>
+    <a class="gcal" href="{{ feed_webcal }}">Kalender abonnieren</a>
+    <p>Enth&auml;lt alle Kochtermine (Ende 19:30 Uhr, Start abz&uuml;glich Vor- &amp; Kochzeit) &mdash; neue Wochen erscheinen automatisch.</p>
+    <p>In Google Kalender manuell: &bdquo;Weitere Kalender &rarr; Per URL&ldquo; und diese Adresse einf&uuml;gen:</p>
+    <code>{{ feed_url }}</code>
+  </div>
+  {% endif %}
   <ul>
   {% for w in weeks %}
     <li><a href="{{ w.path }}">{{ w.year }} &middot; Woche {{ w.week }}</a><span class="c">{{ w.count }} Rezepte</span></li>
