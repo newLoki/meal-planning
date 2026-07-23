@@ -4,154 +4,154 @@
   "recipes": [
     {
       "date": "2026-07-24",
-      "name": "Thai Rotes Curry mit Hähnchen",
+      "name": "Rotes Thai-Curry mit Hähnchen",
       "type": "meat",
       "prep_min": 15,
       "cook_min": 20,
       "category": "Hauptgericht",
-      "tagline": "Würzig-cremiges rotes Thai-Curry mit zartem Hähnchenbrustfilet und knackigem Gemüse auf duftendem Basmati-Reis.",
+      "tagline": "Cremiges und leicht scharfes Kokos-Curry mit knackigem Gemüse und Hähnchenbrust.",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 300, "unit": "g", "name": "Hähnchenbrustfilet" },
         { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-        { "amount": 1, "unit": "Stück", "name": "Rote Paprika" },
-        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
-        { "amount": 100, "unit": "g", "name": "Frühlingszwiebeln" },
+        { "amount": 1, "unit": "Stk.", "name": "Rote Paprika" },
+        { "amount": 1, "unit": "Bund", "name": "Frühlingszwiebeln" },
         { "amount": 2, "unit": "EL", "name": "Rote Currypaste (GF)" },
-        { "amount": 2, "unit": "EL", "name": "Tamari Glutenfreie Sojasauce" },
-        { "amount": 250, "unit": "g", "name": "Basmati-Reis (GF)" },
-        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" }
-      ],
-      "steps": [
-        "Reis nach Packungsanweisung in leicht gesalzenem Wasser gar kochen.",
-        "Hähnchenbrustfilet in mundgerechte Streifen schneiden. Paprika, Zucchini und Frühlingszwiebeln waschen und klein schneiden.",
-        "Öl in einer großen Pfanne oder einem Wok erhitzen und das Hähnchenbrustfilet darin anbraten.",
-        "Currypaste kurz mitanbraten, dann mit Kokosmilch und Tamari Sojasauce ablöschen.",
-        "Gemüse hinzufügen und 10-12 Minuten bei mittlerer Hitze köcheln lassen, bis das Gemüse knackig-zart ist.",
-        "Zusammen mit dem Basmati-Reis servieren."
-      ],
-      "tips": [
-        "Achte bei der Currypaste darauf, dass sie ausdrücklich als glutenfrei (GF) deklariert ist."
-      ]
-    },
-    {
-      "date": "2026-07-25",
-      "name": "GF Spaghetti Bolognese mit frischem Gemüse",
-      "type": "meat",
-      "prep_min": 15,
-      "cook_min": 30,
-      "category": "Hauptgericht",
-      "tagline": "Klassische herzhafte Bolognese-Sauce mit feingewürfeltem Gemüse und glutenfreier Pasta.",
-      "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
-        { "amount": 250, "unit": "g", "name": "GF Spaghetti" },
-        { "amount": 500, "unit": "g", "name": "Passierte Tomaten" },
-        { "amount": 1, "unit": "Stück", "name": "Rote Paprika" },
-        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
-        { "amount": 1, "unit": "Stück", "name": "Karotte" },
-        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
-        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
-        { "name": "Italienische Kräuter, Salz, Pfeffer" }
-      ],
-      "steps": [
-        "Zwiebel, Knoblauch, Karotte, Zucchini und Paprika in sehr feine Würfel schneiden.",
-        "Olivenöl in einem Topf erhitzen, Zwiebeln und Knoblauch glasig dünsten, dann das Rinderhackfleisch dazugeben und krümelig anbraten.",
-        "Gewürfeltes Gemüse hinzufügen und kurz mitanbraten.",
-        "Mit passierten Tomaten ablöschen, mit italienischen Kräutern, Salz und Pfeffer würzen und abgedeckt ca. 20 Minuten sanft köcheln lassen.",
-        "Glutenfreie Spaghetti in reichlich Salzwasser al dente kochen, abgießen und mit der Bolognese servieren."
-      ],
-      "tips": [
-        "Glutenfreie Pasta nach dem Abgießen nicht mit kaltem Wasser abschrecken, sondern direkt mit etwas Sauce vermischen, damit sie nicht verklebt."
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "name": "Cremiges Kichererbsen-Linsen-Dal mit Spinat",
-      "type": "vegetarian",
-      "prep_min": 15,
-      "cook_min": 25,
-      "category": "Hauptgericht",
-      "tagline": "Wärmendes, indisch gewürztes vegetarisches Dal mit Linsen, Kichererbsen, Blattspinat und Kokosmilch.",
-      "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Kichererbsen (Dose)" },
-        { "amount": 150, "unit": "g", "name": "Rote Linsen" },
-        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-        { "amount": 150, "unit": "g", "name": "Baby-Blattspinat" },
-        { "amount": 100, "unit": "g", "name": "Frühlingszwiebeln" },
-        { "amount": 1, "unit": "Daumenstück", "name": "Ingwer" },
-        { "amount": 2, "unit": "TL", "name": "Garam Masala" },
-        { "amount": 250, "unit": "g", "name": "Basmati-Reis (GF)" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
         { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
         { "name": "Salz" }
       ],
       "steps": [
-        "Reis nach Packungsanweisung gar kochen.",
-        "Ingwer fein reiben, Frühlingszwiebeln in RInge schneiden. Kichererbsen abspülen und abtropfen lassen.",
-        "Öl in einem Topf erhitzen, Ingwer, Frühlingszwiebeln und Garam Masala kurz anrösten.",
-        "Rote Linsen, Kichererbsen, Kokosmilch und ca. 200 ml Wasser hinzufügen. Etwa 15 Minuten köcheln lassen, bis die Linsen weich sind.",
-        "Baby-Blattspinat unterrühren, bis er zusammenfällt, mit Salz abschmecken.",
-        "Mit dem Basmati-Reis servieren."
+        "Jasminreis nach Packungsanweisung gar kochen.",
+        "Hähnchenbrustfilet in mundgerechte Streifen, Paprika in Streifen und Frühlingszwiebeln in Ringe schneiden.",
+        "Öl in einer Pfanne oder einem Wok erhitzen, Currypaste kurz anbraten, bis sie duftet.",
+        "Hähnchenstreifen dazugeben und ca. 3–4 Minuten scharf anbraten.",
+        "Paprika dazugeben, mit Kokosmilch ablöschen und etwa 10 Minuten leise köcheln lassen.",
+        "Frühlingszwiebeln unterrühren, mit einer Prise Salz abschmecken und warm mit Jasminreis servieren."
       ],
       "tips": [
-        "Achte darauf, dass die Gewürzmischung (Garam Masala) ohne glutenhaltige Trennmittel verarbeitet ist."
+        "Darauf achten, dass die rote Currypaste ausdrücklich als glutenfrei zertifiziert ist."
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "name": "Rindfleisch-Pfanne mit Brokkoli und Paprika",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Schnelles Pfannengericht aus dem Wok mit saftigem Rindfleisch und herzhafter Tamari-Würze.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Rinderhüftsteak" },
+        { "amount": 1, "unit": "Stk.", "name": "Brokkoli" },
+        { "amount": 1, "unit": "Stk.", "name": "Rote Paprika" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 10, "unit": "g", "name": "Ingwer" },
+        { "amount": 3, "unit": "EL", "name": "Tamari (GF Sojasauce)" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" }
+      ],
+      "steps": [
+        "Rinderhüftsteak quer zur Faser in feine Streifen schneiden.",
+        "Brokkoli in kleine Röschen teilen, Paprika in Streifen schneiden, Knoblauch und Ingwer fein hacken.",
+        "Pflanzenöl in einem Wok oder einer großen Pfanne sehr heiß erhitzen. Rindfleischstreifen portionsweise scharf anbraten (ca. 2 Minuten) und herausnehmen.",
+        "Brokkoli und Paprika in der Pfanne 4–5 Minuten pfannenrühren. Knoblauch und Ingwer kurz mitanbraten.",
+        "Fleisch zurück in die Pfanne geben, mit Tamari und Sesamöl ablöschen und 1–2 Minuten durchschwenken."
+      ],
+      "tips": [
+        "Nur echte Tamari-Sojasauce verwenden, da herkömmliche Sojasaucen oft Weizen enthalten."
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "name": "Geschmorter Rinderbraten in Rotweinsauce mit Kartoffel-Sellerie-Püree",
+      "type": "meat",
+      "prep_min": 25,
+      "cook_min": 120,
+      "category": "Hauptgericht",
+      "tagline": "Klassischer, zarter Schmorbraten in feiner Rotweinsauce mit cremigem Wurzelgemüsepüree.",
+      "ingredients": [
+        { "amount": 800, "unit": "g", "name": "Rinderschmorbraten" },
+        { "amount": 1, "unit": "Bund", "name": "Suppengrün (Möhren, Sellerie, Lauch)" },
+        { "amount": 250, "unit": "ml", "name": "Rotwein" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 300, "unit": "g", "name": "Knollensellerie" },
+        { "amount": 50, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 100, "unit": "ml", "name": "Laktosefreie Milch" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "amount": 1, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 500, "unit": "ml", "name": "Rinderbrühe (GF)" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Das Fleisch von allen Seiten kräftig salzen und pfeffern. In einem Bräter in heißen Öl von allen Seiten anbraten, dann herausnehmen.",
+        "Suppengrün würfeln und im Bräter anrösten. Tomatenmark und gehackten Knoblauch dazugeben und kurz mitrösten.",
+        "Mit Rotwein ablöschen und einkochen lassen. Rinderbrühe zugießen, das Fleisch zurück in den Bräter geben und abgedeckt ca. 1,5 bis 2 Stunden sanft schmoren lassen.",
+        "Kartoffeln und Knollensellerie schälen, würfeln und in Salzwasser ca. 20 Minuten weich kochen.",
+        "Das Gemüse abgießen, mit laktosefreier Butter und laktosefreier Milch zu einem feinen Püree stampfen, mit Salz und Pfeffer abschmecken.",
+        "Braten aus dem Topf nehmen, die Sauce pürieren oder passieren, abschmecken und zusammen servieren."
+      ],
+      "tips": [
+        "Bei Rinderbrühe auf die GF-Zertifizierung achten. Sauce bei Bedarf mit etwas Stärke binden."
       ]
     },
     {
       "date": "2026-07-27",
-      "name": "Schweinefilet-Medaillons mit Rahm-Champignons",
+      "name": "Ofen-Koteletts mit Rosmarinkartoffeln",
       "type": "meat",
-      "prep_min": 20,
-      "cook_min": 25,
+      "prep_min": 15,
+      "cook_min": 30,
       "category": "Hauptgericht",
-      "tagline": "Zarte Schweinefilet-Medaillons in einer cremig-pilzigen Rahmsauce, serviert mit knusprigen Bratkartoffeln.",
+      "tagline": "Unkompliziertes Blechgericht mit aromatischem Schweinefleisch und knusprigen Erdäpfeln.",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Schweinefilet" },
-        { "amount": 300, "unit": "g", "name": "Braune Champignons" },
-        { "amount": 200, "unit": "g", "name": "Laktosefreie Kochcreme / Sahne" },
-        { "amount": 600, "unit": "g", "name": "Festkochende Kartoffeln" },
-        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
-        { "amount": 1, "unit": "Bund", "name": "Frische Petersilie" },
-        { "amount": 2, "unit": "EL", "name": "Laktosefreie Butter / Margarine" },
-        { "name": "Salz, Pfeffer" }
+        { "amount": 2, "unit": "Stk.", "name": "Schweinekoteletts" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln (festkochend)" },
+        { "amount": 2, "unit": "Zweige", "name": "Frischer Rosmarin" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
       ],
       "steps": [
-        "Kartoffeln schälen, in Scheiben schneiden und in einer Pfanne mit etwas Fett goldbraun und knusprig braten.",
-        "Schweinefilet in Medaillons schneiden. Champignons putzen und vierteln. Zwiebel würfeln.",
-        "Medaillons von beiden Seiten 2-3 Minuten scharf anbraten, aus der Pfanne nehmen und warmstellen.",
-        "In derselben Pfanne Zwiebeln und Champignons anbraten, dann mit der laktosefreien Kochcreme ablöschen und kurz einköcheln lassen.",
-        "Medaillons zurück in die Sauce geben, kurz ziehen lassen, feingehackte Petersilie einrühren und mit Bratkartoffeln servieren."
+        "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Kartoffeln gründlich waschen und in Spalten schneiden. Mit 2 EL Olivenöl, gehacktem Rosmarin, Salz und Pfeffer vermengen.",
+        "Kartoffelspalten auf einem mit Backpapier belegten Blech verteilen.",
+        "Schweinekoteletts mit restlichem Olivenöl, zerdrücktem Knoblauch, Salz und Pfeffer einreiben und mit auf das Blech legen.",
+        "Im Ofen ca. 25–30 Minuten backen, bis die Kartoffeln knusprig und die Koteletts gar sind."
       ],
       "tips": [
-        "Kartoffeln vorher kurz vorkochen verkürzt die Bratzeit für besonders knusprige Bratkartoffeln."
+        "Ein einfaches und leckeres Blechgericht, das von Natur aus gluten- und laktosefrei ist."
       ]
     },
     {
       "date": "2026-07-28",
-      "name": "Orientalische Lamm-Hackpfanne",
-      "type": "meat",
+      "name": "Deftige glutenfreie Pfannkuchen mit Champignons & Frühlingszwiebeln",
+      "type": "vegetarian",
       "prep_min": 15,
-      "cook_min": 20,
+      "cook_min": 15,
       "category": "Hauptgericht",
-      "tagline": "Würzig angeröstetes Lammhack mit Paprika, Zucchini und zerlassenem laktosefreien Feta mit orientalischen Gewürzen.",
+      "tagline": "Herzhafte vegetarische Pfannkuchen mit Pilzen und geschmolzenem laktosefreiem Käse.",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Lammhackfleisch" },
-        { "amount": 1, "unit": "Stück", "name": "Rote Paprika" },
-        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
-        { "amount": 150, "unit": "g", "name": "Laktosefreier Feta" },
-        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
-        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel (Kumin)" },
-        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
-        { "name": "Salz, Pfeffer" }
+        { "amount": 150, "unit": "g", "name": "Glutenfreies Mehl" },
+        { "amount": 300, "unit": "ml", "name": "Laktosefreie Milch" },
+        { "amount": 2, "unit": "Stk.", "name": "Eier" },
+        { "amount": 250, "unit": "g", "name": "Braune Champignons" },
+        { "amount": 1, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 100, "unit": "g", "name": "Laktosefreier Geriebener Käse" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzliches Bratöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
       ],
       "steps": [
-        "Paprika und Zucchini in kleine Würfel schneiden. Knoblauch fein hacken.",
-        "Olivenöl in einer Pfanne erhitzen, Lammhackfleisch darin krümelig und kräftig anbraten.",
-        "Knoblauch, Paprika, Zucchini und Kreuzkümmel dazugeben und ca. 8-10 Minuten mitbraten.",
-        "Mit Salz und Pfeffer abschmecken.",
-        "Den laktosefreien Feta über die Pfanne bröckeln, abdecken und 2 Minuten schmelzen lassen. Warm servieren."
+        "Glutenfreies Mehl, laktosefreie Milch, Eier und eine Prise Salz zu einem glatten Pfannkuchenteig verrühren und 10 Minuten quellen lassen.",
+        "Champignons in Scheiben, Frühlingszwiebeln in Ringe schneiden. In etwas Öl kräftig anbraten, würzen und beiseitestellen.",
+        "Etwas Öl in einer Pfanne erhitzen, eine Kelle Teig hineingeben.",
+        "Pilze und Frühlingszwiebeln auf dem noch flüssigen Teig verteilen, mit geriebenem Käse bestreuen.",
+        "Pfannkuchen wenden oder abgedeckt stocken lassen, bis der Käse geschmolzen ist."
       ],
       "tips": [
-        "Dazu passt hervorragend ein schnelles GF Fladenbrot oder GF Couscous-Ersatz auf Blumenkohl-Basis."
+        "Glutenfreien Teig etwas länger ruhen lassen, damit das Mehl die Flüssigkeit gut bindet."
       ]
     }
   ]
