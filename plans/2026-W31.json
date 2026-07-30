@@ -1,0 +1,170 @@
+{
+  "week_label": "2026-W31",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-07-31",
+      "name": "Hähnchenbrust im Speckmantel auf Pfannengemüse",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Knuspriger Bacon umhüllt saftige Hähnchenbrust auf mediterranem Ofengemüse.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 100, "unit": "g", "name": "Bacon (Frühstücksspeck)" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika (rot)" },
+        { "amount": 250, "unit": "g", "name": "Cherrytomaten" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "TL", "name": "Kräuter der Provence" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Den Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Zucchini und Paprika in mundgerechte Stücke schneiden, Cherrytomaten halbieren.",
+        "Das Gemüse in einer Auflaufform mit Olivenöl, Kräutern der Provence, Salz und Pfeffer vermengen.",
+        "Hähnchenbrustfilets trocken tupfen, leicht salzen und pfeffern, anschließend eng mit den Baconstreifen umwickeln.",
+        "Die umwickelten Hähnchenbrustfilets auf das Gemüse betten.",
+        "Im Ofen für ca. 25 Minuten backen, bis der Bacon knusprig und das Hähnchen durchgegart ist."
+      ],
+      "tips": [
+        "Achten Sie beim Kauf von Bacon darauf, dass dieser als glutenfrei deklariert ist."
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "name": "Sommerlicher Wassermelonen-Feta-Salat mit Minze & Gurke",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 0,
+      "category": "Hauptgericht",
+      "tagline": "Erfrischender und leicht zubereiteter Sommersalat mit Minze und laktosefreiem Feta.",
+      "ingredients": [
+        { "amount": 600, "unit": "g", "name": "Wassermelone (Fruchtfleisch)" },
+        { "amount": 1, "unit": "Stück", "name": "Salatgurke" },
+        { "amount": 200, "unit": "g", "name": "Feta (laktosefrei)" },
+        { "amount": 1, "unit": "Rote", "name": "Zwiebel" },
+        { "amount": 1, "unit": "Handvoll", "name": "Frische Minze" },
+        { "amount": 1, "unit": "Stück", "name": "Limette (Saft)" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Schwarzer Pfeffer" }
+      ],
+      "steps": [
+        "Wassermelone in mundgerechte Würfel schneiden.",
+        "Salatgurke waschen, längs halbieren und in Scheiben schneiden.",
+        "Die rote Zwiebel schälen und in feine Streifen schneiden.",
+        "Minzblätter abbrausen, trocken tupfen und grob hacken.",
+        "Wassermelone, Gurke, Zwiebeln und Minze in einer großen Schüssel vorsichtig vermengen.",
+        "Aus Limettensaft, Olivenöl, Salz und Pfeffer ein Dressing anrühren und über den Salat geben.",
+        "Den laktosefreien Feta darüber krümeln und sofort servieren."
+      ],
+      "tips": [
+        "Für extra Knusprigkeit können Sie glutenfrei geröstete Pinienkerne oder Kürbiskerne darüber streuen."
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "name": "Klassische GF Bolognese-Lasagne",
+      "type": "meat",
+      "prep_min": 30,
+      "cook_min": 45,
+      "category": "Hauptgericht",
+      "tagline": "Herzhafte italienische Lasagne mit hausgemachter GF-Béchamelsauce.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 250, "unit": "g", "name": "Glutenfreie Lasagneplatten" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini (geraspelt)" },
+        { "amount": 2, "unit": "Stück", "name": "Möhren" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 500, "unit": "g", "name": "Passierte Tomaten" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 40, "unit": "g", "name": "Margarine (oder laktosefreie Butter)" },
+        { "amount": 40, "unit": "g", "name": "Glutenfreies Mehl (z. B. Hell-Mischung)" },
+        { "amount": 500, "unit": "ml", "name": "Laktosefreie Milch" },
+        { "amount": 1, "unit": "Prise", "name": "Muskatnuss" },
+        { "amount": 150, "unit": "g", "name": "Laktosefreier Streukäse" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" },
+        { "name": "Italienische Kräuter" }
+      ],
+      "steps": [
+        "Zwiebel, Knoblauch und Möhren fein würfeln. Zucchini grob raspeln.",
+        "Olivenöl in einem Topf erhitzen, Hackfleisch darin kräftig anbraten. Zwiebeln, Knoblauch, Möhren und Zucchini hinzufügen und kurz mitbraten.",
+        "Tomatenmark unterrühren, mit passierten Tomaten ablöschen. Mit Salz, Pfeffer und italienischen Kräutern würzen und ca. 15 Minuten köcheln lassen.",
+        "Für die Béchamelsauce Margarine schmelzen, GF Mehl einrühren und unter ständigem Rühren mit dem Schneebesen nach und nach die laktosefreie Milch eingießen. Kurz aufkochen lassen, bis die Sauce eindickt. Mit Salz, Pfeffer und Muskatnuss abschmecken.",
+        "Eine Auflaufform einfetten. Schichten: Erst etwas Béchamel, dann GF Lasagneplatten, Bolognesesauce und Béchamel. So fortfahren, bis alles aufgebraucht ist. Die oberste Schicht bildet Béchamel.",
+        "Mit laktosefreiem Streukäse bestreuen und im vorgeheizten Ofen bei 180 °C Umluft für ca. 35–40 Minuten goldbraun backen."
+      ],
+      "tips": [
+        "Glutenfreie Lasagneplatten müssen ausreichend Sauce abbekommen, damit sie im Ofen schön weich werden."
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Zucchini-Paprika-Pfanne mit Schweinefilet-Medaillons",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Schnelle, kohlenhydratbewusste Pfanne mit zartem Schweinefilet für 1 Person.",
+      "ingredients": [
+        { "amount": 180, "unit": "g", "name": "Schweinefilet" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika (gelb oder grün)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 1, "unit": "EL", "name": "GF Tamari-Sojasauce" },
+        { "amount": 60, "unit": "g", "name": "Reis (Trockengewicht)" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Den Reis nach Packungsanleitung kochen.",
+        "Schweinefilet in Medaillons schneiden, leicht salzen und pfeffern.",
+        "Zucchini und Paprika in mundgerechte Stücke schneiden, Zwiebel würfeln.",
+        "Öl in einer Pfanne erhitzen, Schweinefilet-Medaillons von beiden Seiten jeweils ca. 2–3 Minuten scharf anbraten, aus der Pfanne nehmen und warm stellen.",
+        "Das Gemüse in derselben Pfanne ca. 5–7 Minuten knackig anbraten.",
+        "Mit GF Tamari-Sojasauce ablöschen, Fleisch zurück in die Pfanne geben und kurz durchschwenken. Zusammen mit dem Reis servieren."
+      ],
+      "tips": [
+        "Achten Sie darauf, dass Tamari-Sojasauce ausdrücklich als glutenfrei (100% Soja) deklariert ist."
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Lammkoteletts mit Rosmarinkartoffeln & Grüne Bohnen",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 30,
+      "category": "Hauptgericht",
+      "tagline": "Zarte Lammkoteletts serviert mit knusprigen Ofenkartoffeln und feinen grünen Bohnen.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Lammkoteletts" },
+        { "amount": 500, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 400, "unit": "g", "name": "Grüne Bohnen (TK oder frisch)" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "Zweige", "name": "Frischer Rosmarin" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 20, "unit": "g", "name": "Margarine / Butter (laktosefrei)" },
+        { "name": "Meersalz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Den Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Kartoffeln waschen und in Spalten schneiden. Mit Olivenöl, gezupftem Rosmarin und Meersalz vermengen und auf einem Backblech ca. 25–30 Minuten knusprig backen.",
+        "Grüne Bohnen in kochendem Salzwasser ca. 8–10 Minuten gar kochen, abgießen und in etwas laktosefreier Butter schwenken.",
+        "Lammkoteletts trocken tupfen, mit gehacktem Knoblauch, Salz und Pfeffer einreiben.",
+        "In einer heißen Pfanne von jeder Seite ca. 3–4 Minuten braten, bis sie außen gut gebräunt und innen noch rosa sind.",
+        "Lammkoteletts zusammen mit den Rosmarinkartoffeln und den grünen Bohnen anrichten."
+      ],
+      "tips": [
+        "Kartoffeln nach der Hälfte der Backzeit einmal wenden, damit sie gleichmäßig knusprig werden."
+      ]
+    }
+  ]
+}
