@@ -1,0 +1,130 @@
+{
+  "week_label": "2026-W32",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-08-07",
+      "name": "Asiatische Hähnchen-Gemüse-Pfanne mit Basmatireis",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Knackiges Gemüse und zartes Hähnchen in würziger GF Teriyaki-/Tamarisoße",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 150, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika" },
+        { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln" },
+        { "amount": 3, "unit": "EL", "name": "Glutenfreie Tamari-Sojasauce" },
+        { "amount": 150, "unit": "g", "name": "Basmatireis" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
+        { "amount": 1, "unit": "Stück", "name": "Ingwer" },
+        { "amount": 2, "unit": "EL", "name": "Sesamöl" }
+      ],
+      "steps": [
+        "Basmatireis nach Packungsanleitung in Salzwasser gar kochen.",
+        "Hähnchenbrustfilet in mundgerechte Streifen schneiden. Karotten und Paprika in feine Stifte, Frühlingszwiebeln in Ringerl schneiden.",
+        "Sesamöl in einer großen Pfanne oder einem Wok erhitzen und das Hähnchenfleisch rundherum goldbraun anbraten, danach kurz herausnehmen.",
+        "Gemüse, fein gehackten Knoblauch und Ingwer in die Pfanne geben und ca. 5 Minuten knackig anbraten.",
+        "Hähnchenfleisch wieder hinzugeben, mit Tamari-Sojasauce ablöschen, kurz durchschwenken und zusammen mit dem Basmatireis servieren."
+      ],
+      "tips": [
+        "Ausschließend zertifizierte glutenfreie Tamari-Sojasauce (ohne Weizenzusatz) verwenden."
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Herzhafter Kartoffel-Hack-Auflauf",
+      "type": "meat",
+      "prep_min": 25,
+      "cook_min": 40,
+      "category": "Hauptgericht",
+      "tagline": "Wärmender Auflauf, perfekt zum Vorbereiten",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 600, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 200, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 200, "unit": "ml", "name": "Laktosefreie Schlagsahne" },
+        { "amount": 150, "unit": "g", "name": "Laktosefreier Reibekäse" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Muskatnuss" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Kartoffeln schälen und in sehr dünne Scheiben schneiden. Karotten schälen und feinschneiden.",
+        "Zwiebel würfeln und zusammen mit dem Rinderhackfleisch in Olivenöl kräftig anbraten. Mit Salz und Pfeffer würzen.",
+        "Eine Auflaufform leicht einfetten. Abwechselnd Kartoffelscheiben, Karotten und Hackfleisch darin schichten.",
+        "Laktosefreie Schlagsahne mit Salz, Pfeffer und Muskatnuss kräftig verquirlen und gleichmäßig über den Auflauf gießen.",
+        "Mit laktosefreiem Reibekäse bestreuen und im vorgeheizten Ofen bei 200 °C Ober-/Unterhitze ca. 40 Minuten goldbraun backen."
+      ],
+      "tips": [
+        "Kann bereits morgens komplett vorbereitet und abends nur noch frisch in den Ofen geschoben werden."
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Mediterrane GF Pasta mit Ofengemüse & Feta",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Aromatisches Ofengemüse mit geschmolzenem Feta über glutenfreien Penne",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Glutenfreie Penne" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 200, "unit": "g", "name": "Kirschtomaten" },
+        { "amount": 150, "unit": "g", "name": "Laktosefreier Feta" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Kräuter der Provence" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Paprika und Zucchini in mundgerechte Stücke schneiden. Kirschtomaten halbieren.",
+        "Gemüse und feingehackten Knoblauch auf einem Backblech verteilen, mit Olivenöl, Kräutern der Provence, Salz und Pfeffer vermengen.",
+        "Den laktosefreien Feta in die Mitte des Blechs legen und im vorgeheizten Ofen bei 200 °C für ca. 25 Minuten rösten.",
+        "Währenddessen glutenfreie Penne in reichlich Salzwasser al dente kochen.",
+        "Das fertige Ofengemüse und den geschmolzenen Feta direkt mit den abgetropften Nudeln vermischen und servieren."
+      ],
+      "tips": [
+        "Glutenfreie Nudeln neigen zum Verkochen; am besten 1 Minute kürzer als die Packungsangabe garen."
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "name": "Ungarisches Schweinegulasch mit GF Spätzle oder Nudeln",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 60,
+      "category": "Hauptgericht",
+      "tagline": "Aromatischer Schmortopf, der durch langes Köcheln immer besser wird",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Schweinegulasch" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika" },
+        { "amount": 150, "unit": "g", "name": "Karotten" },
+        { "amount": 3, "unit": "Stück", "name": "Frühlingszwiebeln" },
+        { "amount": 400, "unit": "g", "name": "Passierte Tomaten" },
+        { "amount": 250, "unit": "ml", "name": "Glutenfreie Rinderbrühe" },
+        { "amount": 2, "unit": "EL", "name": "Edelsüß-Paprikapulver" },
+        { "amount": 250, "unit": "g", "name": "Glutenfreie Spätzle oder Nudeln" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Schweinegulasch trocken tupfen und in einem Schmortopf mit Pflanzenöl kräftig anbraten.",
+        "Frühlingszwiebeln, gewürfelte Paprika und Karotten dazugeben und kurz mitanrösten.",
+        "Paprikapulver kurz einrühren, sofort mit passierten Tomaten und GF Brühe ablöschen.",
+        "Abgedeckt bei mittlerer bis niedriger Hitze ca. 50-60 Minuten sanft köcheln lassen, bis das Fleisch zart ist.",
+        "Glutenfreie Spätzle/Nudeln kochen und zum Gulasch servieren. Lässt sich hervorragend warmhalten."
+      ],
+      "tips": [
+        "Strikte Kontrolle bei der Brühe: Es muss explizit glutenfreie Rinderbrühe verwendet werden."
+      ]
+    }
+  ]
+}
