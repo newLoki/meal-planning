@@ -1,5 +1,7 @@
 # GF Meal Plan → Bring! recipe site
 
+Website: https://newloki.github.io/meal-planning/
+
 A small pipeline that turns the weekly output of a **Gemini meal-planner Gem** into
 a static site of `schema.org/Recipe` pages that the **Bring!** shopping app can
 import — one tap per recipe, plus a whole-week button. Hosted free on **GitHub
