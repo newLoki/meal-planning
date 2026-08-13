@@ -3,150 +3,130 @@
   "servings": 2,
   "recipes": [
     {
-      "date": "2026-08-14",
-      "name": "Thai Rotes Hähnchencurry",
-      "type": "meat",
-      "prep_min": 15,
-      "cook_min": 20,
-      "category": "Hauptgericht",
-      "tagline": "Cremiges, glutenfreies Thai-Curry mit frischem Gemüse",
-      "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
-        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-        { "amount": 1, "unit": "Stück", "name": "Paprika (rot)" },
-        { "amount": 2, "unit": "Stück", "name": "Karotten" },
-        { "amount": 2, "unit": "Stiel", "name": "Frühlingszwiebeln" },
-        { "amount": 2, "unit": "EL", "name": "Rote Currypaste (glutenfrei)" },
-        { "amount": 2, "unit": "EL", "name": "Tamari Sojasoße (glutenfrei)" },
-        { "amount": 150, "unit": "g", "name": "Jasminsaft- / Duftreis" }
-      ],
-      "steps": [
-        "Reis nach Packungsanweisung gar kochen.",
-        "Hähnchenbrustfilet in mundgerechte Streifen schneiden. Gemüse putzen und in Scheiben/Streifen schneiden.",
-        "Etwas Öl in einer Pfanne oder einem Wok erhitzen, Currypaste kurz anrösten, dann das Hähnchenfleisch scharf anbraten.",
-        "Gemüse hinzugeben und 3 Minuten mitanbraten.",
-        "Mit Kokosmilch und Tamari ablöschen, 10 Minuten leicht köcheln lassen, bis das Gemüse knackig-zart ist.",
-        "Mit Reis servieren."
-      ],
-      "tips": [
-        "Achte bei der Rote Currypaste auf das GF-Siegel (manche Fertigpasten enthalten Weizenmehl als Bindemittel)."
-      ]
-    },
-    {
       "date": "2026-08-15",
-      "name": "Mexikanische Rinder-Hackpfanne",
+      "name": "Knusprige Rindfleisch-Tacos",
       "type": "meat",
       "prep_min": 15,
-      "cook_min": 20,
+      "cook_min": 15,
       "category": "Hauptgericht",
-      "tagline": "Würzige Hackfleisch-Pfanne mit Mais und Bohnen",
+      "tagline": "Knackige Tacos mit gewürztem Rinderhackfleisch und frischem Gemüse",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
-        { "amount": 1, "unit": "Stück", "name": "Paprika (gelb oder grün)" },
-        { "amount": 1, "unit": "Dose", "name": "Mais (ca. 150g)" },
-        { "amount": 1, "unit": "Dose", "name": "Schwarze Bohnen (ca. 200g)" },
-        { "amount": 400, "unit": "g", "name": "Passierte Tomaten" },
-        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
-        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel (Cumin)" },
-        { "amount": 1, "unit": "TL", "name": "Paprikapulver edelsüß" },
+        { "amount": 6, "unit": "Stück", "name": "GF Mais-Taco-Shells" },
+        { "amount": 200, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 1, "unit": "Stück", "name": "Rote Paprika" },
+        { "amount": 100, "unit": "g", "name": "Eisbergsalat" },
+        { "amount": 75, "unit": "g", "name": "Laktosefreie Saure Sahne" },
+        { "amount": 1, "unit": "EL", "name": "Taco-Gewürzmischung (glutenfrei)" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
         { "name": "Salz und Pfeffer" }
       ],
       "steps": [
-        "Zwiebel und Paprika fein würfeln.",
-        "Hackfleisch in einer großen Pfanne ohne zusätzliches Fett krümelig anbraten.",
-        "Zwiebeln und Paprika hinzugeben und 5 Minuten mitbraten.",
-        "Mais und schwarze Bohnen abspülen und zusammen mit den passierten Tomaten in die Pfanne geben.",
-        "Mit Kreuzkümmel, Paprikapulver, Salz und Pfeffer würzen und 10 Minuten köcheln lassen."
+        "Paprika würfeln, Eisbergsalat in feine Streifen schneiden.",
+        "Pflanzenöl in einer Pfanne erhitzen und Rinderhackfleisch krümelig anbraten.",
+        "Taco-Gewürz und 2 EL Wasser hinzufügen, 3–5 Minuten köcheln lassen.",
+        "Taco-Shells im vorgeheizten Ofen (150°C) ca. 3–5 Minuten erwärmen.",
+        "Tacos mit Hackfleisch, Salat, Paprika und saurer Sahne füllen."
       ],
       "tips": [
-        "Dazu passen glutenfreie Tortilla-Chips oder gekochter Langkornreis."
+        "Darauf achten, dass die Taco-Gewürzmischung ausdrücklich als glutenfrei deklariert ist."
       ]
     },
     {
       "date": "2026-08-16",
-      "name": "Schweinegeschnetzeltes in Pilz-Rahm-Soße",
+      "name": "Cremiges Steinpilz-Risotto mit Kräuterseitlingen und Rinderfiletstreifen",
       "type": "meat",
       "prep_min": 20,
-      "cook_min": 20,
+      "cook_min": 35,
       "category": "Hauptgericht",
-      "tagline": "Zartes Schweinefilet in laktosefreier Rahmsoße",
+      "tagline": "Aromatisch-cremiges Risotto mit Edelpilzen und saftigen Rinderfiletstreifen",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Schweinefilet" },
-        { "amount": 250, "unit": "g", "name": "Champignons" },
-        { "amount": 2, "unit": "Stück", "name": "Karotten" },
-        { "amount": 200, "unit": "ml", "name": "Laktosefreie Schlagsahne / Kochcreme" },
-        { "amount": 150, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
-        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
-        { "amount": 200, "unit": "g", "name": "Glutenfreie Nudeln" },
-        { "name": "Petersilie, frisch" }
+        { "amount": 200, "unit": "g", "name": "Risottoreis (Arborio)" },
+        { "amount": 250, "unit": "g", "name": "Rinderfilet" },
+        { "amount": 15, "unit": "g", "name": "Getrocknete Steinpilze" },
+        { "amount": 150, "unit": "g", "name": "Frische Kräuterseitlinge" },
+        { "amount": 100, "unit": "g", "name": "Braune Champignons" },
+        { "amount": 100, "unit": "ml", "name": "Weißwein (trocken)" },
+        { "amount": 700, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 2, "unit": "Stück", "name": "Schalotten" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 40, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 40, "unit": "g", "name": "Laktosefreier Hartkäse / Parmesan (gerieben)" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz, Pfeffer und frischer Thymian" }
       ],
       "steps": [
-        "GF Nudeln nach Packungsanleitung kochen.",
-        "Schweinefilet in Streifen, Champignons in Scheiben und Karotten in feine Stifte schneiden.",
-        "Fleisch in einer heißen Pfanne portionsweise scharf anbraten, herausnehmen und beiseitestellen.",
-        "Zwiebeln, Pilze und Karotten in der Pfanne anbraten.",
-        "Mit Gemüsebrühe und laktosefreier Sahne ablöschen, 5 Minuten einköcheln lassen.",
-        "Fleisch zurück in die Soße geben, kurz erwärmen und mit frischer Petersilie bestreut servieren."
+        "Steinpilze in 200ml heißem Wasser 15 Min. einweichen, Einweichwasser auffangen und filtern.",
+        "Schalotten und Knoblauch fein würfeln. Kräuterseitlinge und Champignons schneiden.",
+        "Brühe und Steinpilzwasser erhitzen. In einem Topf Schalotten und Knoblauch in 20g Butter andünsten, Risottoreis dazugeben und glasig dünsten.",
+        "Mit Weißwein ablöschen. Nach und nach heiße Brühe eingießen und ca. 20 Min. unter Rühren köcheln lassen.",
+        "Pilze in einer Pfanne mit Olivenöl und Thymian scharf anbraten.",
+        "Rinderfiletstreifen separat scharf anbraten (ca. 1–2 Min. pro Seite), salzen und pfeffern.",
+        "Restliche Butter und Hartkäse unter das Risotto heben. Mit Pilzen und Filetstreifen anrichten."
       ],
       "tips": [
-        "Stelle sicher, dass die verwendete Gemüsebrühe ausdrücklich als glutenfrei zertifiziert ist."
+        "Brühe immer heiß zum Risotto geben, damit der Kochprozess nicht unterbrochen wird."
       ]
     },
     {
       "date": "2026-08-17",
-      "name": "Cremiges Linsen-Kokos-Curry mit Süßkartoffel",
-      "type": "vegetarian",
+      "name": "Schweinefilet-Medaillons mit Champignon-Sauce und Rosmarinkartoffeln",
+      "type": "meat",
       "prep_min": 15,
-      "cook_min": 25,
+      "cook_min": 20,
       "category": "Hauptgericht",
-      "tagline": "Sättigendes vegetarisches Curry mit Spinat und Linsen",
+      "tagline": "Zarte Schweinemedaillons in Rahmsauce mit krossen Rosmarinkartoffeln",
       "ingredients": [
-        { "amount": 150, "unit": "g", "name": "Rote Linsen" },
-        { "amount": 1, "unit": "Stück", "name": "Süßkartoffel (groß)" },
-        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-        { "amount": 2, "unit": "Stiel", "name": "Frühlingszwiebeln" },
-        { "amount": 100, "unit": "g", "name": "Blattspinat (frisch)" },
-        { "amount": 1, "unit": "Daumengroß", "name": "Ingwer" },
-        { "amount": 300, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
-        { "amount": 1, "unit": "TL", "name": "Kurkuma" }
+        { "amount": 200, "unit": "g", "name": "Schweinefilet" },
+        { "amount": 150, "unit": "g", "name": "Braune Champignons" },
+        { "amount": 250, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 100, "unit": "g", "name": "Laktosefreie Schlagsahne" },
+        { "amount": 1, "unit": "Stück", "name": "Schalotte" },
+        { "amount": 1, "unit": "Zweig", "name": "Frischer Rosmarin" },
+        { "amount": 100, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "EL", "name": "Laktosefreie Butter" },
+        { "name": "Salz und Pfeffer" }
       ],
       "steps": [
-        "Süßkartoffel schälen und würfeln. Ingwer fein reiben. Frühlingszwiebeln in Ringerl schneiden.",
-        "Ingwer und Frühlingszwiebeln in etwas Öl anbraten, Kurkuma dazugeben.",
-        "Süßkartoffelwürfel und rote Linsen hinzufügen.",
-        "Mit Kokosmilch und Gemüsebrühe aufgießen und ca. 15–20 Minuten sanft köcheln lassen, bis die Linsen weich sind.",
-        "Zuletzt den gewaschenen Blattspinat unterheben, bis er zusammenfällt, und mit Salz abschmecken."
+        "Kartoffeln schälen, in Spalten schneiden und in einer Pfanne mit Olivenöl und Rosmarin bei mittlerer Hitze ca. 15–20 Min. knusprig braten.",
+        "Schweinefilet in Medaillons schneiden, Champignons vierteln, Schalotte würfeln.",
+        "Medaillons in Butter von beiden Seiten je 2–3 Min. scharf anbraten, aus der Pfanne nehmen und warmhalten.",
+        "Schalotten und Champignons im Bratfett anbraten. Mit Gemüsebrühe und laktosefreier Sahne ablöschen und kurz einkochen lassen.",
+        "Medaillons zurück in die Sauce geben und mit den Rosmarinkartoffeln servieren."
       ],
       "tips": [
-        "Rote Linsen müssen nicht eingeweicht werden und sorgen für eine natürliche Bindung ohne Mehl."
+        "Bei Sahnesaucen darauf achten, dass die verwendete Brühe garantiert glutenfrei ist."
       ]
     },
     {
       "date": "2026-08-18",
-      "name": "Orientalische Lamm-Hackspieße mit Ofengemüse",
+      "name": "Knuspriges Brathähnchen mit selbstgemachtem Kartoffelsalat",
       "type": "meat",
       "prep_min": 20,
-      "cook_min": 25,
+      "cook_min": 50,
       "category": "Hauptgericht",
-      "tagline": "Saftiges Lammfleisch vom Blech mit Zucchini und Paprika",
+      "tagline": "Außen knuspriges Hähnchen mit schwäbischem Kartoffelsalat",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Lammhackfleisch" },
-        { "amount": 1, "unit": "Stück", "name": "Paprika (rot)" },
-        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
-        { "amount": 200, "unit": "g", "name": "Laktosefreier Joghurt" },
-        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
-        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel" },
-        { "name": "Salz, Pfeffer, Olivenöl" }
+        { "amount": 1.3, "unit": "kg", "name": "Bio-Ganzes Hähnchen (oder Keulen)" },
+        { "amount": 750, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 150, "unit": "ml", "name": "Fleischbrühe (glutenfrei, heiß)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "EL", "name": "Senf (glutenfrei)" },
+        { "amount": 3, "unit": "EL", "name": "Weißweinessig" },
+        { "amount": 4, "unit": "EL", "name": "Pflanzenöl" },
+        { "amount": 1, "unit": "EL", "name": "Paprikapulver edelsüß" },
+        { "name": "Salz und Pfeffer" }
       ],
       "steps": [
-        "Ofen auf 200°C Ober-/Unterhitze vorheizen.",
-        "Zucchini und Paprika in mundgerechte Stücke schneiden, mit Olivenöl, Salz und Pfeffer mischen und auf einem Backblech verteilen.",
-        "Lammhackfleisch mit Kreuzkümmel, Salz und Pfeffer würzen, zu länglichen Spießen formen und zum Gemüse aufs Blech legen.",
-        "Im Ofen für ca. 20–25 Minuten garen.",
-        "In der Zwischenzeit laktosefreien Joghurt mit zerdrücktem Knoblauch und etwas Salz zu einem Dip verrühren."
+        "Ofen auf 200°C Ober-/Unterhitze vorheizen. Hähnchen waschen, trocken tupfen, mit Öl, Paprikapulver, Salz und Pfeffer einreiben.",
+        "Hähnchen im Ofen ca. 50 Min. knusprig braten.",
+        "Kartoffeln als Pellkartoffeln gar kochen, schälen und in Scheiben schneiden.",
+        "Zwiebel fein würfeln. Heißes Brühe-Gemisch mit Essig, Senf, Öl, Salz und Pfeffer verquirlen.",
+        "Die warme Marinade über die Kartoffeln und Zwiebeln gießen, vorsichtig vermengen und mindestens 20 Min. ziehen lassen.",
+        "Brathähnchen zerteilen und zusammen mit dem schwäbischen Kartoffelsalat servieren."
       ],
       "tips": [
-        "Nutze Holzspieße (vorher kurz in Wasser einweichen, damit sie im Ofen nicht verbrennen)."
+        "Der Kartoffelsalat schmeckt am besten, wenn die Brühe brühheiß über die noch warmen Kartoffelscheiben gegossen wird."
       ]
     }
   ]
