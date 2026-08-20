@@ -32,7 +32,7 @@
   <a class="back" href="./">&larr; Woche</a>
   <h1>{{ icon }} <span itemprop="name">{{ r.name }}</span></h1>
   <p class="meta">
-    {% if r.prep_min or r.cook_min %}&#9201;&#65039; {{ r.prep_min + r.cook_min }} min ({{ r.prep_min }} Vorb. + {{ r.cook_min }} Koch) &middot; {% endif %}&#128101; <span itemprop="recipeYield">{{ servings }}</span> Portionen{% if r.author %} &middot; <span itemprop="author">{{ r.author }}</span>{% endif %}
+    {% if r.meal_label %}{{ r.meal_label }}{% if r.start_str %} {{ r.start_str }}{% endif %} &middot; {% endif %}{% if r.prep_min or r.cook_min %}&#9201;&#65039; {{ r.prep_min + r.cook_min }} min ({{ r.prep_min }} Vorb. + {{ r.cook_min }} Koch) &middot; {% endif %}&#128101; <span itemprop="recipeYield">{{ servings }}</span> Portionen{% if r.author %} &middot; <span itemprop="author">{{ r.author }}</span>{% endif %}
   </p>
   <meta itemprop="yield" content="{{ servings }}">
   {% if r.prep_min %}<meta itemprop="prepTime" content="PT{{ r.prep_min }}M">{% endif %}

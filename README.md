@@ -5,7 +5,9 @@ Website: https://newloki.github.io/meal-planning/
 A small pipeline that turns the weekly output of a **Gemini meal-planner Gem** into
 a static site of `schema.org/Recipe` pages that the **Bring!** shopping app can
 import — one tap per recipe, plus a whole-week button. Hosted free on **GitHub
-Pages**. Gluten-free / lactose-free, German ingredient names, 2-person household.
+Pages**. Gluten-free / lactose-free, German ingredient names, 2-person household
+(defaults), with support for several meals a day — breakfast, lunch, dinner, or
+"other" — each with its own participant count and serving time.
 
 ## How it works
 
@@ -90,6 +92,12 @@ PAGES_BASE_URL="https://<owner>.github.io/<repo>" python render.py
   from it, so older weeks persist. By default only the current + previous week (plus
   any week whose plan changed) is rebuilt; template/`render.py`/requirements changes
   and manual runs rebuild every week. See `docs/SETUP.md`.
+- **Meals & times:** each recipe carries a `meal` (`breakfast`/`lunch`/`dinner`/
+  `other`, default `dinner`) that sets its serving time — breakfast 09:00, lunch
+  12:00, dinner 19:30, other 15:00. Override per-week via a `meal_times` block or
+  per-recipe via `time`; set per-meal participants via `servings`. The cooking
+  calendar event ends at the serving time and starts prep+cook earlier. Plans with
+  no `meal` field keep the old dinner-at-19:30 behaviour.
 - **Deploy delay:** after the build pushes to `gh-pages`, Pages needs ~30–60s to
   deploy; don't tap a Bring button before it finishes or it will fetch a 404.
 - **Unverified externally:** Bring's exact `.json` schema isn't public, so this uses
