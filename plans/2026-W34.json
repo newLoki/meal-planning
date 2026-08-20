@@ -1,0 +1,155 @@
+{
+  "week_label": "2026-W34",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-08-21",
+      "name": "Hähnchen-Gyros mit Tzatziki und Süßkartoffel-Wedges",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Würziges Hähnchen-Gyros mit hausgemachtem Tzatziki und Ofen-Wedges",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 500, "unit": "g", "name": "Süßkartoffeln" },
+        { "amount": 250, "unit": "g", "name": "Griechischer Joghurt (laktosefrei)" },
+        { "amount": 0.5, "unit": "Stück", "name": "Schlangengurke" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "EL", "name": "Gyrosgewürz (glutenfrei)" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Süßkartoffeln waschen, in Wedges schneiden, mit Olivenöl, Salz und Pfeffer vermengen und bei 200°C Umluft 25 Minuten im Ofen backen.",
+        "Hähnchenbrustfilet in Streifen schneiden und mit Gyrosgewürz sowie etwas Olivenöl marinieren.",
+        "Gurke raspeln, ausdrücken und mit laktosefreiem griechischen Joghurt, gepresstem Knoblauch, Salz und Pfeffer zum Tzatziki verrühren.",
+        "Das marinierte Hähnchen-Gyros in einer heißen Pfanne scharf anbraten, bis es durchgeart ist, und mit den Süßkartoffel-Wedges sowie dem Tzatziki servieren."
+      ],
+      "tips": [
+        "Achte darauf, dass die Gyrosgewürzmischung frei von glutenhaltigen Trennmitteln oder Weizenmehl ist."
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "name": "Rinderhack-Köttbullar in Rahmsoße mit Salzkartoffeln und Preiselbeeren",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Saftige schwedische Hackbällchen in cremig-laktosefreier Rahmsoße",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 200, "unit": "ml", "name": "Sahne (laktosefrei)" },
+        { "amount": 3, "unit": "EL", "name": "Paniermehl (glutenfrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Ei" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 250, "unit": "ml", "name": "Rinderbrühe (glutenfrei)" },
+        { "amount": 4, "unit": "EL", "name": "Preiselbeeren aus dem Glas" },
+        { "amount": 1, "unit": "EL", "name": "Butter (laktosefrei)" },
+        { "name": "Salz, Pfeffer und Piment" }
+      ],
+      "steps": [
+        "Kartoffeln schälen, würfeln und in Salzwasser ca. 20 Minuten gar kochen.",
+        "Zwiebel fein würfeln. Rinderhackfleisch mit Zwiebeln, Ei, glutenfreiem Paniermehl, Salz, Pfeffer und einer Prise Piment gut verkneten und kleine Bällchen formen.",
+        "Köttbullar in einer Pfanne rundherum anbraten, aus der Pfanne nehmen.",
+        "Bratensatz mit Rinderbrühe und laktosefreier Sahne ablöschen, einkochen lassen, mit Salz und Pfeffer abschmecken, Köttbullar dazugeben und 5 Minuten ziehen lassen.",
+        "Köttbullar mit Rahmsoße, Kartoffeln und einem Klecks Preiselbeeren servieren."
+      ],
+      "tips": [
+        "Glutenfreies Paniermehl saugt Flüssigkeit oft stärker auf; verfeinere den Hackteig bei Bedarf mit einem Schuss laktosefreier Milch."
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "name": "Schweinefilet-Medaillons mit Champignon-Rahmsoße und Ofen-Süßkartoffeln",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Zartes Schweinefilet in aromatischer Pilzrahmsoße",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Schweinefilet" },
+        { "amount": 250, "unit": "g", "name": "Braune Champignons" },
+        { "amount": 500, "unit": "g", "name": "Süßkartoffeln" },
+        { "amount": 200, "unit": "ml", "name": "Sahne (laktosefrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Schalotte" },
+        { "amount": 1, "unit": "TL", "name": "Thymian (getrocknet)" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Süßkartoffeln schälen, würfeln, mit Öl, Salz und Pfeffer vermengen und bei 200°C Umluft ca. 20–25 Minuten im Ofen rösten.",
+        "Schweinefilet in Medaillons schneiden, leicht salzen, pfeffern und von beiden Seiten je 2-3 Minuten scharf anbraten, danach beiseitestellen.",
+        "Geputzte Champignons und gehackte Schalotte in der gleichen Pfanne anbraten.",
+        "Mit laktosefreier Sahne ablöschen, Thymian hinzufügen, leicht einkochen lassen, Medaillons zurück in die Soße geben und kurz garziehen lassen."
+      ],
+      "tips": [
+        "Champignons nur trocken mit einer Bürste oder Küchenpapier putzen, nicht waschen, damit sie schön bräunen."
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Cremige Linsen-Curry-Suppe mit Kokosmilch und Knoblauch-Öl",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Aromatischer, erwärmender Linseneintopf mit Kokosmilch",
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Rote Linsen" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 1, "unit": "Daumengroßes Stück", "name": "Ingwer" },
+        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel" },
+        { "amount": 1, "unit": "TL", "name": "Currypulver" },
+        { "amount": 600, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 1, "unit": "EL", "name": "Rapsöl" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Zwiebel, Knoblauch, Ingwer und Karotten schälen und klein schneiden.",
+        "Öl in einem Topf erhitzen, Zwiebel, Ingwer, Hälfte des Knoblauchs und Gewürze kurz anrösten.",
+        "Karotten und gespülte rote Linsen dazugeben, mit Gemüsebrühe und Kokosmilch aufgießen und ca. 20 Minuten köcheln lassen, bis die Linsen weich sind.",
+        "Die Suppe nach Wunsch anpürieren, mit Salz und Pfeffer abschmecken.",
+        "Restlichen Knoblauch in etwas warmem Öl ziehen lassen und vor dem Servieren als Knoblauch-Öl-Topping über die Suppe träufeln."
+      ],
+      "tips": [
+        "Rote Linsen müssen vor dem Kochen nicht eingeweicht werden, gründliches Abspülen unter kaltem Wasser genügt."
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Asiatische Puten-Gemüse-Pfanne mit Tamari-Kokos-Soße und Reis",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Knackiges Buntgemüse mit Putenbrust aus dem Wok",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Putenbrust" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika (rot)" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
+        { "amount": 3, "unit": "EL", "name": "Tamari (glutenfreie Sojasoße)" },
+        { "amount": 100, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Jasminreis nach Packungsanweisung garen.",
+        "Putenbrust in Streifen schneiden. Karotten, Paprika und Zucchini in feine Stifte bzw. Scheiben schneiden.",
+        "Putenbrust in einem Wok oder einer großen Pfanne mit Sesamöl anbraten, herausnehmen.",
+        "Gemüse im Wok knackig anbraten, Fleisch wieder dazugeben, mit Tamari und Kokosmilch ablöschen und 3 Minuten einkochen lassen.",
+        "Zusammen mit dem heißen Jasminreis servieren."
+      ],
+      "tips": [
+        "Achte darauf, explizit Tamari zu verwenden, da herkömmliche Sojasoße Weizen enthält."
+      ]
+    }
+  ]
+}
