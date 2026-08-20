@@ -19,6 +19,7 @@
   ol.cal li.day .dt .dn{color:var(--muted);font-size:12px}
   ol.cal li.day .bd{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:6px;min-width:0}
   ol.cal li.day .rec{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  ol.cal li.day .rec .meal{flex:0 0 auto;color:var(--muted);font-size:12px;font-weight:600;background:var(--card);border-radius:6px;padding:1px 7px;white-space:nowrap}
   ol.cal li.day .rec .title{font-weight:600;color:var(--fg);text-decoration:none;font-size:1.02rem}
   ol.cal li.day .none{color:#c4c3bf}
   ol.cal li.day.empty{background:var(--card);border-color:transparent}
@@ -47,6 +48,7 @@
       {% if d.recipes %}
         {% for it in d.recipes %}
         <div class="rec">
+          {% if it.meal_label %}<span class="meal">{{ it.meal_label }}{% if it.start_str %} &middot; {{ it.start_str }}{% endif %}</span>{% endif %}
           <a class="title" href="{{ it.filename }}">{{ it.icon }} {{ it.name }}</a>
           <span class="acts">
             <a class="btn bring" href="{{ it.deeplink }}"><span class="ico">&#128722;</span> Bring!</a>

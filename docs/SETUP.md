@@ -83,8 +83,8 @@ integration. For that to work:
 If you'd rather not connect Calendar, ignore Phase 3C — the Gem still produces the
 plan JSON and the shopping list. Note that Gemini's time arithmetic can be
 inconsistent; the Gem's instructions include worked examples specifically to make
-the "start = 19:30 − (prep + cook)" calculation reliable, but sanity-check the first
-few events.
+the "start = meal time − (prep + cook)" calculation reliable (e.g. dinner ends 19:30,
+breakfast 09:00), but sanity-check the first few events.
 
 ---
 

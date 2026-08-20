@@ -10,7 +10,9 @@ Open your Gem in Gemini and start a chat. A typical exchange:
 
 > **You:** Plan Friday to Tuesday.
 >
-> **Gem:** *(Phase 1)* Confirms the dates, then proposes meals, one line each:
+> **Gem:** *(Phase 1)* Confirms the dates — and, if you want more than dinner,
+> which meals per day (breakfast/lunch/dinner/other), how many participants each
+> serves (default 2), and the serving times — then proposes meals, one line each:
 > ```
 > Fri 2026-07-17 | Thai Rotes Curry mit Hähnchen | 🥩 | 20 + 30 = 50 min
 >   Key: 🔄 Kokosmilch, 🔄 Karotten, Hähnchenbrust, Tamari, Reis
@@ -24,8 +26,9 @@ Open your Gem in Gemini and start a chat. A typical exchange:
 > **Gem:** *(Phase 3)* Outputs three things:
 > 1. **A single ```json``` block** — the plan file.
 > 2. A **Bring! shopping list** grouped by supermarket section + a flat copy-paste block.
-> 3. **Calendar events** (if Calendar is connected), each starting at 19:30 minus
->    prep+cook and ending at 19:30.
+> 3. **Calendar events** (if Calendar is connected), each ending at its meal's
+>    serving time (breakfast 09:00, lunch 12:00, dinner 19:30, other 15:00 — or
+>    your overrides) and starting prep+cook minutes earlier.
 
 If you want changes, say so before approving ("swap Tuesday for fish", "avoid
 peppers", "cheaper week"). Only approve when you're happy — Phase 2 holds export

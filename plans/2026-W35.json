@@ -1,0 +1,119 @@
+{
+  "week_label": "2026-W35",
+  "servings": 2,
+  "meal_times": {
+    "breakfast": "08:30",
+    "lunch": "12:30",
+    "dinner": "19:30",
+    "other": "15:00"
+  },
+  "recipes": [
+    {
+      "date": "2026-08-28",
+      "meal": "breakfast",
+      "name": "Glutenfreies Overnight-Porridge mit Beeren",
+      "type": "vegetarian",
+      "servings": 2,
+      "prep_min": 10,
+      "cook_min": 0,
+      "category": "Frühstück",
+      "tagline": "Über Nacht gequollene Haferflocken mit frischen Beeren",
+      "ingredients": [
+        { "amount": 100, "unit": "g", "name": "Glutenfreie Haferflocken" },
+        { "amount": 250, "unit": "ml", "name": "Haferdrink (laktosefrei)" },
+        { "amount": 150, "unit": "g", "name": "Gemischte Beeren" },
+        { "amount": 1, "unit": "EL", "name": "Ahornsirup" }
+      ],
+      "steps": [
+        "Haferflocken mit Haferdrink und Ahornsirup verrühren und über Nacht im Kühlschrank quellen lassen.",
+        "Am Morgen mit frischen Beeren toppen und servieren."
+      ],
+      "tips": [
+        "Nur ausdrücklich glutenfrei zertifizierte Haferflocken verwenden."
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "meal": "lunch",
+      "name": "Bunter Quinoa-Salat mit geröstetem Gemüse",
+      "type": "vegetarian",
+      "servings": 3,
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Mittagessen",
+      "tagline": "Sättigender Quinoa-Salat, auch kalt am nächsten Tag lecker",
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Quinoa" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika (rot)" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "Stück", "name": "Zitrone" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Quinoa gründlich spülen und nach Packungsanweisung garen.",
+        "Zucchini und Paprika würfeln, mit Olivenöl, Salz und Pfeffer bei 200°C Umluft 25 Minuten rösten.",
+        "Quinoa mit dem Gemüse mischen und mit dem Saft einer Zitrone abschmecken."
+      ],
+      "tips": [
+        "Reste eignen sich gut als kalte Lunchbox für den nächsten Tag."
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "meal": "dinner",
+      "name": "Ofen-Lachs mit Kartoffeln und grünen Bohnen",
+      "type": "fish",
+      "servings": 4,
+      "prep_min": 15,
+      "cook_min": 30,
+      "category": "Hauptgericht",
+      "tagline": "Unkompliziertes Ofengericht für die ganze Familie",
+      "ingredients": [
+        { "amount": 4, "unit": "Stück", "name": "Lachsfilet" },
+        { "amount": 800, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 400, "unit": "g", "name": "Grüne Bohnen" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "Stück", "name": "Zitrone" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Kartoffeln in Spalten schneiden, mit Olivenöl, Salz und Pfeffer bei 200°C Umluft 30 Minuten backen.",
+        "Grüne Bohnen 8 Minuten in Salzwasser garen.",
+        "Lachsfilets salzen, pfeffern, mit Zitrone beträufeln und die letzten 15 Minuten mit in den Ofen geben."
+      ],
+      "tips": [
+        "Fisch ist selten im Plan – dieser Freitag ist die Ausnahme der Woche."
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "meal": "dinner",
+      "name": "Rindergulasch mit glutenfreien Spätzle",
+      "type": "meat",
+      "time": "20:00",
+      "prep_min": 20,
+      "cook_min": 90,
+      "category": "Hauptgericht",
+      "tagline": "Schmorgericht mit selbstgemachten glutenfreien Spätzle",
+      "ingredients": [
+        { "amount": 600, "unit": "g", "name": "Rindergulasch" },
+        { "amount": 2, "unit": "Stück", "name": "Zwiebeln" },
+        { "amount": 500, "unit": "ml", "name": "Rinderbrühe (glutenfrei)" },
+        { "amount": 300, "unit": "g", "name": "Glutenfreies Mehl" },
+        { "amount": 3, "unit": "Stück", "name": "Ei" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Zwiebeln würfeln und mit dem Gulaschfleisch scharf anbraten.",
+        "Tomatenmark kurz mitrösten, mit Rinderbrühe ablöschen und zugedeckt 90 Minuten schmoren.",
+        "Für die Spätzle glutenfreies Mehl, Eier, etwas Wasser und Salz zu einem zähen Teig verrühren und portionsweise in kochendes Salzwasser schaben.",
+        "Gulasch abschmecken und mit den Spätzle servieren."
+      ],
+      "tips": [
+        "Glutenfreier Spätzleteig braucht etwas mehr Ruhezeit, damit er bindet."
+      ]
+    }
+  ]
+}

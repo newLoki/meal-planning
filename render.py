@@ -38,6 +38,22 @@ PLANS_GLOB = str(ROOT / "plans" / "**" / "*.json")
 DEFAULT_AUTHOR = "MealAI"
 
 TYPE_ICON = {"meat": "\U0001F969", "vegetarian": "\U0001F33F", "fish": "\U0001F41F"}
+
+# Meal categories. Each day may hold several meals; the category fixes the default
+# serving time (when the food should be ready to eat) and the order within a day.
+# A plan-level "meal_times" block or a recipe's own "time" overrides the default.
+MEAL_TIMES = {
+    "breakfast": time(9, 0),
+    "lunch": time(12, 0),
+    "dinner": time(19, 30),
+    "other": time(15, 0),
+}
+MEAL_ORDER = {"breakfast": 0, "lunch": 1, "dinner": 2, "other": 3}
+MEAL_LABEL = {"breakfast": "Frühstück", "lunch": "Mittagessen",
+              "dinner": "Abendessen", "other": "Sonstiges"}
+MEAL_ICON = {"breakfast": "\U0001F373", "lunch": "\U0001F374",
+             "dinner": "\U0001F37D️", "other": "\U0001F37D️"}
+DEFAULT_MEAL = "dinner"  # keeps pre-meal plans (dinner-only) rendering unchanged
 UMLAUTS = {
     "ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss",
     "Ä": "ae", "Ö": "oe", "Ü": "ue",
@@ -136,7 +152,6 @@ def deeplink_for(url: str, servings: int) -> str:
     )
 
 
-DINNER_TIME = time(19, 30)  # target time the meal should be ready to eat
 CAL_TS = "%Y%m%dT%H%M%S"    # local wall-clock time (paired with a TZID below)
 TZID = "Europe/Berlin"      # event times are German dinner times
 
@@ -163,12 +178,21 @@ VTIMEZONE = [
 ]
 
 
-def cook_window(recipe: dict, dinner: time = DINNER_TIME) -> tuple[datetime, datetime]:
-    """(start, end) of the cooking event: it ends at dinner time (19:30) and
-    starts prep+cook minutes earlier, so the food is ready to eat on time.
-    Returned as floating datetimes (interpreted in the viewer's local zone)."""
+def parse_hhmm(value: str, src: str) -> time:
+    """Parse an "HH:MM" string into a time, dying with a clear message otherwise."""
+    try:
+        return datetime.strptime(str(value).strip(), "%H:%M").time()
+    except ValueError:
+        die(f"{src}: time must be HH:MM (00:00–23:59), got {value!r}")
+
+
+def cook_window(recipe: dict) -> tuple[datetime, datetime]:
+    """(start, end) of the cooking event: it ends at the meal's serving time
+    (e.g. dinner 19:30) and starts prep+cook minutes earlier, so the food is
+    ready to eat on time. Returned as floating datetimes (interpreted in the
+    viewer's local zone)."""
     total = int(recipe.get("prep_min", 0)) + int(recipe.get("cook_min", 0))
-    end = datetime.combine(recipe["date"], dinner)
+    end = datetime.combine(recipe["date"], recipe["start_time"])
     return end - timedelta(minutes=total), end
 
 
@@ -185,9 +209,9 @@ def event_description(url: str, recipe: dict) -> str:
     return body
 
 
-def gcal_link_for(url: str, recipe: dict, dinner: time = DINNER_TIME) -> str:
+def gcal_link_for(url: str, recipe: dict) -> str:
     """A Google Calendar "add event" link for cooking this recipe."""
-    start, end = cook_window(recipe, dinner)
+    start, end = cook_window(recipe)
     params = {
         "action": "TEMPLATE",
         "text": event_summary(recipe),
@@ -289,7 +313,8 @@ def recipe_jsonld(*, name, author, servings, ingredient_strings, steps,
 # --------------------------------------------------------------------------- #
 # Validation / normalisation
 # --------------------------------------------------------------------------- #
-def normalise_recipe(r: dict, plan_servings: int, src: str, plan_author: str) -> dict:
+def normalise_recipe(r: dict, plan_servings: int, src: str, plan_author: str,
+                     plan_meal_times: dict) -> dict:
     def req(key):
         if key not in r or r[key] in (None, "", []):
             die(f"{src}: recipe missing required field '{key}': {json.dumps(r, ensure_ascii=False)[:120]}")
@@ -311,11 +336,25 @@ def normalise_recipe(r: dict, plan_servings: int, src: str, plan_author: str) ->
     if rtype not in TYPE_ICON:
         die(f"{src}: 'type' must be one of {list(TYPE_ICON)}, got {rtype!r}")
 
+    meal = (r.get("meal") or DEFAULT_MEAL).lower()
+    if meal not in MEAL_TIMES:
+        die(f"{src}: 'meal' must be one of {list(MEAL_TIMES)}, got {meal!r}")
+    # Serving time precedence: recipe 'time' > plan meal_times[meal] > category default.
+    if r.get("time"):
+        start_time = parse_hhmm(r["time"], src)
+    else:
+        start_time = plan_meal_times.get(meal, MEAL_TIMES[meal])
+
     return {
         "date": d,
         "date_str": d.isoformat(),
         "name": req("name"),
         "author": (str(r.get("author") or "").strip() or plan_author),
+        "meal": meal,
+        "meal_label": MEAL_LABEL[meal],
+        "meal_order": MEAL_ORDER[meal],
+        "start_time": start_time,
+        "start_str": start_time.strftime("%H:%M"),
         "type": rtype,
         "icon": TYPE_ICON[rtype],
         "prep_min": int(r.get("prep_min", 0)),
@@ -365,10 +404,20 @@ def load_recipes() -> list[dict]:
             die(f"{f}: invalid JSON ({e})")
         servings = int(data.get("servings", 2))
         author = str(data.get("author") or "").strip() or DEFAULT_AUTHOR
+        src = os.path.relpath(f, ROOT)
+        # Plan-level meal-time overrides, merged onto the category defaults.
+        meal_times = dict(MEAL_TIMES)
+        raw_times = data.get("meal_times") or {}
+        if not isinstance(raw_times, dict):
+            die(f"{src}: 'meal_times' must be an object of meal->\"HH:MM\"")
+        for meal, hhmm in raw_times.items():
+            if meal not in MEAL_TIMES:
+                die(f"{src}: unknown meal '{meal}' in 'meal_times'; allowed: {list(MEAL_TIMES)}")
+            meal_times[meal] = parse_hhmm(hhmm, src)
         recipes = data.get("recipes")
         if not isinstance(recipes, list) or not recipes:
             die(f"{f}: top-level 'recipes' must be a non-empty list")
-        norm = [normalise_recipe(r, servings, os.path.relpath(f, ROOT), author) for r in recipes]
+        norm = [normalise_recipe(r, servings, src, author, meal_times) for r in recipes]
         anchor = min(r["date"] for r in norm)
         wk = week_key_for(anchor, data.get("folder"), data.get("week_label"))
         for r in norm:
@@ -526,7 +575,9 @@ def main() -> None:
     week_summaries = []
     rendered = 0
     for (year, mm, ww), items in sorted(weeks.items()):
-        items.sort(key=lambda x: x["date"])
+        # Order within a week by day, then by meal (breakfast→lunch→dinner→other),
+        # then by serving time, so multiple meals on one day read top-to-bottom.
+        items.sort(key=lambda x: (x["date"], x["meal_order"], x["start_time"]))
         web_dir = f"{base}/recipes/{year}/{mm}/W{ww}"
         wdir = SITE / "recipes" / str(year) / mm / f"W{ww}"
         write_week = (year, mm, ww) in to_build
@@ -546,12 +597,14 @@ def main() -> None:
             deeplink = deeplink_for(page_url, r["servings"])
             gcal_link = gcal_link_for(page_url, r)
             entries.append({"name": r["name"], "icon": r["icon"], "date": r["date_str"],
+                            "meal": r["meal"], "meal_label": r["meal_label"],
+                            "start_str": r["start_str"], "servings": r["servings"],
                             "total": r["prep_min"] + r["cook_min"], "filename": fname,
                             "deeplink": deeplink, "gcal_link": gcal_link})
 
             start, end = cook_window(r)
             events.append({
-                "uid": f"{r['date_str']}-{r['slug']}@{host}",
+                "uid": f"{r['date_str']}-{r['meal']}-{r['slug']}@{host}",
                 "start": start, "end": end,
                 "summary": event_summary(r),
                 "description": event_description(page_url, r),
