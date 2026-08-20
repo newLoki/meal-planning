@@ -4,6 +4,7 @@
   "recipes": [
     {
       "date": "2026-08-21",
+      "meal": "dinner",
       "name": "Hähnchen-Gyros mit Tzatziki und Süßkartoffel-Wedges",
       "type": "meat",
       "prep_min": 20,
@@ -24,7 +25,7 @@
         "Süßkartoffeln waschen, in Wedges schneiden, mit Olivenöl, Salz und Pfeffer vermengen und bei 200°C Umluft 25 Minuten im Ofen backen.",
         "Hähnchenbrustfilet in Streifen schneiden und mit Gyrosgewürz sowie etwas Olivenöl marinieren.",
         "Gurke raspeln, ausdrücken und mit laktosefreiem griechischen Joghurt, gepresstem Knoblauch, Salz und Pfeffer zum Tzatziki verrühren.",
-        "Das marinierte Hähnchen-Gyros in einer heißen Pfanne scharf anbraten, bis es durchgeart ist, und mit den Süßkartoffel-Wedges sowie dem Tzatziki servieren."
+        "Das marinierte Hähnchen-Gyros in einer heißen Pfanne scharf anbraten, bis es durchgegart ist, und mit den Süßkartoffel-Wedges sowie dem Tzatziki servieren."
       ],
       "tips": [
         "Achte darauf, dass die Gyrosgewürzmischung frei von glutenhaltigen Trennmitteln oder Weizenmehl ist."
@@ -32,6 +33,7 @@
     },
     {
       "date": "2026-08-22",
+      "meal": "dinner",
       "name": "Rinderhack-Köttbullar in Rahmsoße mit Salzkartoffeln und Preiselbeeren",
       "type": "meat",
       "prep_min": 20,
@@ -63,6 +65,37 @@
     },
     {
       "date": "2026-08-23",
+      "meal": "breakfast",
+      "name": "Breakfast Burger mit Ei, Speck und GF Pancake-Buns",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Frühstück",
+      "tagline": "Herzhafter Frühstücksburger mit dicken glutenfreien Pancakes als Buns",
+      "ingredients": [
+        { "amount": 150, "unit": "g", "name": "Mehl (glutenfrei)" },
+        { "amount": 1, "unit": "TL", "name": "Backpulver (glutenfrei)" },
+        { "amount": 150, "unit": "ml", "name": "Milch (laktosefrei)" },
+        { "amount": 3, "unit": "Stück", "name": "Eier" },
+        { "amount": 100, "unit": "g", "name": "Bacon / Frühstücksspeck" },
+        { "amount": 4, "unit": "Scheiben", "name": "Cheddar (laktosefrei)" },
+        { "amount": 2, "unit": "EL", "name": "Ahornsirup" },
+        { "amount": 1, "unit": "EL", "name": "Butter (laktosefrei)" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Glutenfreies Mehl, Backpulver, laktosefreie Milch, 1 Ei und eine Prise Salz zu einem dicken Pancaketeig verrühren.",
+        "In einer Pfanne mit etwas laktosefreier Butter 4 kleine, dicke Pancakes als Buns ausbacken.",
+        "In einer zweiten Pfanne den Bacon knusprig braten. Aus den restlichen 2 Eiern Spiegeleier braten und mit Salz und Pfeffer würzen.",
+        "Jeweils einen Pancake mit Cheddar, knusprigem Bacon, Spiegelei und einem Spritzer Ahornsirup belegen und mit einem zweiten Pancake abdecken."
+      ],
+      "tips": [
+        "Lasse den glutenfreien Pancaketeig vor dem Ausbacken 5 Minuten quellen, damit die Buns nicht krümeln und schön elastisch werden."
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "meal": "dinner",
       "name": "Schweinefilet-Medaillons mit Champignon-Rahmsoße und Ofen-Süßkartoffeln",
       "type": "meat",
       "prep_min": 15,
@@ -91,6 +124,7 @@
     },
     {
       "date": "2026-08-24",
+      "meal": "dinner",
       "name": "Cremige Linsen-Curry-Suppe mit Kokosmilch und Knoblauch-Öl",
       "type": "vegetarian",
       "prep_min": 15,
@@ -123,6 +157,7 @@
     },
     {
       "date": "2026-08-25",
+      "meal": "dinner",
       "name": "Asiatische Puten-Gemüse-Pfanne mit Tamari-Kokos-Soße und Reis",
       "type": "meat",
       "prep_min": 20,
