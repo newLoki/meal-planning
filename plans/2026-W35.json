@@ -1,118 +1,166 @@
 {
   "week_label": "2026-W35",
   "servings": 2,
-  "meal_times": {
-    "breakfast": "08:30",
-    "lunch": "12:30",
-    "dinner": "19:30",
-    "other": "15:00"
-  },
   "recipes": [
     {
       "date": "2026-08-28",
-      "meal": "breakfast",
-      "name": "Glutenfreies Overnight-Porridge mit Beeren",
-      "type": "vegetarian",
-      "servings": 2,
-      "prep_min": 10,
-      "cook_min": 0,
-      "category": "Frühstück",
-      "tagline": "Über Nacht gequollene Haferflocken mit frischen Beeren",
-      "ingredients": [
-        { "amount": 100, "unit": "g", "name": "Glutenfreie Haferflocken" },
-        { "amount": 250, "unit": "ml", "name": "Haferdrink (laktosefrei)" },
-        { "amount": 150, "unit": "g", "name": "Gemischte Beeren" },
-        { "amount": 1, "unit": "EL", "name": "Ahornsirup" }
-      ],
-      "steps": [
-        "Haferflocken mit Haferdrink und Ahornsirup verrühren und über Nacht im Kühlschrank quellen lassen.",
-        "Am Morgen mit frischen Beeren toppen und servieren."
-      ],
-      "tips": [
-        "Nur ausdrücklich glutenfrei zertifizierte Haferflocken verwenden."
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "meal": "lunch",
-      "name": "Bunter Quinoa-Salat mit geröstetem Gemüse",
-      "type": "vegetarian",
-      "servings": 3,
-      "prep_min": 15,
-      "cook_min": 25,
-      "category": "Mittagessen",
-      "tagline": "Sättigender Quinoa-Salat, auch kalt am nächsten Tag lecker",
-      "ingredients": [
-        { "amount": 200, "unit": "g", "name": "Quinoa" },
-        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
-        { "amount": 1, "unit": "Stück", "name": "Paprika (rot)" },
-        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
-        { "amount": 1, "unit": "Stück", "name": "Zitrone" },
-        { "name": "Salz und Pfeffer" }
-      ],
-      "steps": [
-        "Quinoa gründlich spülen und nach Packungsanweisung garen.",
-        "Zucchini und Paprika würfeln, mit Olivenöl, Salz und Pfeffer bei 200°C Umluft 25 Minuten rösten.",
-        "Quinoa mit dem Gemüse mischen und mit dem Saft einer Zitrone abschmecken."
-      ],
-      "tips": [
-        "Reste eignen sich gut als kalte Lunchbox für den nächsten Tag."
-      ]
-    },
-    {
-      "date": "2026-08-28",
       "meal": "dinner",
-      "name": "Ofen-Lachs mit Kartoffeln und grünen Bohnen",
-      "type": "fish",
-      "servings": 4,
-      "prep_min": 15,
-      "cook_min": 30,
+      "name": "Indisches Hähnchen-Tikka-Masala mit Basmatireis",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 25,
       "category": "Hauptgericht",
-      "tagline": "Unkompliziertes Ofengericht für die ganze Familie",
+      "tagline": "Zartes Hähnchen in cremiger Tomaten-Masala-Soße",
       "ingredients": [
-        { "amount": 4, "unit": "Stück", "name": "Lachsfilet" },
-        { "amount": 800, "unit": "g", "name": "Kartoffeln" },
-        { "amount": 400, "unit": "g", "name": "Grüne Bohnen" },
-        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
-        { "amount": 1, "unit": "Stück", "name": "Zitrone" },
-        { "name": "Salz und Pfeffer" }
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 200, "unit": "g", "name": "Basmatireis" },
+        { "amount": 400, "unit": "g", "name": "Passierte Tomaten" },
+        { "amount": 200, "unit": "g", "name": "Schlagsahne (laktosefrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Ingwer (daumengroß)" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 1, "unit": "EL", "name": "Garam Masala" },
+        { "amount": 1, "unit": "TL", "name": "Kurkuma" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
       ],
       "steps": [
-        "Kartoffeln in Spalten schneiden, mit Olivenöl, Salz und Pfeffer bei 200°C Umluft 30 Minuten backen.",
-        "Grüne Bohnen 8 Minuten in Salzwasser garen.",
-        "Lachsfilets salzen, pfeffern, mit Zitrone beträufeln und die letzten 15 Minuten mit in den Ofen geben."
+        "Hähnchenbrust in mundgerechte Stücke schneiden. Ingwer und Knoblauch fein reiben.",
+        "Öl in einer großen Pfanne erhitzen, Hähnchenstücke rundherum goldbraun anbraten und herausnehmen.",
+        "Ingwer, Knoblauch und Gewürze (Garam Masala, Kurkuma) im verbliebenen Öl kurz anrösten.",
+        "Mit passierten Tomaten und laktosefreier Schlagsahne ablöschen. Soße 10 Minuten sanft köcheln lassen.",
+        "Basmatireis nach Packungsanleitung in Salzwasser gar kochen.",
+        "Hähnchenfleisch zurück in die Soße geben und weitere 5 Minuten ziehen lassen. Mit Salz und Pfeffer abschmecken."
       ],
       "tips": [
-        "Fisch ist selten im Plan – dieser Freitag ist die Ausnahme der Woche."
+        "Achte bei gekauften Gewürzmischungen wie Garam Masala darauf, dass sie als glutenfrei zertifiziert sind."
       ]
     },
     {
       "date": "2026-08-29",
       "meal": "dinner",
-      "name": "Rindergulasch mit glutenfreien Spätzle",
-      "type": "meat",
-      "time": "20:00",
-      "prep_min": 20,
-      "cook_min": 90,
+      "name": "Cremiges Linsen-Dal mit Kokosmilch & Babyspinat",
+      "type": "vegetarian",
+      "prep_min": 10,
+      "cook_min": 25,
       "category": "Hauptgericht",
-      "tagline": "Schmorgericht mit selbstgemachten glutenfreien Spätzle",
+      "tagline": "Aromatisches, indisches Linsengericht mit frischem Spinat",
       "ingredients": [
-        { "amount": 600, "unit": "g", "name": "Rindergulasch" },
-        { "amount": 2, "unit": "Stück", "name": "Zwiebeln" },
-        { "amount": 500, "unit": "ml", "name": "Rinderbrühe (glutenfrei)" },
-        { "amount": 300, "unit": "g", "name": "Glutenfreies Mehl" },
-        { "amount": 3, "unit": "Stück", "name": "Ei" },
-        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
-        { "name": "Salz und Pfeffer" }
+        { "amount": 200, "unit": "g", "name": "Rote Linsen" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 100, "unit": "g", "name": "Babyspinat" },
+        { "amount": 100, "unit": "g", "name": "Passierte Tomaten" },
+        { "amount": 1, "unit": "Stück", "name": "Ingwer (daumengroß)" },
+        { "amount": 1, "unit": "EL", "name": "Currypulver" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" }
       ],
       "steps": [
-        "Zwiebeln würfeln und mit dem Gulaschfleisch scharf anbraten.",
-        "Tomatenmark kurz mitrösten, mit Rinderbrühe ablöschen und zugedeckt 90 Minuten schmoren.",
-        "Für die Spätzle glutenfreies Mehl, Eier, etwas Wasser und Salz zu einem zähen Teig verrühren und portionsweise in kochendes Salzwasser schaben.",
-        "Gulasch abschmecken und mit den Spätzle servieren."
+        "Rote Linsen in einem Sieb gründlich kalt abspülen.",
+        "Ingwer fein hacken und in einem Topf mit Öl anbraten, Currypulver hinzufügen.",
+        "Linsen, passierte Tomaten und Kokosmilch dazugeben. Mit ca. 200 ml Wasser auffüllen.",
+        "Bei mittlerer Hitze ca. 15–20 Minuten köcheln lassen, bis die Linsen weich sind.",
+        "Babyspinat unterrühren, bis er zusammenfällt. Mit Salz abschmecken."
       ],
       "tips": [
-        "Glutenfreier Spätzleteig braucht etwas mehr Ruhezeit, damit er bindet."
+        "Rote Linsen sind von Natur aus glutenfrei – vor der Zubereitung gründlich abspülen."
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "meal": "dinner",
+      "name": "Klassischer Rinder-Schmorbraten mit Klößen & Apfelrotkohl",
+      "type": "meat",
+      "prep_min": 30,
+      "cook_min": 120,
+      "category": "Hauptgericht",
+      "tagline": "Sonntagsbraten in kräftiger Rotweinsoße",
+      "ingredients": [
+        { "amount": 800, "unit": "g", "name": "Rinderschulter" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 150, "unit": "g", "name": "Knollensellerie" },
+        { "amount": 250, "unit": "ml", "name": "Rotwein" },
+        { "amount": 500, "unit": "ml", "name": "Rinderbrühe (GF)" },
+        { "amount": 500, "unit": "g", "name": "Kloßteig (GF)" },
+        { "amount": 400, "unit": "g", "name": "Apfelrotkohl (im Glas)" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Rinderschulter trocken tupfen, kräftig salzen und pfeffern. In einem Bräter in Öl von allen Seiten scharf anbraten und herausnehmen.",
+        "Karotten, Sellerie und Knoblauch würfeln, im Bräter anrösten. Tomatenmark einrühren und kurz mitrösten.",
+        "Mit Rotwein ablöschen und einkochen lassen. Rinderbrühe angießen und das Fleisch zurück in den Bräter legen.",
+        "Abgedeckt bei mittlerer Hitze ca. 1,5 bis 2 Stunden weich schmoren.",
+        "Rotkohl im Topf erwärmen. Glutenfreien Kloßteig zu Klößen formen und in siedendem Salzwasser gar ziehen lassen.",
+        "Fleisch aufschneiden, Bratensoße nach Wunsch pürieren oder passieren und abschmecken."
+      ],
+      "tips": [
+        "Darauf achten, dass die Rinderbrühe und der Fertig-Kloßteig explizit als glutenfrei gekennzeichnet sind."
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "meal": "dinner",
+      "name": "Schweinefilet-Medaillons in Champignon-Rahm mit Kartoffeln",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Saftige Medaillons an cremiger Pilzsoße",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Schweinefilet" },
+        { "amount": 250, "unit": "g", "name": "Champignons" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 200, "unit": "g", "name": "Schlagsahne (laktosefrei)" },
+        { "amount": 1, "unit": "EL", "name": "Tamari (glutenfreie Sojasoße)" },
+        { "amount": 1, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Kartoffeln schälen, würfeln und in Salzwasser ca. 15–20 Minuten gar kochen.",
+        "Schweinefilet in Medaillons schneiden. Champignons scheiben und Frühlingszwiebeln in Ringerln schneiden.",
+        "Öl in einer Pfanne erhitzen, Medaillons von jeder Seite 2–3 Minuten anbraten, aus der Pfanne nehmen und warmhalten.",
+        "Champignons in derselben Pfanne anbraten. Mit laktosefreier Sahne und Tamari ablöschen.",
+        "Soße kurz einkochen lassen, mit Salz und Pfeffer abschmecken, Medaillons kurz darin erwärmen und mit den Kartoffeln servieren."
+      ],
+      "tips": [
+        "Klassische Sojasoße enthält Weizen – verwende stattdessen garantiert glutenfreies Tamari."
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "meal": "dinner",
+      "name": "Zitronen-Kräuter-Lachs vom Blech mit Ofenkartoffeln",
+      "type": "fish",
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Ofenlachsteller mit knusprigen Kartoffeln und Kräuterdip",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Lachsfilet" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 200, "unit": "g", "name": "Speisequark (laktosefrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Bio-Zitrone" },
+        { "amount": 0.5, "unit": "Bund", "name": "Dill" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Kartoffeln und Karotten waschen/schälen, in Spalten beziehungsweise Stifte schneiden. Mit Olivenöl, Salz und Pfeffer mischen und auf einem Backblech 15 Minuten vorbacken.",
+        "Lachsfilets trockentupfen, salzen, pfeffern und mit etwas Zitronensaft beträufeln.",
+        "Lachs zu dem Gemüse aufs Blech legen und weitere 10–12 Minuten backen, bis der Lachs gar ist.",
+        "Laktosefreien Quark mit gehacktem Dill, Zitronenabrieb, Salz und Pfeffer zu einem Kräuterdip verrühren."
+      ],
+      "tips": [
+        "Achte darauf, dass Fisch naturell ohne glutenhaltige Panade oder Würzungen gekauft wird."
       ]
     }
   ]
