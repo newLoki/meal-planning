@@ -1,0 +1,62 @@
+{
+  "kw_zeitraum": "KW36",
+  "jahr": 2026,
+  "diat_hinweise": [
+    "glutenfrei",
+    "laktosefrei"
+  ],
+  "essensplan": [
+    {
+      "tag": "Samstag",
+      "datum": "2026-09-05",
+      "mahlzeit": "Abendessen",
+      "personen": 2,
+      "gericht": "Cremige Pasta mit Käsesoße",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vorbereitbar": false
+      },
+      "notizen": "GF-Pasta (z. B. Penne/Fussili) mit einer herzhaften Soße aus LF-Sahne, reifem Cheddar & Gouda."
+    },
+    {
+      "tag": "Sonntag",
+      "datum": "2026-09-06",
+      "mahlzeit": "Abendessen",
+      "personen": 2,
+      "gericht": "Klassische Rinderrouladen mit Rotkohl & Kartoffeln",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vorbereitbar": false
+      },
+      "notizen": "Geschmort mit Gewürzgurke, Speck & Senf. Soße mit Stärke (z. B. Speisestärke/Mondamin) glutenfrei binden."
+    },
+    {
+      "tag": "Montag",
+      "datum": "2026-09-07",
+      "mahlzeit": "Abendessen",
+      "personen": 1,
+      "gericht": "Gebratener Eierreis mit buntem Gemüse",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vorbereitbar": false
+      },
+      "notizen": "Einzelportion. Zubereitung mit Frühlingszwiebeln, Paprika, Ei und glutenfreier Tamari-Sojasoße."
+    },
+    {
+      "tag": "Dienstag",
+      "datum": "2026-09-08",
+      "mahlzeit": "Abendessen",
+      "personen": 2,
+      "gericht": "Klassisches Chili con Carne mit Ofenkartoffeln",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vorbereitbar": true
+      },
+      "notizen": "Kann am Sonntag/Montag komplett vorgekocht und am Dienstag nur noch aufgewärmt werden."
+    }
+  ]
+}
