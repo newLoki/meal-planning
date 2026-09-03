@@ -1,62 +1,112 @@
 {
-  "kw_zeitraum": "KW36",
-  "jahr": 2026,
-  "diat_hinweise": [
-    "glutenfrei",
-    "laktosefrei"
-  ],
-  "essensplan": [
+  "week_label": "2026-W36",
+  "servings": 2,
+  "recipes": [
     {
-      "tag": "Samstag",
-      "datum": "2026-09-05",
-      "mahlzeit": "Abendessen",
-      "personen": 2,
-      "gericht": "Cremige Pasta mit Käsesoße",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vorbereitbar": false
-      },
-      "notizen": "GF-Pasta (z. B. Penne/Fussili) mit einer herzhaften Soße aus LF-Sahne, reifem Cheddar & Gouda."
+      "date": "2026-09-05",
+      "meal": "dinner",
+      "name": "Cremige Pasta mit Käsesoße",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Schnelle GF-Pasta in herzhafter laktosefreier Käsesoße",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "GF Pasta (z. B. Penne)" },
+        { "amount": 200, "unit": "ml", "name": "Laktosefreie Sahne" },
+        { "amount": 100, "unit": "g", "name": "Gereifter Cheddar (gerieben)" },
+        { "amount": 100, "unit": "g", "name": "Gouda (gerieben)" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "GF-Pasta in reichlich Salzwasser nach Packungsanleitung kochen.",
+        "Laktosefreie Sahne in einem Topf erwärmen, geriebenen Cheddar und Gouda einrühren, bis die Soße cremig ist.",
+        "Pasta abgießen, mit der Käsesoße vermengen und heiß servieren."
+      ],
+      "tips": [
+        "GF-Pasta genau nach Packung kochen, da sie schnell verkocht."
+      ]
     },
     {
-      "tag": "Sonntag",
-      "datum": "2026-09-06",
-      "mahlzeit": "Abendessen",
-      "personen": 2,
-      "gericht": "Klassische Rinderrouladen mit Rotkohl & Kartoffeln",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vorbereitbar": false
-      },
-      "notizen": "Geschmort mit Gewürzgurke, Speck & Senf. Soße mit Stärke (z. B. Speisestärke/Mondamin) glutenfrei binden."
+      "date": "2026-09-06",
+      "meal": "dinner",
+      "name": "Klassische Rinderrouladen mit Rotkohl & Kartoffeln",
+      "type": "meat",
+      "prep_min": 30,
+      "cook_min": 90,
+      "category": "Hauptgericht",
+      "tagline": "Geschmorte Rouladen mit würziger Soße und Beilagen",
+      "ingredients": [
+        { "amount": 2, "unit": "Stück", "name": "Rinderrouladen" },
+        { "amount": 2, "unit": "TL", "name": "Senf (GF)" },
+        { "amount": 2, "unit": "Scheiben", "name": "Speck" },
+        { "amount": 2, "unit": "Stück", "name": "Gewürzgurken" },
+        { "amount": 500, "unit": "g", "name": "Rotkohl" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 1, "unit": "EL", "name": "Speisestärke" }
+      ],
+      "steps": [
+        "Rinderrouladen mit Senf bestreichen, mit Speck und Gewürzgurke belegen, aufrollen und feststecken.",
+        "Rouladen scharf anbraten, mit Wasser/Brühe ablöschen und ca. 90 Minuten weich schmoren.",
+        "Parallel Kartoffeln kochen und Rotkohl erwärmen.",
+        "Die Soße mit in kaltem Wasser angerührter Speisestärke glutenfrei binden."
+      ],
+      "tips": [
+        "Achte darauf, glutenfreie Speisestärke (z. B. Mondamin) zum Binden zu nutzen."
+      ]
     },
     {
-      "tag": "Montag",
-      "datum": "2026-09-07",
-      "mahlzeit": "Abendessen",
-      "personen": 1,
-      "gericht": "Gebratener Eierreis mit buntem Gemüse",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vorbereitbar": false
-      },
-      "notizen": "Einzelportion. Zubereitung mit Frühlingszwiebeln, Paprika, Ei und glutenfreier Tamari-Sojasoße."
+      "date": "2026-09-07",
+      "meal": "dinner",
+      "servings": 1,
+      "name": "Gebratener Eierreis mit buntem Gemüse",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Schnelle Asiapfanne mit glutenfreier Tamari-Sojasoße",
+      "ingredients": [
+        { "amount": 120, "unit": "g", "name": "Gekochter Reis" },
+        { "amount": 1, "unit": "Stück", "name": "Ei" },
+        { "amount": 0.5, "unit": "Stück", "name": "Paprika" },
+        { "amount": 2, "unit": "Stück", "name": "Frühlingszwiebeln" },
+        { "amount": 2, "unit": "EL", "name": "Tamari Sojasoße (GF)" }
+      ],
+      "steps": [
+        "Gemüse klein schneiden und in einer Pfanne anbraten.",
+        "Gekochten Reis dazugeben und kurz mitbraten.",
+        "Ei verquirlen, in die Pfanne geben und stocken lassen.",
+        "Mit Tamari-Sojasoße abschmecken und servieren."
+      ],
+      "tips": [
+        "Verwende ausschließlich glutenfrei zertifizierte Tamari-Sojasoße."
+      ]
     },
     {
-      "tag": "Dienstag",
-      "datum": "2026-09-08",
-      "mahlzeit": "Abendessen",
-      "personen": 2,
-      "gericht": "Klassisches Chili con Carne mit Ofenkartoffeln",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vorbereitbar": true
-      },
-      "notizen": "Kann am Sonntag/Montag komplett vorgekocht und am Dienstag nur noch aufgewärmt werden."
+      "date": "2026-09-08",
+      "meal": "dinner",
+      "name": "Klassisches Chili con Carne mit Ofenkartoffeln",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 40,
+      "category": "Hauptgericht",
+      "tagline": "Herzhaftes Chili, ideal zum Vorkochen",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 1, "unit": "Dose", "name": "Kidneybohnen" },
+        { "amount": 1, "unit": "Dose", "name": "Stückige Tomaten" },
+        { "amount": 600, "unit": "g", "name": "Kartoffeln" },
+        { "name": "Chiligewürz" }
+      ],
+      "steps": [
+        "Kartoffeln halpieren und im Ofen bei 200 °C backen.",
+        "Hackfleisch kräftig anbraten, Kidneybohnen und gestückelte Tomaten dazugeben.",
+        "Chili ca. 30 Minuten köcheln lassen und mit den Ofenkartoffeln servieren."
+      ],
+      "tips": [
+        "Kann problemlos am Vortag zubereitet und aufgewärmt werden."
+      ]
     }
   ]
 }
