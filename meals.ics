@@ -1,0 +1,852 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//meal-plans//recipe-feed//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Wochenpläne – Kochtermine
+NAME:Wochenpläne – Kochtermine
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-07-13-dinner-schneller-rinder-burger-mit-paprika-relish@newLoki.gi
+ thub.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260713T191000
+DTEND;TZID=Europe/Berlin:20260713T193000
+SUMMARY:Kochen: Schneller Rinder-Burger mit Paprika-Relish
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W28/2026-07-13-schneller-rinder-burger-mit-paprika-relish.html\n\n1. Die 
+ rote Paprika entkernen und fein würfeln. Das untere Drittel der Frühling
+ szwiebeln in feine Ringe schneiden.\n2. Das Rinder-Patty in einer heißen 
+ Pfanne mit etwas Öl von beiden Seiten scharf anbraten\, salzen\, pfeffern
+ \, mit Cheddar belegen und schmelzen lassen.\n3. Das Patty aus der Pfanne 
+ nehmen. Paprikawürfel und Frühlingszwiebeln im Bratfett 3-4 Minuten dün
+ sten\, bis sie weich sind (Relish).\n4. Das glutenfreie Burger-Bun kurz to
+ asten\, mit Eisbergsalat\, Patty und dem warmen Paprika-Relish belegen.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W28/2026-07-13-
+ schneller-rinder-burger-mit-paprika-relish.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-14-dinner-wok-haehnchen-in-kokos-erdnuss-sauce@newLoki.github.i
+ o/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260714T190000
+DTEND;TZID=Europe/Berlin:20260714T193000
+SUMMARY:Kochen: Wok-Hähnchen in Kokos-Erdnuss-Sauce
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W28/2026-07-14-wok-haehnchen-in-kokos-erdnuss-sauce.html\n\n1. Den Jasmin
+ reis nach Packungsanleitung aufsetzen.\n2. Hähnchenbrustfilet in Streifen
+  schneiden. Gelbe und grüne Paprika entkernen und in mundgerechte Stücke
+  schneiden. Das zweite Drittel der Frühlingszwiebeln in Ringe schneiden.\
+ n3. Hähnchenstreifen im Wok oder einer großen Pfanne scharf anbraten\, d
+ ann herausnehmen. Paprika und Frühlingszwiebeln im gleichen Fett ca. 5 Mi
+ nuten pfannenrühren.\n4. Mit Kokosmilch ablöschen\, Erdnussbutter und Ta
+ mari einrühren\, bis eine cremige Sauce entsteht. Hähnchen wieder hinzuf
+ ügen und kurz darin gar ziehen lassen. Mit Limettensaft abschmecken.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W28/2026-07-14-
+ wok-haehnchen-in-kokos-erdnuss-sauce.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-15-dinner-deftiges-schweinefilet-in-pilz-rahm-sauce@newLoki.git
+ hub.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260715T185500
+DTEND;TZID=Europe/Berlin:20260715T193000
+SUMMARY:Kochen: Deftiges Schweinefilet in Pilz-Rahm-Sauce
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W28/2026-07-15-deftiges-schweinefilet-in-pilz-rahm-sauce.html\n\n1. Den R
+ eis aufsetzen (oder optional GF Spätzle nach Packungsanleitung zubereiten
+ ).\n2. Schweinefilet in ca. 2 cm dicke Medaillons schneiden. Champignons p
+ utzen und vierteln. Die restlichen Frühlingszwiebeln in Ringe schneiden.\
+ n3. Butterschmalz in einer Pfanne stark erhitzen. Die Medaillons von jeder
+  Seite ca. 2 Minuten scharf anbraten\, mit Salz und Pfeffer würzen\, hera
+ usnehmen und in Alufolie ruhen lassen.\n4. Im Bratensatz die Champignons u
+ nd Frühlingszwiebeln kräftig anbraten. Mit laktosefreier Sahne ablösche
+ n\, glutenfreien Senf einrühren und die Sauce ca. 5 Minuten leicht einkoc
+ hen lassen. Medaillons mitsamt Fleischsaft wieder hineingeben und 2 Minute
+ n erwärmen.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W28/2026-07-15-
+ deftiges-schweinefilet-in-pilz-rahm-sauce.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-17-dinner-sommerliche-reisnudel-pfanne-mit-rindfleisch-gemuese@
+ newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260717T185500
+DTEND;TZID=Europe/Berlin:20260717T193000
+SUMMARY:Kochen: Sommerliche Reisnudel-Pfanne mit Rindfleisch & Gemüse
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W29/2026-07-17-sommerliche-reisnudel-pfanne-mit-rindfleisch-gemuese.html\
+ n\n1. Reisnudeln nach Packungsanleitung in heißem Wasser einweichen und a
+ btropfen lassen.\n2. Ingwer und Knoblauch fein hacken. Karotten in feine S
+ tifte\, Frühlingszwiebeln in Ringe und Paprika in Streifen schneiden.\n3.
+  Sesamöl im Wok oder einer großen Pfanne stark erhitzen. Rindergeschnetz
+ eltes darin 2-3 Minuten scharf anbraten\, dann herausnehmen.\n4. Hitze lei
+ cht reduzieren. Knoblauch\, Ingwer und das Gemüse (Karotten\, Paprika\, w
+ eiße Teile der Frühlingszwiebeln) 5 Minuten unter Rühren anbraten.\n5. 
+ Nudeln und Fleisch wieder dazugeben. Mit Tamari-Sojasauce ablöschen und a
+ lles gut vermengen. Mit den grünen Frühlingszwiebelringen garniert servi
+ eren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W29/2026-07-17-
+ sommerliche-reisnudel-pfanne-mit-rindfleisch-gemuese.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-18-dinner-rindfleisch-eintopf-mit-sommergemuese-kartoffeln@newL
+ oki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260718T181000
+DTEND;TZID=Europe/Berlin:20260718T193000
+SUMMARY:Kochen: Rindfleisch-Eintopf mit Sommergemüse & Kartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W29/2026-07-18-rindfleisch-eintopf-mit-sommergemuese-kartoffeln.html\n\n1
+ . Das Rindfleisch in mundgerechte Würfel schneiden. Zwiebel fein würfeln
+ .\n2. Kartoffeln und Karotten schälen und ebenfalls würfeln. Bohnen putz
+ en und halbieren.\n3. In einem großen Topf das Öl erhitzen. Fleisch scha
+ rf anbraten\, Zwiebeln hinzufügen und glasig dünsten.\n4. Mit der gluten
+ freien Rinderbrühe ablöschen. Den Deckel auflegen und bei mittlerer Hitz
+ e ca. 40 Minuten köcheln lassen\, bis das Fleisch weicher wird.\n5. Karto
+ ffeln\, Karotten und Bohnen dazugeben und weitere 20 Minuten garen\, bis d
+ as Gemüse weich und das Fleisch zart ist. Mit Salz und Pfeffer abschmecke
+ n.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W29/2026-07-18-
+ rindfleisch-eintopf-mit-sommergemuese-kartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-19-dinner-schweinefilet-in-senf-sahnesauce-mit-brokkoli-kartoff
+ eln@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260719T185000
+DTEND;TZID=Europe/Berlin:20260719T193000
+SUMMARY:Kochen: Schweinefilet in Senf-Sahnesauce mit Brokkoli & Kartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W29/2026-07-19-schweinefilet-in-senf-sahnesauce-mit-brokkoli-kartoffeln.h
+ tml\n\n1. Kartoffeln schälen\, vierteln und in Salzwasser ca. 20 Minuten 
+ gar kochen.\n2. Brokkoli in Röschen teilen und die letzten 8 Minuten übe
+ r den Kartoffeln dämpfen oder separat kochen.\n3. Schweinefilet in ca. 2 
+ cm dicke Medaillons schneiden. Schalotte fein würfeln.\n4. Butterschmalz 
+ in einer Pfanne stark erhitzen. Medaillons von jeder Seite ca. 2-3 Minuten
+  scharf anbraten\, salzen\, pfeffern\, aus der Pfanne nehmen und warmhalte
+ n.\n5. In derselben Pfanne die Schalotte glasig dünsten. Mit laktosefreie
+ r Sahne ablöschen\, Senf einrühren und 2 Minuten einköcheln lassen. Fle
+ isch samt Fleischsaft zurück in die Sauce geben und kurz erwärmen. Mit K
+ artoffeln und Brokkoli anrichten.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W29/2026-07-19-
+ schweinefilet-in-senf-sahnesauce-mit-brokkoli-kartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-20-dinner-bunter-sommersalat-mit-gebratenen-haehnchenbruststrei
+ fen@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260720T190000
+DTEND;TZID=Europe/Berlin:20260720T193000
+SUMMARY:Kochen: Bunter Sommersalat mit gebratenen Hähnchenbruststreifen
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W29/2026-07-20-bunter-sommersalat-mit-gebratenen-haehnchenbruststreifen.h
+ tml\n\n1. Hähnchenbrustfilet in Streifen schneiden\, salzen und pfeffern.
+ \n2. Salat waschen und trocken schleudern. Gurke in Scheiben schneiden\, K
+ irschtomaten halbieren.\n3. Für das Dressing Olivenöl\, Zitronensaft\, H
+ onig\, Salz und Pfeffer kräftig verquirlen.\n4. In einer Pfanne etwas Oli
+ venöl erhitzen und die Hähnchenstreifen darin ca. 6-8 Minuten rundherum 
+ goldbraun und durchgaren.\n5. Salat\, Gurken und Tomaten auf einem Teller 
+ anrichten\, mit dem Dressing beträufeln und die warmen Hähnchenstreifen 
+ darauf anrichten.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W29/2026-07-20-
+ bunter-sommersalat-mit-gebratenen-haehnchenbruststreifen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-21-dinner-glutenfreie-pasta-mit-fruchtiger-tomaten-basilikum-sa
+ uce@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260721T190000
+DTEND;TZID=Europe/Berlin:20260721T193000
+SUMMARY:Kochen: Glutenfreie Pasta mit fruchtiger Tomaten-Basilikum-Sauce
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W29/2026-07-21-glutenfreie-pasta-mit-fruchtiger-tomaten-basilikum-sauce.h
+ tml\n\n1. Glutenfreie Pasta in reichlich Salzwasser nach Packungsanleitung
+  al dente kochen. (Tipp: Glutenfreie Pasta benötigt oft reichlich Wasser 
+ und Bewegung\, damit sie nicht verklebt).\n2. Knoblauch fein hacken. Kirsc
+ htomaten halbieren.\n3. Olivenöl in einer Pfanne erhitzen\, Knoblauch und
+  Kirschtomaten darin 3 Minuten andünsten\, bis die Tomaten leicht aufplat
+ zen.\n4. Die stückigen Dosentomaten hinzufügen\, mit einer Prise Zucker\
+ , Salz und Pfeffer würzen und bei mittlerer Hitze 12-15 Minuten köcheln 
+ lassen.\n5. Die Pasta abgießen\, direkt zur Sauce in die Pfanne geben und
+  durchschwenken. Frischen Basilikum unterheben und mit laktosefreiem Parme
+ san bestreut servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W29/2026-07-21-
+ glutenfreie-pasta-mit-fruchtiger-tomaten-basilikum-sauce.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-24-dinner-rotes-thai-curry-mit-haehnchen@newLoki.github.io/meal
+ -planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260724T185500
+DTEND;TZID=Europe/Berlin:20260724T193000
+SUMMARY:Kochen: Rotes Thai-Curry mit Hähnchen
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W30/2026-07-24-rotes-thai-curry-mit-haehnchen.html\n\n1. Jasminreis nach 
+ Packungsanweisung gar kochen.\n2. Hähnchenbrustfilet in mundgerechte Stre
+ ifen\, Paprika in Streifen und Frühlingszwiebeln in Ringe schneiden.\n3. 
+ Öl in einer Pfanne oder einem Wok erhitzen\, Currypaste kurz anbraten\, b
+ is sie duftet.\n4. Hähnchenstreifen dazugeben und ca. 3–4 Minuten schar
+ f anbraten.\n5. Paprika dazugeben\, mit Kokosmilch ablöschen und etwa 10 
+ Minuten leise köcheln lassen.\n6. Frühlingszwiebeln unterrühren\, mit e
+ iner Prise Salz abschmecken und warm mit Jasminreis servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W30/2026-07-24-
+ rotes-thai-curry-mit-haehnchen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-25-dinner-rindfleisch-pfanne-mit-brokkoli-und-paprika@newLoki.g
+ ithub.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260725T190000
+DTEND;TZID=Europe/Berlin:20260725T193000
+SUMMARY:Kochen: Rindfleisch-Pfanne mit Brokkoli und Paprika
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W30/2026-07-25-rindfleisch-pfanne-mit-brokkoli-und-paprika.html\n\n1. Rin
+ derhüftsteak quer zur Faser in feine Streifen schneiden.\n2. Brokkoli in 
+ kleine Röschen teilen\, Paprika in Streifen schneiden\, Knoblauch und Ing
+ wer fein hacken.\n3. Pflanzenöl in einem Wok oder einer großen Pfanne se
+ hr heiß erhitzen. Rindfleischstreifen portionsweise scharf anbraten (ca. 
+ 2 Minuten) und herausnehmen.\n4. Brokkoli und Paprika in der Pfanne 4–5 
+ Minuten pfannenrühren. Knoblauch und Ingwer kurz mitanbraten.\n5. Fleisch
+  zurück in die Pfanne geben\, mit Tamari und Sesamöl ablöschen und 1–
+ 2 Minuten durchschwenken.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W30/2026-07-25-
+ rindfleisch-pfanne-mit-brokkoli-und-paprika.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-26-dinner-geschmorter-rinderbraten-in-rotweinsauce-mit-kartoffe
+ l-sellerie-pueree@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260726T170500
+DTEND;TZID=Europe/Berlin:20260726T193000
+SUMMARY:Kochen: Geschmorter Rinderbraten in Rotweinsauce mit Kartoffel-Sell
+ erie-Püree
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W30/2026-07-26-geschmorter-rinderbraten-in-rotweinsauce-mit-kartoffel-sel
+ lerie-pueree.html\n\n1. Das Fleisch von allen Seiten kräftig salzen und p
+ feffern. In einem Bräter in heißen Öl von allen Seiten anbraten\, dann 
+ herausnehmen.\n2. Suppengrün würfeln und im Bräter anrösten. Tomatenma
+ rk und gehackten Knoblauch dazugeben und kurz mitrösten.\n3. Mit Rotwein 
+ ablöschen und einkochen lassen. Rinderbrühe zugießen\, das Fleisch zur
+ ück in den Bräter geben und abgedeckt ca. 1\,5 bis 2 Stunden sanft schmo
+ ren lassen.\n4. Kartoffeln und Knollensellerie schälen\, würfeln und in 
+ Salzwasser ca. 20 Minuten weich kochen.\n5. Das Gemüse abgießen\, mit la
+ ktosefreier Butter und laktosefreier Milch zu einem feinen Püree stampfen
+ \, mit Salz und Pfeffer abschmecken.\n6. Braten aus dem Topf nehmen\, die 
+ Sauce pürieren oder passieren\, abschmecken und zusammen servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W30/2026-07-26-
+ geschmorter-rinderbraten-in-rotweinsauce-mit-kartoffel-sellerie-pueree.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-27-dinner-ofen-koteletts-mit-rosmarinkartoffeln@newLoki.github.
+ io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260727T184500
+DTEND;TZID=Europe/Berlin:20260727T193000
+SUMMARY:Kochen: Ofen-Koteletts mit Rosmarinkartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W30/2026-07-27-ofen-koteletts-mit-rosmarinkartoffeln.html\n\n1. Backofen 
+ auf 200 °C Ober-/Unterhitze vorheizen.\n2. Kartoffeln gründlich waschen 
+ und in Spalten schneiden. Mit 2 EL Olivenöl\, gehacktem Rosmarin\, Salz u
+ nd Pfeffer vermengen.\n3. Kartoffelspalten auf einem mit Backpapier belegt
+ en Blech verteilen.\n4. Schweinekoteletts mit restlichem Olivenöl\, zerdr
+ ücktem Knoblauch\, Salz und Pfeffer einreiben und mit auf das Blech legen
+ .\n5. Im Ofen ca. 25–30 Minuten backen\, bis die Kartoffeln knusprig und
+  die Koteletts gar sind.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W30/2026-07-27-
+ ofen-koteletts-mit-rosmarinkartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-28-dinner-deftige-glutenfreie-pfannkuchen-mit-champignons-frueh
+ lingszwiebeln@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260728T190000
+DTEND;TZID=Europe/Berlin:20260728T193000
+SUMMARY:Kochen: Deftige glutenfreie Pfannkuchen mit Champignons & Frühling
+ szwiebeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W30/2026-07-28-deftige-glutenfreie-pfannkuchen-mit-champignons-fruehlings
+ zwiebeln.html\n\n1. Glutenfreies Mehl\, laktosefreie Milch\, Eier und eine
+  Prise Salz zu einem glatten Pfannkuchenteig verrühren und 10 Minuten que
+ llen lassen.\n2. Champignons in Scheiben\, Frühlingszwiebeln in Ringe sch
+ neiden. In etwas Öl kräftig anbraten\, würzen und beiseitestellen.\n3. 
+ Etwas Öl in einer Pfanne erhitzen\, eine Kelle Teig hineingeben.\n4. Pilz
+ e und Frühlingszwiebeln auf dem noch flüssigen Teig verteilen\, mit geri
+ ebenem Käse bestreuen.\n5. Pfannkuchen wenden oder abgedeckt stocken lass
+ en\, bis der Käse geschmolzen ist.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W30/2026-07-28-
+ deftige-glutenfreie-pfannkuchen-mit-champignons-fruehlingszwiebeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-31-dinner-haehnchenbrust-im-speckmantel-auf-pfannengemuese@newL
+ oki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260731T185000
+DTEND;TZID=Europe/Berlin:20260731T193000
+SUMMARY:Kochen: Hähnchenbrust im Speckmantel auf Pfannengemüse
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W31/2026-07-31-haehnchenbrust-im-speckmantel-auf-pfannengemuese.html\n\n1
+ . Den Backofen auf 200 °C Ober-/Unterhitze vorheizen.\n2. Zucchini und Pa
+ prika in mundgerechte Stücke schneiden\, Cherrytomaten halbieren.\n3. Das
+  Gemüse in einer Auflaufform mit Olivenöl\, Kräutern der Provence\, Sal
+ z und Pfeffer vermengen.\n4. Hähnchenbrustfilets trocken tupfen\, leicht 
+ salzen und pfeffern\, anschließend eng mit den Baconstreifen umwickeln.\n
+ 5. Die umwickelten Hähnchenbrustfilets auf das Gemüse betten.\n6. Im Ofe
+ n für ca. 25 Minuten backen\, bis der Bacon knusprig und das Hähnchen du
+ rchgegart ist.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W31/2026-07-31-
+ haehnchenbrust-im-speckmantel-auf-pfannengemuese.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-01-dinner-sommerlicher-wassermelonen-feta-salat-mit-minze-gurke
+ @newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260801T191500
+DTEND;TZID=Europe/Berlin:20260801T193000
+SUMMARY:Kochen: Sommerlicher Wassermelonen-Feta-Salat mit Minze & Gurke
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W31/2026-08-01-sommerlicher-wassermelonen-feta-salat-mit-minze-gurke.html
+ \n\n1. Wassermelone in mundgerechte Würfel schneiden.\n2. Salatgurke wasc
+ hen\, längs halbieren und in Scheiben schneiden.\n3. Die rote Zwiebel sch
+ älen und in feine Streifen schneiden.\n4. Minzblätter abbrausen\, trocke
+ n tupfen und grob hacken.\n5. Wassermelone\, Gurke\, Zwiebeln und Minze in
+  einer großen Schüssel vorsichtig vermengen.\n6. Aus Limettensaft\, Oliv
+ enöl\, Salz und Pfeffer ein Dressing anrühren und über den Salat geben.
+ \n7. Den laktosefreien Feta darüber krümeln und sofort servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W31/2026-08-01-
+ sommerlicher-wassermelonen-feta-salat-mit-minze-gurke.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-02-dinner-klassische-gf-bolognese-lasagne@newLoki.github.io/mea
+ l-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260802T181500
+DTEND;TZID=Europe/Berlin:20260802T193000
+SUMMARY:Kochen: Klassische GF Bolognese-Lasagne
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W31/2026-08-02-klassische-gf-bolognese-lasagne.html\n\n1. Zwiebel\, Knobl
+ auch und Möhren fein würfeln. Zucchini grob raspeln.\n2. Olivenöl in ei
+ nem Topf erhitzen\, Hackfleisch darin kräftig anbraten. Zwiebeln\, Knobla
+ uch\, Möhren und Zucchini hinzufügen und kurz mitbraten.\n3. Tomatenmark
+  unterrühren\, mit passierten Tomaten ablöschen. Mit Salz\, Pfeffer und 
+ italienischen Kräutern würzen und ca. 15 Minuten köcheln lassen.\n4. F
+ ür die Béchamelsauce Margarine schmelzen\, GF Mehl einrühren und unter 
+ ständigem Rühren mit dem Schneebesen nach und nach die laktosefreie Milc
+ h eingießen. Kurz aufkochen lassen\, bis die Sauce eindickt. Mit Salz\, P
+ feffer und Muskatnuss abschmecken.\n5. Eine Auflaufform einfetten. Schicht
+ en: Erst etwas Béchamel\, dann GF Lasagneplatten\, Bolognesesauce und Bé
+ chamel. So fortfahren\, bis alles aufgebraucht ist. Die oberste Schicht bi
+ ldet Béchamel.\n6. Mit laktosefreiem Streukäse bestreuen und im vorgehei
+ zten Ofen bei 180 °C Umluft für ca. 35–40 Minuten goldbraun backen.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W31/2026-08-02-
+ klassische-gf-bolognese-lasagne.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-03-dinner-zucchini-paprika-pfanne-mit-schweinefilet-medaillons@
+ newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260803T190000
+DTEND;TZID=Europe/Berlin:20260803T193000
+SUMMARY:Kochen: Zucchini-Paprika-Pfanne mit Schweinefilet-Medaillons
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W31/2026-08-03-zucchini-paprika-pfanne-mit-schweinefilet-medaillons.html\
+ n\n1. Den Reis nach Packungsanleitung kochen.\n2. Schweinefilet in Medaill
+ ons schneiden\, leicht salzen und pfeffern.\n3. Zucchini und Paprika in mu
+ ndgerechte Stücke schneiden\, Zwiebel würfeln.\n4. Öl in einer Pfanne e
+ rhitzen\, Schweinefilet-Medaillons von beiden Seiten jeweils ca. 2–3 Min
+ uten scharf anbraten\, aus der Pfanne nehmen und warm stellen.\n5. Das Gem
+ üse in derselben Pfanne ca. 5–7 Minuten knackig anbraten.\n6. Mit GF Ta
+ mari-Sojasauce ablöschen\, Fleisch zurück in die Pfanne geben und kurz d
+ urchschwenken. Zusammen mit dem Reis servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W31/2026-08-03-
+ zucchini-paprika-pfanne-mit-schweinefilet-medaillons.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-04-dinner-lammkoteletts-mit-rosmarinkartoffeln-gruene-bohnen@ne
+ wLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260804T184500
+DTEND;TZID=Europe/Berlin:20260804T193000
+SUMMARY:Kochen: Lammkoteletts mit Rosmarinkartoffeln & Grüne Bohnen
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/07
+ /W31/2026-08-04-lammkoteletts-mit-rosmarinkartoffeln-gruene-bohnen.html\n\
+ n1. Den Backofen auf 200 °C Ober-/Unterhitze vorheizen.\n2. Kartoffeln wa
+ schen und in Spalten schneiden. Mit Olivenöl\, gezupftem Rosmarin und Mee
+ rsalz vermengen und auf einem Backblech ca. 25–30 Minuten knusprig backe
+ n.\n3. Grüne Bohnen in kochendem Salzwasser ca. 8–10 Minuten gar kochen
+ \, abgießen und in etwas laktosefreier Butter schwenken.\n4. Lammkotelett
+ s trocken tupfen\, mit gehacktem Knoblauch\, Salz und Pfeffer einreiben.\n
+ 5. In einer heißen Pfanne von jeder Seite ca. 3–4 Minuten braten\, bis 
+ sie außen gut gebräunt und innen noch rosa sind.\n6. Lammkoteletts zusam
+ men mit den Rosmarinkartoffeln und den grünen Bohnen anrichten.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/07/W31/2026-08-04-
+ lammkoteletts-mit-rosmarinkartoffeln-gruene-bohnen.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-07-dinner-asiatische-haehnchen-gemuese-pfanne-mit-basmatireis@n
+ ewLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260807T185500
+DTEND;TZID=Europe/Berlin:20260807T193000
+SUMMARY:Kochen: Asiatische Hähnchen-Gemüse-Pfanne mit Basmatireis
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W32/2026-08-07-asiatische-haehnchen-gemuese-pfanne-mit-basmatireis.html\n
+ \n1. Basmatireis nach Packungsanleitung in Salzwasser gar kochen.\n2. Häh
+ nchenbrustfilet in mundgerechte Streifen schneiden. Karotten und Paprika i
+ n feine Stifte\, Frühlingszwiebeln in Ringerl schneiden.\n3. Sesamöl in 
+ einer großen Pfanne oder einem Wok erhitzen und das Hähnchenfleisch rund
+ herum goldbraun anbraten\, danach kurz herausnehmen.\n4. Gemüse\, fein ge
+ hackten Knoblauch und Ingwer in die Pfanne geben und ca. 5 Minuten knackig
+  anbraten.\n5. Hähnchenfleisch wieder hinzugeben\, mit Tamari-Sojasauce a
+ blöschen\, kurz durchschwenken und zusammen mit dem Basmatireis servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W32/2026-08-07-
+ asiatische-haehnchen-gemuese-pfanne-mit-basmatireis.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-09-dinner-herzhafter-kartoffel-hack-auflauf@newLoki.github.io/m
+ eal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260809T182500
+DTEND;TZID=Europe/Berlin:20260809T193000
+SUMMARY:Kochen: Herzhafter Kartoffel-Hack-Auflauf
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W32/2026-08-09-herzhafter-kartoffel-hack-auflauf.html\n\n1. Kartoffeln sc
+ hälen und in sehr dünne Scheiben schneiden. Karotten schälen und feinsc
+ hneiden.\n2. Zwiebel würfeln und zusammen mit dem Rinderhackfleisch in Ol
+ ivenöl kräftig anbraten. Mit Salz und Pfeffer würzen.\n3. Eine Auflauff
+ orm leicht einfetten. Abwechselnd Kartoffelscheiben\, Karotten und Hackfle
+ isch darin schichten.\n4. Laktosefreie Schlagsahne mit Salz\, Pfeffer und 
+ Muskatnuss kräftig verquirlen und gleichmäßig über den Auflauf gießen
+ .\n5. Mit laktosefreiem Reibekäse bestreuen und im vorgeheizten Ofen bei 
+ 200 °C Ober-/Unterhitze ca. 40 Minuten goldbraun backen.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W32/2026-08-09-
+ herzhafter-kartoffel-hack-auflauf.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-10-dinner-mediterrane-gf-pasta-mit-ofengemuese-feta@newLoki.git
+ hub.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260810T185000
+DTEND;TZID=Europe/Berlin:20260810T193000
+SUMMARY:Kochen: Mediterrane GF Pasta mit Ofengemüse & Feta
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W32/2026-08-10-mediterrane-gf-pasta-mit-ofengemuese-feta.html\n\n1. Papri
+ ka und Zucchini in mundgerechte Stücke schneiden. Kirschtomaten halbieren
+ .\n2. Gemüse und feingehackten Knoblauch auf einem Backblech verteilen\, 
+ mit Olivenöl\, Kräutern der Provence\, Salz und Pfeffer vermengen.\n3. D
+ en laktosefreien Feta in die Mitte des Blechs legen und im vorgeheizten Of
+ en bei 200 °C für ca. 25 Minuten rösten.\n4. Währenddessen glutenfreie
+  Penne in reichlich Salzwasser al dente kochen.\n5. Das fertige Ofengemüs
+ e und den geschmolzenen Feta direkt mit den abgetropften Nudeln vermischen
+  und servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W32/2026-08-10-
+ mediterrane-gf-pasta-mit-ofengemuese-feta.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-11-dinner-ungarisches-schweinegulasch-mit-gf-spaetzle-oder-nude
+ ln@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260811T181000
+DTEND;TZID=Europe/Berlin:20260811T193000
+SUMMARY:Kochen: Ungarisches Schweinegulasch mit GF Spätzle oder Nudeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W32/2026-08-11-ungarisches-schweinegulasch-mit-gf-spaetzle-oder-nudeln.ht
+ ml\n\n1. Schweinegulasch trocken tupfen und in einem Schmortopf mit Pflanz
+ enöl kräftig anbraten.\n2. Frühlingszwiebeln\, gewürfelte Paprika und 
+ Karotten dazugeben und kurz mitanrösten.\n3. Paprikapulver kurz einrühre
+ n\, sofort mit passierten Tomaten und GF Brühe ablöschen.\n4. Abgedeckt 
+ bei mittlerer bis niedriger Hitze ca. 50-60 Minuten sanft köcheln lassen\
+ , bis das Fleisch zart ist.\n5. Glutenfreie Spätzle/Nudeln kochen und zum
+  Gulasch servieren. Lässt sich hervorragend warmhalten.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W32/2026-08-11-
+ ungarisches-schweinegulasch-mit-gf-spaetzle-oder-nudeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-15-dinner-knusprige-rindfleisch-tacos@newLoki.github.io/meal-pl
+ anning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260815T190000
+DTEND;TZID=Europe/Berlin:20260815T193000
+SUMMARY:Kochen: Knusprige Rindfleisch-Tacos
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W33/2026-08-15-knusprige-rindfleisch-tacos.html\n\n1. Paprika würfeln\, 
+ Eisbergsalat in feine Streifen schneiden.\n2. Pflanzenöl in einer Pfanne 
+ erhitzen und Rinderhackfleisch krümelig anbraten.\n3. Taco-Gewürz und 2 
+ EL Wasser hinzufügen\, 3–5 Minuten köcheln lassen.\n4. Taco-Shells im 
+ vorgeheizten Ofen (150°C) ca. 3–5 Minuten erwärmen.\n5. Tacos mit Hack
+ fleisch\, Salat\, Paprika und saurer Sahne füllen.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W33/2026-08-15-
+ knusprige-rindfleisch-tacos.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-16-dinner-cremiges-steinpilz-risotto-mit-kraeuterseitlingen-und
+ -rinderfiletstreifen@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260816T183500
+DTEND;TZID=Europe/Berlin:20260816T193000
+SUMMARY:Kochen: Cremiges Steinpilz-Risotto mit Kräuterseitlingen und Rinde
+ rfiletstreifen
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W33/2026-08-16-cremiges-steinpilz-risotto-mit-kraeuterseitlingen-und-rind
+ erfiletstreifen.html\n\n1. Steinpilze in 200ml heißem Wasser 15 Min. einw
+ eichen\, Einweichwasser auffangen und filtern.\n2. Schalotten und Knoblauc
+ h fein würfeln. Kräuterseitlinge und Champignons schneiden.\n3. Brühe u
+ nd Steinpilzwasser erhitzen. In einem Topf Schalotten und Knoblauch in 20g
+  Butter andünsten\, Risottoreis dazugeben und glasig dünsten.\n4. Mit We
+ ißwein ablöschen. Nach und nach heiße Brühe eingießen und ca. 20 Min.
+  unter Rühren köcheln lassen.\n5. Pilze in einer Pfanne mit Olivenöl un
+ d Thymian scharf anbraten.\n6. Rinderfiletstreifen separat scharf anbraten
+  (ca. 1–2 Min. pro Seite)\, salzen und pfeffern.\n7. Restliche Butter un
+ d Hartkäse unter das Risotto heben. Mit Pilzen und Filetstreifen anrichte
+ n.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W33/2026-08-16-
+ cremiges-steinpilz-risotto-mit-kraeuterseitlingen-und-rinderfiletstreifen.
+ html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-17-dinner-schweinefilet-medaillons-mit-champignon-sauce-und-ros
+ marinkartoffeln@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260817T185500
+DTEND;TZID=Europe/Berlin:20260817T193000
+SUMMARY:Kochen: Schweinefilet-Medaillons mit Champignon-Sauce und Rosmarink
+ artoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W33/2026-08-17-schweinefilet-medaillons-mit-champignon-sauce-und-rosmarin
+ kartoffeln.html\n\n1. Kartoffeln schälen\, in Spalten schneiden und in ei
+ ner Pfanne mit Olivenöl und Rosmarin bei mittlerer Hitze ca. 15–20 Min.
+  knusprig braten.\n2. Schweinefilet in Medaillons schneiden\, Champignons 
+ vierteln\, Schalotte würfeln.\n3. Medaillons in Butter von beiden Seiten 
+ je 2–3 Min. scharf anbraten\, aus der Pfanne nehmen und warmhalten.\n4. 
+ Schalotten und Champignons im Bratfett anbraten. Mit Gemüsebrühe und lak
+ tosefreier Sahne ablöschen und kurz einkochen lassen.\n5. Medaillons zur
+ ück in die Sauce geben und mit den Rosmarinkartoffeln servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W33/2026-08-17-
+ schweinefilet-medaillons-mit-champignon-sauce-und-rosmarinkartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-18-dinner-knuspriges-brathaehnchen-mit-selbstgemachtem-kartoffe
+ lsalat@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260818T182000
+DTEND;TZID=Europe/Berlin:20260818T193000
+SUMMARY:Kochen: Knuspriges Brathähnchen mit selbstgemachtem Kartoffelsalat
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W33/2026-08-18-knuspriges-brathaehnchen-mit-selbstgemachtem-kartoffelsala
+ t.html\n\n1. Ofen auf 200°C Ober-/Unterhitze vorheizen. Hähnchen waschen
+ \, trocken tupfen\, mit Öl\, Paprikapulver\, Salz und Pfeffer einreiben.\
+ n2. Hähnchen im Ofen ca. 50 Min. knusprig braten.\n3. Kartoffeln als Pell
+ kartoffeln gar kochen\, schälen und in Scheiben schneiden.\n4. Zwiebel fe
+ in würfeln. Heißes Brühe-Gemisch mit Essig\, Senf\, Öl\, Salz und Pfef
+ fer verquirlen.\n5. Die warme Marinade über die Kartoffeln und Zwiebeln g
+ ießen\, vorsichtig vermengen und mindestens 20 Min. ziehen lassen.\n6. Br
+ athähnchen zerteilen und zusammen mit dem schwäbischen Kartoffelsalat se
+ rvieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W33/2026-08-18-
+ knuspriges-brathaehnchen-mit-selbstgemachtem-kartoffelsalat.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-21-dinner-haehnchen-gyros-mit-tzatziki-und-suesskartoffel-wedge
+ s@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260821T184500
+DTEND;TZID=Europe/Berlin:20260821T193000
+SUMMARY:Kochen: Hähnchen-Gyros mit Tzatziki und Süßkartoffel-Wedges
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W34/2026-08-21-haehnchen-gyros-mit-tzatziki-und-suesskartoffel-wedges.htm
+ l\n\n1. Süßkartoffeln waschen\, in Wedges schneiden\, mit Olivenöl\, Sa
+ lz und Pfeffer vermengen und bei 200°C Umluft 25 Minuten im Ofen backen.\
+ n2. Hähnchenbrustfilet in Streifen schneiden und mit Gyrosgewürz sowie e
+ twas Olivenöl marinieren.\n3. Gurke raspeln\, ausdrücken und mit laktose
+ freiem griechischen Joghurt\, gepresstem Knoblauch\, Salz und Pfeffer zum 
+ Tzatziki verrühren.\n4. Das marinierte Hähnchen-Gyros in einer heißen P
+ fanne scharf anbraten\, bis es durchgegart ist\, und mit den Süßkartoffe
+ l-Wedges sowie dem Tzatziki servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W34/2026-08-21-
+ haehnchen-gyros-mit-tzatziki-und-suesskartoffel-wedges.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-22-dinner-rinderhack-koettbullar-in-rahmsosse-mit-salzkartoffel
+ n-und-preiselbeeren@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260822T185000
+DTEND;TZID=Europe/Berlin:20260822T193000
+SUMMARY:Kochen: Rinderhack-Köttbullar in Rahmsoße mit Salzkartoffeln und 
+ Preiselbeeren
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W34/2026-08-22-rinderhack-koettbullar-in-rahmsosse-mit-salzkartoffeln-und
+ -preiselbeeren.html\n\n1. Kartoffeln schälen\, würfeln und in Salzwasser
+  ca. 20 Minuten gar kochen.\n2. Zwiebel fein würfeln. Rinderhackfleisch m
+ it Zwiebeln\, Ei\, glutenfreiem Paniermehl\, Salz\, Pfeffer und einer Pris
+ e Piment gut verkneten und kleine Bällchen formen.\n3. Köttbullar in ein
+ er Pfanne rundherum anbraten\, aus der Pfanne nehmen.\n4. Bratensatz mit R
+ inderbrühe und laktosefreier Sahne ablöschen\, einkochen lassen\, mit Sa
+ lz und Pfeffer abschmecken\, Köttbullar dazugeben und 5 Minuten ziehen la
+ ssen.\n5. Köttbullar mit Rahmsoße\, Kartoffeln und einem Klecks Preiselb
+ eeren servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W34/2026-08-22-
+ rinderhack-koettbullar-in-rahmsosse-mit-salzkartoffeln-und-preiselbeeren.h
+ tml
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-23-breakfast-breakfast-burger-mit-ei-speck-und-gf-pancake-buns@
+ newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260823T083000
+DTEND;TZID=Europe/Berlin:20260823T090000
+SUMMARY:Kochen: Breakfast Burger mit Ei\, Speck und GF Pancake-Buns
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W34/2026-08-23-breakfast-burger-mit-ei-speck-und-gf-pancake-buns.html\n\n
+ 1. Glutenfreies Mehl\, Backpulver\, laktosefreie Milch\, 1 Ei und eine Pri
+ se Salz zu einem dicken Pancaketeig verrühren.\n2. In einer Pfanne mit et
+ was laktosefreier Butter 4 kleine\, dicke Pancakes als Buns ausbacken.\n3.
+  In einer zweiten Pfanne den Bacon knusprig braten. Aus den restlichen 2 E
+ iern Spiegeleier braten und mit Salz und Pfeffer würzen.\n4. Jeweils eine
+ n Pancake mit Cheddar\, knusprigem Bacon\, Spiegelei und einem Spritzer Ah
+ ornsirup belegen und mit einem zweiten Pancake abdecken.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W34/2026-08-23-
+ breakfast-burger-mit-ei-speck-und-gf-pancake-buns.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-23-dinner-schweinefilet-medaillons-mit-champignon-rahmsosse-und
+ -ofen-suesskartoffeln@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260823T185000
+DTEND;TZID=Europe/Berlin:20260823T193000
+SUMMARY:Kochen: Schweinefilet-Medaillons mit Champignon-Rahmsoße und Ofen-
+ Süßkartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W34/2026-08-23-schweinefilet-medaillons-mit-champignon-rahmsosse-und-ofen
+ -suesskartoffeln.html\n\n1. Süßkartoffeln schälen\, würfeln\, mit Öl\
+ , Salz und Pfeffer vermengen und bei 200°C Umluft ca. 20–25 Minuten im 
+ Ofen rösten.\n2. Schweinefilet in Medaillons schneiden\, leicht salzen\, 
+ pfeffern und von beiden Seiten je 2-3 Minuten scharf anbraten\, danach bei
+ seitestellen.\n3. Geputzte Champignons und gehackte Schalotte in der gleic
+ hen Pfanne anbraten.\n4. Mit laktosefreier Sahne ablöschen\, Thymian hinz
+ ufügen\, leicht einkochen lassen\, Medaillons zurück in die Soße geben 
+ und kurz garziehen lassen.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W34/2026-08-23-
+ schweinefilet-medaillons-mit-champignon-rahmsosse-und-ofen-suesskartoffeln
+ .html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-24-dinner-cremige-linsen-curry-suppe-mit-kokosmilch-und-knoblau
+ ch-oel@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260824T185000
+DTEND;TZID=Europe/Berlin:20260824T193000
+SUMMARY:Kochen: Cremige Linsen-Curry-Suppe mit Kokosmilch und Knoblauch-Öl
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W34/2026-08-24-cremige-linsen-curry-suppe-mit-kokosmilch-und-knoblauch-oe
+ l.html\n\n1. Zwiebel\, Knoblauch\, Ingwer und Karotten schälen und klein 
+ schneiden.\n2. Öl in einem Topf erhitzen\, Zwiebel\, Ingwer\, Hälfte des
+  Knoblauchs und Gewürze kurz anrösten.\n3. Karotten und gespülte rote L
+ insen dazugeben\, mit Gemüsebrühe und Kokosmilch aufgießen und ca. 20 M
+ inuten köcheln lassen\, bis die Linsen weich sind.\n4. Die Suppe nach Wun
+ sch anpürieren\, mit Salz und Pfeffer abschmecken.\n5. Restlichen Knoblau
+ ch in etwas warmem Öl ziehen lassen und vor dem Servieren als Knoblauch-
+ Öl-Topping über die Suppe träufeln.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W34/2026-08-24-
+ cremige-linsen-curry-suppe-mit-kokosmilch-und-knoblauch-oel.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-25-dinner-asiatische-puten-gemuese-pfanne-mit-tamari-kokos-soss
+ e-und-reis@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260825T185500
+DTEND;TZID=Europe/Berlin:20260825T193000
+SUMMARY:Kochen: Asiatische Puten-Gemüse-Pfanne mit Tamari-Kokos-Soße und 
+ Reis
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W34/2026-08-25-asiatische-puten-gemuese-pfanne-mit-tamari-kokos-sosse-und
+ -reis.html\n\n1. Jasminreis nach Packungsanweisung garen.\n2. Putenbrust i
+ n Streifen schneiden. Karotten\, Paprika und Zucchini in feine Stifte bzw.
+  Scheiben schneiden.\n3. Putenbrust in einem Wok oder einer großen Pfanne
+  mit Sesamöl anbraten\, herausnehmen.\n4. Gemüse im Wok knackig anbraten
+ \, Fleisch wieder dazugeben\, mit Tamari und Kokosmilch ablöschen und 3 M
+ inuten einkochen lassen.\n5. Zusammen mit dem heißen Jasminreis servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W34/2026-08-25-
+ asiatische-puten-gemuese-pfanne-mit-tamari-kokos-sosse-und-reis.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-28-dinner-indisches-haehnchen-tikka-masala-mit-basmatireis@newL
+ oki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260828T184500
+DTEND;TZID=Europe/Berlin:20260828T193000
+SUMMARY:Kochen: Indisches Hähnchen-Tikka-Masala mit Basmatireis
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W35/2026-08-28-indisches-haehnchen-tikka-masala-mit-basmatireis.html\n\n1
+ . Hähnchenbrust in mundgerechte Stücke schneiden. Ingwer und Knoblauch f
+ ein reiben.\n2. Öl in einer großen Pfanne erhitzen\, Hähnchenstücke ru
+ ndherum goldbraun anbraten und herausnehmen.\n3. Ingwer\, Knoblauch und Ge
+ würze (Garam Masala\, Kurkuma) im verbliebenen Öl kurz anrösten.\n4. Mi
+ t passierten Tomaten und laktosefreier Schlagsahne ablöschen. Soße 10 Mi
+ nuten sanft köcheln lassen.\n5. Basmatireis nach Packungsanleitung in Sal
+ zwasser gar kochen.\n6. Hähnchenfleisch zurück in die Soße geben und we
+ itere 5 Minuten ziehen lassen. Mit Salz und Pfeffer abschmecken.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W35/2026-08-28-
+ indisches-haehnchen-tikka-masala-mit-basmatireis.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-29-dinner-cremiges-linsen-dal-mit-kokosmilch-babyspinat@newLoki
+ .github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260829T185500
+DTEND;TZID=Europe/Berlin:20260829T193000
+SUMMARY:Kochen: Cremiges Linsen-Dal mit Kokosmilch & Babyspinat
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W35/2026-08-29-cremiges-linsen-dal-mit-kokosmilch-babyspinat.html\n\n1. R
+ ote Linsen in einem Sieb gründlich kalt abspülen.\n2. Ingwer fein hacken
+  und in einem Topf mit Öl anbraten\, Currypulver hinzufügen.\n3. Linsen\
+ , passierte Tomaten und Kokosmilch dazugeben. Mit ca. 200 ml Wasser auffü
+ llen.\n4. Bei mittlerer Hitze ca. 15–20 Minuten köcheln lassen\, bis di
+ e Linsen weich sind.\n5. Babyspinat unterrühren\, bis er zusammenfällt. 
+ Mit Salz abschmecken.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W35/2026-08-29-
+ cremiges-linsen-dal-mit-kokosmilch-babyspinat.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-30-dinner-klassischer-rinder-schmorbraten-mit-kloessen-apfelrot
+ kohl@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260830T170000
+DTEND;TZID=Europe/Berlin:20260830T193000
+SUMMARY:Kochen: Klassischer Rinder-Schmorbraten mit Klößen & Apfelrotkohl
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W35/2026-08-30-klassischer-rinder-schmorbraten-mit-kloessen-apfelrotkohl.
+ html\n\n1. Rinderschulter trocken tupfen\, kräftig salzen und pfeffern. I
+ n einem Bräter in Öl von allen Seiten scharf anbraten und herausnehmen.\
+ n2. Karotten\, Sellerie und Knoblauch würfeln\, im Bräter anrösten. Tom
+ atenmark einrühren und kurz mitrösten.\n3. Mit Rotwein ablöschen und ei
+ nkochen lassen. Rinderbrühe angießen und das Fleisch zurück in den Brä
+ ter legen.\n4. Abgedeckt bei mittlerer Hitze ca. 1\,5 bis 2 Stunden weich 
+ schmoren.\n5. Rotkohl im Topf erwärmen. Glutenfreien Kloßteig zu Klöße
+ n formen und in siedendem Salzwasser gar ziehen lassen.\n6. Fleisch aufsch
+ neiden\, Bratensoße nach Wunsch pürieren oder passieren und abschmecken.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W35/2026-08-30-
+ klassischer-rinder-schmorbraten-mit-kloessen-apfelrotkohl.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-31-dinner-schweinefilet-medaillons-in-champignon-rahm-mit-karto
+ ffeln@newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260831T185000
+DTEND;TZID=Europe/Berlin:20260831T193000
+SUMMARY:Kochen: Schweinefilet-Medaillons in Champignon-Rahm mit Kartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W35/2026-08-31-schweinefilet-medaillons-in-champignon-rahm-mit-kartoffeln
+ .html\n\n1. Kartoffeln schälen\, würfeln und in Salzwasser ca. 15–20 M
+ inuten gar kochen.\n2. Schweinefilet in Medaillons schneiden. Champignons 
+ scheiben und Frühlingszwiebeln in Ringerln schneiden.\n3. Öl in einer Pf
+ anne erhitzen\, Medaillons von jeder Seite 2–3 Minuten anbraten\, aus de
+ r Pfanne nehmen und warmhalten.\n4. Champignons in derselben Pfanne anbrat
+ en. Mit laktosefreier Sahne und Tamari ablöschen.\n5. Soße kurz einkoche
+ n lassen\, mit Salz und Pfeffer abschmecken\, Medaillons kurz darin erwär
+ men und mit den Kartoffeln servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W35/2026-08-31-
+ schweinefilet-medaillons-in-champignon-rahm-mit-kartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-01-dinner-zitronen-kraeuter-lachs-vom-blech-mit-ofenkartoffeln@
+ newLoki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260901T185500
+DTEND;TZID=Europe/Berlin:20260901T193000
+SUMMARY:Kochen: Zitronen-Kräuter-Lachs vom Blech mit Ofenkartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/08
+ /W35/2026-09-01-zitronen-kraeuter-lachs-vom-blech-mit-ofenkartoffeln.html\
+ n\n1. Backofen auf 200 °C Ober-/Unterhitze vorheizen.\n2. Kartoffeln und 
+ Karotten waschen/schälen\, in Spalten beziehungsweise Stifte schneiden. M
+ it Olivenöl\, Salz und Pfeffer mischen und auf einem Backblech 15 Minuten
+  vorbacken.\n3. Lachsfilets trockentupfen\, salzen\, pfeffern und mit etwa
+ s Zitronensaft beträufeln.\n4. Lachs zu dem Gemüse aufs Blech legen und 
+ weitere 10–12 Minuten backen\, bis der Lachs gar ist.\n5. Laktosefreien 
+ Quark mit gehacktem Dill\, Zitronenabrieb\, Salz und Pfeffer zu einem Krä
+ uterdip verrühren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/08/W35/2026-09-01-
+ zitronen-kraeuter-lachs-vom-blech-mit-ofenkartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-05-dinner-cremige-pasta-mit-kaesesosse@newLoki.github.io/meal-p
+ lanning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260905T190000
+DTEND;TZID=Europe/Berlin:20260905T193000
+SUMMARY:Kochen: Cremige Pasta mit Käsesoße
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/09
+ /W36/2026-09-05-cremige-pasta-mit-kaesesosse.html\n\n1. GF-Pasta in reichl
+ ich Salzwasser nach Packungsanleitung kochen.\n2. Laktosefreie Sahne in ei
+ nem Topf erwärmen\, geriebenen Cheddar und Gouda einrühren\, bis die So
+ ße cremig ist.\n3. Pasta abgießen\, mit der Käsesoße vermengen und hei
+ ß servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/09/W36/2026-09-05-
+ cremige-pasta-mit-kaesesosse.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-06-dinner-klassische-rinderrouladen-mit-rotkohl-kartoffeln@newL
+ oki.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260906T173000
+DTEND;TZID=Europe/Berlin:20260906T193000
+SUMMARY:Kochen: Klassische Rinderrouladen mit Rotkohl & Kartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/09
+ /W36/2026-09-06-klassische-rinderrouladen-mit-rotkohl-kartoffeln.html\n\n1
+ . Rinderrouladen mit Senf bestreichen\, mit Speck und Gewürzgurke belegen
+ \, aufrollen und feststecken.\n2. Rouladen scharf anbraten\, mit Wasser/Br
+ ühe ablöschen und ca. 90 Minuten weich schmoren.\n3. Parallel Kartoffeln
+  kochen und Rotkohl erwärmen.\n4. Die Soße mit in kaltem Wasser angerüh
+ rter Speisestärke glutenfrei binden.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/09/W36/2026-09-06-
+ klassische-rinderrouladen-mit-rotkohl-kartoffeln.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-07-dinner-gebratener-eierreis-mit-buntem-gemuese@newLoki.github
+ .io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260907T190000
+DTEND;TZID=Europe/Berlin:20260907T193000
+SUMMARY:Kochen: Gebratener Eierreis mit buntem Gemüse
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/09
+ /W36/2026-09-07-gebratener-eierreis-mit-buntem-gemuese.html\n\n1. Gemüse 
+ klein schneiden und in einer Pfanne anbraten.\n2. Gekochten Reis dazugeben
+  und kurz mitbraten.\n3. Ei verquirlen\, in die Pfanne geben und stocken l
+ assen.\n4. Mit Tamari-Sojasoße abschmecken und servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/09/W36/2026-09-07-
+ gebratener-eierreis-mit-buntem-gemuese.html
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-dinner-klassisches-chili-con-carne-mit-ofenkartoffeln@newLok
+ i.github.io/meal-planning
+DTSTAMP:20260903T182455Z
+DTSTART;TZID=Europe/Berlin:20260908T183000
+DTEND;TZID=Europe/Berlin:20260908T193000
+SUMMARY:Kochen: Klassisches Chili con Carne mit Ofenkartoffeln
+DESCRIPTION:Rezept: https://newLoki.github.io/meal-planning/recipes/2026/09
+ /W36/2026-09-08-klassisches-chili-con-carne-mit-ofenkartoffeln.html\n\n1. 
+ Kartoffeln halpieren und im Ofen bei 200 °C backen.\n2. Hackfleisch kräf
+ tig anbraten\, Kidneybohnen und gestückelte Tomaten dazugeben.\n3. Chili 
+ ca. 30 Minuten köcheln lassen und mit den Ofenkartoffeln servieren.
+URL:https://newLoki.github.io/meal-planning/recipes/2026/09/W36/2026-09-08-
+ klassisches-chili-con-carne-mit-ofenkartoffeln.html
+END:VEVENT
+END:VCALENDAR

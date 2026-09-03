@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wochenpl&auml;ne</title>
+<style>
+  :root{--fg:#1a1a1a;--muted:#6b6b6b;--accent:#338a7e;--card:#f5f4f1;--line:#e6e5e2}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
+  main{max-width:640px;margin:0 auto;padding:24px 20px 72px}
+  h1{font-size:1.5rem;margin:.4em 0 .8em}
+  .sub{background:var(--card);border-radius:12px;padding:14px 16px;margin:0 0 20px}
+  .sub h2{font-size:1rem;margin:0 0 .5em}
+  .sub a.gcal{display:inline-block;background:#1a73e8;color:#fff;text-decoration:none;font-weight:600;padding:.6em 1em;border-radius:8px;font-size:14px}
+  .sub code{display:block;margin-top:.7em;font-size:12px;color:var(--muted);word-break:break-all}
+  .sub p{margin:.6em 0 0;font-size:12px;color:var(--muted)}
+
+  .calnav{display:flex;gap:8px;align-items:center;margin:0 0 12px}
+  .calnav button{flex:0 0 auto;border:1px solid var(--line);background:#fff;color:var(--fg);font-size:18px;line-height:1;padding:.45em .7em;border-radius:8px;cursor:pointer}
+  .calnav button:hover{background:var(--card)}
+  .calnav select{flex:1 1 auto;min-width:0;font:inherit;font-size:14px;padding:.5em .6em;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--fg)}
+
+  ol.weeks{list-style:none;padding:0;margin:0}
+  ol.weeks li{border:1px solid var(--line);border-radius:12px;margin:0 0 10px;overflow:hidden}
+  ol.weeks li a,ol.weeks li .inactive{display:flex;align-items:baseline;gap:10px;padding:14px 16px;text-decoration:none;color:var(--fg)}
+  ol.weeks li .kw{font-weight:700;font-size:1.05rem;white-space:nowrap}
+  ol.weeks li .rng{color:var(--muted);font-size:13px}
+  ol.weeks li .c{margin-left:auto;font-size:13px;color:var(--muted);white-space:nowrap}
+  ol.weeks li a .c{color:var(--accent);font-weight:600}
+  ol.weeks li.empty{background:var(--card);border-color:transparent}
+  ol.weeks li.empty .kw,ol.weeks li.empty .rng,ol.weeks li.empty .c{color:#b7b6b2}
+  ol.weeks li.current{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+  footer{margin-top:2.6em;color:#b3b3b3;font-size:12px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Wochenpl&auml;ne</h1>
+  <div class="sub">
+    <h2>&#128197; Kochtermine abonnieren</h2>
+    <a class="gcal" href="webcal://newLoki.github.io/meal-planning/meals.ics">Kalender abonnieren</a>
+    <p>Enth&auml;lt alle Kochtermine (Ende 19:30 Uhr, Start abz&uuml;glich Vor- &amp; Kochzeit) &mdash; neue Wochen erscheinen automatisch.</p>
+    <p>In Google Kalender manuell: &bdquo;Weitere Kalender &rarr; Per URL&ldquo; und diese Adresse einf&uuml;gen:</p>
+    <code>https://newLoki.github.io/meal-planning/meals.ics</code>
+  </div>
+
+  <div class="calnav">
+    <button id="prev" type="button" aria-label="Fr&uuml;here Wochen">&larr;</button>
+    <select id="weekpick" aria-label="Woche w&auml;hlen">
+      <option value="2026-W26">KW 26 &middot; 22.–28.06.</option>
+      <option value="2026-W27">KW 27 &middot; 29.06.–5.07.</option>
+      <option value="2026-W28">KW 28 &middot; 13.–15.07. (3)</option>
+      <option value="2026-W29">KW 29 &middot; 17.–21.07. (5)</option>
+      <option value="2026-W30">KW 30 &middot; 24.–28.07. (5)</option>
+      <option value="2026-W31">KW 31 &middot; 31.07.–4.08. (5)</option>
+      <option value="2026-W32">KW 32 &middot; 7.–11.08. (4)</option>
+      <option value="2026-W33">KW 33 &middot; 15.–18.08. (4)</option>
+      <option value="2026-W34">KW 34 &middot; 21.–25.08. (6)</option>
+      <option value="2026-W35">KW 35 &middot; 28.08.–1.09. (5)</option>
+      <option value="2026-W36" selected>KW 36 &middot; 5.–8.09. (4)</option>
+      <option value="2026-W37">KW 37 &middot; 7.–13.09.</option>
+      <option value="2026-W38">KW 38 &middot; 14.–20.09.</option>
+    </select>
+    <button id="next" type="button" aria-label="Sp&auml;tere Wochen">&rarr;</button>
+  </div>
+
+  <ol class="weeks" id="weeks">
+    <li class="wk empty" data-key="2026-W26">
+      <div class="inactive">
+        <span class="kw">KW 26</span>
+        <span class="rng">22.–28.06.</span>
+        <span class="c">&ndash;</span>
+      </div>
+    </li>
+    <li class="wk empty" data-key="2026-W27">
+      <div class="inactive">
+        <span class="kw">KW 27</span>
+        <span class="rng">29.06.–5.07.</span>
+        <span class="c">&ndash;</span>
+      </div>
+    </li>
+    <li class="wk" data-key="2026-W28">
+      <a href="recipes/2026/07/W28/">
+        <span class="kw">KW 28</span>
+        <span class="rng">13.–15.07.</span>
+        <span class="c">3 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W29">
+      <a href="recipes/2026/07/W29/">
+        <span class="kw">KW 29</span>
+        <span class="rng">17.–21.07.</span>
+        <span class="c">5 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W30">
+      <a href="recipes/2026/07/W30/">
+        <span class="kw">KW 30</span>
+        <span class="rng">24.–28.07.</span>
+        <span class="c">5 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W31">
+      <a href="recipes/2026/07/W31/">
+        <span class="kw">KW 31</span>
+        <span class="rng">31.07.–4.08.</span>
+        <span class="c">5 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W32">
+      <a href="recipes/2026/08/W32/">
+        <span class="kw">KW 32</span>
+        <span class="rng">7.–11.08.</span>
+        <span class="c">4 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W33">
+      <a href="recipes/2026/08/W33/">
+        <span class="kw">KW 33</span>
+        <span class="rng">15.–18.08.</span>
+        <span class="c">4 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W34">
+      <a href="recipes/2026/08/W34/">
+        <span class="kw">KW 34</span>
+        <span class="rng">21.–25.08.</span>
+        <span class="c">6 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk" data-key="2026-W35">
+      <a href="recipes/2026/08/W35/">
+        <span class="kw">KW 35</span>
+        <span class="rng">28.08.–1.09.</span>
+        <span class="c">5 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk current" data-key="2026-W36">
+      <a href="recipes/2026/09/W36/">
+        <span class="kw">KW 36</span>
+        <span class="rng">5.–8.09.</span>
+        <span class="c">4 Rezepte</span>
+      </a>
+    </li>
+    <li class="wk empty" data-key="2026-W37">
+      <div class="inactive">
+        <span class="kw">KW 37</span>
+        <span class="rng">7.–13.09.</span>
+        <span class="c">&ndash;</span>
+      </div>
+    </li>
+    <li class="wk empty" data-key="2026-W38">
+      <div class="inactive">
+        <span class="kw">KW 38</span>
+        <span class="rng">14.–20.09.</span>
+        <span class="c">&ndash;</span>
+      </div>
+    </li>
+  </ol>
+  <footer>Generiert 2026-09-03 18:24 UTC</footer>
+</main>
+<script>
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll('#weeks > li'));
+    var pick = document.getElementById('weekpick');
+    var n = items.length, WINDOW = 2, center = 10;
+    function clamp(i) { return Math.max(0, Math.min(n - 1, i)); }
+    function render() {
+      center = clamp(center);
+      for (var i = 0; i < n; i++) items[i].style.display = (i >= center - WINDOW && i <= center + WINDOW) ? '' : 'none';
+      if (pick && items[center]) pick.value = items[center].getAttribute('data-key');
+    }
+    document.getElementById('prev').addEventListener('click', function () { center -= 1; render(); });
+    document.getElementById('next').addEventListener('click', function () { center += 1; render(); });
+    if (pick) pick.addEventListener('change', function () {
+      for (var i = 0; i < n; i++) if (items[i].getAttribute('data-key') === pick.value) { center = i; break; }
+      render();
+    });
+    render();
+  })();
+</script>
+</body>
+</html>
