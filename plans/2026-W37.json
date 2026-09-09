@@ -1,0 +1,178 @@
+{
+  "week_label": "2026-W37",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-09-11",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "GF Spaghetti Bolognese",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 30,
+      "category": "Hauptgericht",
+      "tagline": "Klassische Rinderhackfleisch-Bolognese auf glutenfreien Spaghetti",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "glutenfreie Spaghetti" },
+        { "amount": 500, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 500, "unit": "g", "name": "passierte Tomaten" },
+        { "amount": 200, "unit": "g", "name": "Karotten" },
+        { "amount": 2, "unit": "Stangen", "name": "Staudensellerie" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 50, "unit": "g", "name": "laktosefreier Parmesan" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" },
+        { "name": "Italienische Kräuter" }
+      ],
+      "steps": [
+        "Zwiebel, Knoblauch, Karotten und Staudensellerie fein würfeln.",
+        "Olivenöl in einem Topf erhitzen, Rinderhackfleisch darin kräftig anbraten.",
+        "Das gewürfelte Gemüse hinzugeben und ca. 5 Minuten mitdünsten.",
+        "Mit passierten Tomaten ablöschen, würzen und bei mittlerer Hitze ca. 20 Minuten köcheln lassen.",
+        "Parallel die glutenfreien Spaghetti in reichlich Salzwasser al dente kochen.",
+        "Spaghetti mit der Bolognese servieren und mit geriebenem laktosefreiem Parmesan bestreuen."
+      ],
+      "tips": [
+        "Glutenfreie Pasta reichlich salzen und genau nach Packungsangabe kochen, da sie schnell verkocht."
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Texas Brisket mit GF Mac & Cheese",
+      "type": "meat",
+      "prep_min": 30,
+      "cook_min": 360,
+      "category": "Hauptgericht",
+      "tagline": "Zart geschmorte Rinderbrust mit cremigen gluten- und laktosefreien Makkaroni",
+      "ingredients": [
+        { "amount": 2000, "unit": "g", "name": "Rinderbrust (Brisket)" },
+        { "amount": 3, "unit": "EL", "name": "BBQ-Rub (glutenfrei)" },
+        { "amount": 250, "unit": "g", "name": "glutenfreie Ellbogen-Makkaroni" },
+        { "amount": 200, "unit": "g", "name": "laktosefreier Cheddar (gerieben)" },
+        { "amount": 250, "unit": "ml", "name": "laktosefreie Milch" },
+        { "amount": 2, "unit": "EL", "name": "laktosefreie Butter" },
+        { "amount": 2, "unit": "EL", "name": "glutenfreies Mehl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Rinderbrust mit dem BBQ-Rub einreiben und im Smoker oder Ofen bei ca. 110–120 °C langsam garen (ca. 6 Stunden, bis zum Kerntemperatur-Ziel).",
+        "Für die Mac & Cheese die glutenfreien Makkaroni nach Packungsanweisung kochen.",
+        "In einem Topf Butter schmelzen, glutenfreies Mehl einrühren und mit laktosefreier Milch zu einer Mehlschwitze aufkochen.",
+        "Geriebenen laktosefreien Cheddar einrühren, bis eine geschmeidige Käsesauce entsteht.",
+        "Makkaroni unter die Käsesauce heben und warm zusammen mit dem aufgeschnittenen Brisket servieren."
+      ],
+      "tips": [
+        "Beim BBQ-Rub darauf achten, dass keine verdeckten glutenhaltigen Trennmittel enthalten sind."
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Zitronen-Hähnchen mit Ofengemüse",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 35,
+      "category": "Hauptgericht",
+      "tagline": "Saftiges Hähnchenbrustfilet mit Zitronen-Kräuter-Marinated und Röstgemüse",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 300, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 1, "unit": "Stück", "name": "Bio-Zitrone" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Rosmarin" },
+        { "name": "Thymian" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Kartoffeln, Karotten und Zucchini in mundgerechte Stücke schneiden.",
+        "Gemüse auf einem Backblech mit Olivenöl, gepresstem Knoblauch, Kräutern, Salz und Pfeffer vermengen.",
+        "Hähnchenbrustfilets mit Zitronensaft, Zitronenabrieb, Olivenöl und Kräutern marinieren.",
+        "Das Gemüse 15 Minuten vorbacken, dann die Hähnchenbrustfilets dazulegen und weitere 20 Minuten goldbraun fertig garen."
+      ],
+      "tips": [
+        "Das Gemüse auf dem Blech gut verteilen, damit es röstet und nicht dämpft."
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Milder Linseneintopf mit Kokosmilch",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Cremiger, vegetarischer Linseneintopf – perfekt zum Vorkochen und Aufwärmen",
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "Rote Linsen" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 400, "unit": "g", "name": "passierte Tomaten" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 1, "unit": "Daumenstück", "name": "Ingwer" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
+        { "amount": 500, "unit": "ml", "name": "glutenfreie Gemüsebrühe" },
+        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel" },
+        { "amount": 1, "unit": "TL", "name": "Kurkuma" },
+        { "amount": 1, "unit": "EL", "name": "Kokosöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Zwiebel, Knoblauch und Ingwer fein hacken.",
+        "Kokosöl in einem großen Topf erhitzen, Zwiebel, Knoblauch, Ingwer, Kreuzkümmel und Kurkuma anschwitzen.",
+        "Rote Linsen kurz mitanrösten.",
+        "Mit glutenfreier Gemüsebrühe, passierten Tomaten und Kokosmilch aufgießen.",
+        "Bei mittlerer Hitze ca. 20 Minuten sanft köcheln lassen, bis die Linsen weich sind.",
+        "Mit Salz und Pfeffer abschmecken. Lässt sich hervorragend am Folgetag aufwärmen!"
+      ],
+      "tips": [
+        "Rote Linsen müssen nicht eingeweicht werden und kochen besonders schnell weich."
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Schweinegeschnetzeltes mit Pilzen & Reis",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Zartes Schweinegeschnetzeltes in cremiger Pilz-Rahmsauce zu Basmatireis",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Schweinegeschnetzeltes" },
+        { "amount": 250, "unit": "g", "name": "Champignons" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 200, "unit": "ml", "name": "laktosefreie Sahne" },
+        { "amount": 150, "unit": "g", "name": "Basmatireis" },
+        { "amount": 1, "unit": "EL", "name": "glutenfreie Tamari-Sauce" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" },
+        { "name": "Petersilie" }
+      ],
+      "steps": [
+        "Basmatireis nach Packungsanweisung in Salzwasser gar kochen.",
+        "Champignons putzen und schneiden, Zwiebel würfeln.",
+        "Pflanzenöl in einer Pfanne stark erhitzen und das Schweinegeschnetzeltes scharf anbraten, dann herausnehmen.",
+        "Zwiebeln und Champignons in derselben Pfanne anbraten.",
+        "Mit laktosefreier Sahne und Tamari-Sauce ablöschen, kurz einköcheln lassen.",
+        "Fleisch wieder dazugeben, mit Salz, Pfeffer und Petersilie abschmecken und zusammen mit dem Basmatireis servieren."
+      ],
+      "tips": [
+        "Glutenfreie Tamari-Sauce anstelle von herkömmlicher Sojasauce verwenden."
+      ]
+    }
+  ]
+}
