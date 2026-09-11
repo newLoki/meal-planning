@@ -4,6 +4,41 @@
   "recipes": [
     {
       "date": "2026-09-11",
+      "meal": "snack",
+      "time": "17:00",
+      "name": "Philadelphia Torte Schwarzwälder-Kirsch (laktosefrei)",
+      "type": "vegetarian",
+      "prep_min": 30,
+      "cook_min": 0,
+      "category": "Kuchen & Gebäck",
+      "tagline": "Fruchtig-cremige Kühlschranktorte nach Schwarzwälder Art mit laktosefreiem Frischkäse",
+      "ingredients": [
+        { "amount": 140, "unit": "g", "name": "glutenfreie Löffelbiskuits oder Kekse" },
+        { "amount": 75, "unit": "g", "name": "laktosefreie Butter" },
+        { "amount": 300, "unit": "g", "name": "laktosefreier Frischkäse (z. B. Philadelphia laktosefrei)" },
+        { "amount": 300, "unit": "g", "name": "laktosefreier Joghurt" },
+        { "amount": 1, "unit": "Pck.", "name": "Geliermittel / Gelatine" },
+        { "amount": 75, "unit": "g", "name": "Zucker" },
+        { "amount": 1, "unit": "Pck.", "name": "Vanillezucker" },
+        { "amount": 1, "unit": "Glas", "name": "Schattenmorellen / Sauerkirschen" },
+        { "amount": 1, "unit": "Pck.", "name": "Roter Tortenguss" },
+        { "amount": 2, "unit": "EL", "name": "Kakao oder Schokoraspel (laktosefrei)" }
+      ],
+      "steps": [
+        "Kekse in einen Gefrierbeutel geben und fein zerbröseln.",
+        "Butter schmelzen, mit den Keksbröseln vermengen und auf dem Boden einer Springform als Tortenboden festdrücken.",
+        "Laktosefreien Frischkäse, Joghurt, Zucker und Vanillezucker verrühren.",
+        "Geliermittel nach Packungsanweisung zubereiten und unter die Frischkäsecreme heben.",
+        "Die Masse auf dem Keksboden verteilen und die Torte kalt stellen.",
+        "Kirschen abtropfen lassen (Saft auffangen), auf der Creme verteilen und aus dem Kirschsaft mit Tortenguss einen Guss anrühren und drübergießen.",
+        "Vor dem Servieren mit laktosefreien Schokoraspeln oder Kakao garnieren."
+      ],
+      "tips": [
+        "Die Torte benötigt keine Backzeit, sollte aber mindestens 3 Stunden im Kühlschrank durchkühlen."
+      ]
+    },
+    {
+      "date": "2026-09-11",
       "meal": "dinner",
       "time": "19:30",
       "name": "GF Spaghetti Bolognese",
