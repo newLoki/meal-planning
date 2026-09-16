@@ -1,0 +1,158 @@
+{
+  "week_label": "2026-W38",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-09-18",
+      "meal": "dinner",
+      "name": "Picanha-Streifen mit Ofengemüse & Kräuterdip",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Saftiges Picanha-Steak mit buntem Röstgemüse und frischem, laktosefreiem Kräuterdip",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Picanha (Tafelspitz mit Fettdeckel) oder Rumpsteak" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 300, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 200, "unit": "g", "name": "laktosefreier Quark oder Schmand" },
+        { "amount": 1, "unit": "Bund", "name": "gemischte frische Kräuter (Schnittlauch, Petersilie)" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
+        { "name": "Salz und schwarzer Pfeffer" }
+      ],
+      "steps": [
+        "Den Ofen auf 200 °C Ober-/Unterhitze vorheizen. Kartoffeln, Karotten und Zucchini in mundgerechte Stücke schneiden.",
+        "Das Gemüse mit Olivenöl, Salz und Pfeffer auf einem Backblech vermengen und ca. 25 Minuten im Ofen rösten.",
+        "Den laktosefreien Quark mit gehackten Kräutern, zerdrücktem Knoblauch, Salz und Pfeffer zum Kräuterdip verrühren.",
+        "Das Picanha-Fleisch auf der Fettseite rautenförmig einschneiden, stark salzen und in einer heißen Pfanne oder auf dem Grill von allen Seiten scharf anbraten, bis der gewünschte Garpunkt erreicht ist.",
+        "Das Fleisch vor dem Aufschneiden 5 Minuten ruhen lassen, dann gegen die Faser in Tranchen schneiden und mit Ofengemüse sowie Kräuterdip servieren."
+      ],
+      "tips": [
+        "Achten Sie beim Gewürz für den Dip darauf, dass keine versteckten mehlbasierten Trennmittel enthalten sind; frische Kräuter und Meersalz funktionieren am besten."
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "meal": "dinner",
+      "name": "Deftiger Kartoffel-Lauch-Eintopf mit Mettenden",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 30,
+      "category": "Hauptgericht",
+      "tagline": "Herzhafter, sämiger Eintopf mit naturbelassener Kartoffelbindung",
+      "ingredients": [
+        { "amount": 600, "unit": "g", "name": "mehlige Kartoffeln" },
+        { "amount": 2, "unit": "Stangen", "name": "Porree / Lauch" },
+        { "amount": 200, "unit": "g", "name": "Karotten" },
+        { "amount": 4, "unit": "Stück", "name": "Mettenden (glutenfrei & laktosefrei)" },
+        { "amount": 1, "unit": "l", "name": "glutenfreie Gemüsebrühe" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz, Pfeffer und Muskatnuss" }
+      ],
+      "steps": [
+        "Kartoffeln und Karotten schälen und würfeln. Den Lauch gründlich waschen und in Ringe schneiden.",
+        "Öl in einem großen Topf erhitzen und den Lauch darin andünsten. Karotten und Kartoffeln dazugeben und kurz mitdünsten.",
+        "Mit der glutenfreien Gemüsebrühe auffüllen und abgedeckt ca. 20 Minuten köcheln lassen, bis die Kartoffeln weich sind.",
+        "Mettenden in Scheiben schneiden oder im Ganzen dazugeben. Einen Teil der Kartoffeln im Topf leicht zerdrücken, um die Suppe natürlich einzudicken.",
+        "Mit Salz, Pfeffer und einer Prise Muskatnuss abschmecken und heiß servieren."
+      ],
+      "tips": [
+        "Beim Kauf von Mettenden stets die Zutatenliste prüfen, um sicherzustellen, dass keine glutenhaltigen Bindemittel oder laktosehaltigen Gewürzmischungen enthalten sind."
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "meal": "dinner",
+      "name": "Slow-Cooked Rindergulasch in Rotwein-Wurzelgemüse-Soße mit Salzkartoffeln",
+      "type": "meat",
+      "prep_min": 25,
+      "cook_min": 120,
+      "category": "Hauptgericht",
+      "tagline": "Zart geschmortes Rindergulasch in kräftiger Soße mit Salzkartoffeln",
+      "ingredients": [
+        { "amount": 600, "unit": "g", "name": "Rindergulasch" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 300, "unit": "g", "name": "Karotten" },
+        { "amount": 2, "unit": "Stück", "name": "Zwiebeln" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 250, "unit": "ml", "name": "Rotwein" },
+        { "amount": 400, "unit": "ml", "name": "glutenfreie Rinderbrühe" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz, Pfeffer, Paprikapulver edelsüß und 1 Lorbeerblatt" }
+      ],
+      "steps": [
+        "Zwiebeln und Karotten würfeln. Das Rindergulasch trocken tupfen.",
+        "Öl im Schmertopf/Dutch Oven erhitzen und das Fleisch portionsweise scharf anbraten. Fleisch herausnehmen.",
+        "Zwiebeln und Karotten im selben Topf anrösten, Tomatenmark einrühren und kurz mitrösten.",
+        "Mit Rotwein ablöschen und etwas einkochen lassen. Fleisch wieder dazugeben, mit Rinderbrühe auffüllen und Lorbeerblatt beifügen.",
+        "Abgedeckt bei schwacher Hitze ca. 2 Stunden sanft schmoren lassen, bis das Fleisch butterweich ist. Mit Salz, Pfeffer und Paprikapulver abschmecken.",
+        "Gegen Ende der Garzeit die Kartoffeln schälen, in Salzwasser gar kochen und zusammen mit dem Gulasch servieren."
+      ],
+      "tips": [
+        "Die Soße dickt durch das lange Einkochen des Wurzelgemüses von alleine ein – ganz ohne Mehl oder künstliche Bindemittel."
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "meal": "dinner",
+      "name": "Smash Burger auf GF-Buns mit Kartoffel-Wedges",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Saftige Smash Burger mit krossen selbstgemachten Ofen-Wedges",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 4, "unit": "Stück", "name": "glutenfreie Burger-Buns" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 4, "unit": "Scheiben", "name": "laktosefreier Käse (z.B. Cheddar oder Gouda)" },
+        { "amount": 2, "unit": "Stück", "name": "Gewürzgurken" },
+        { "amount": 1, "unit": "Stück", "name": "Tomate" },
+        { "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz, Pfeffer, Senf und Ketchup (GF)" }
+      ],
+      "steps": [
+        "Den Ofen auf 210 °C Umluft vorheizen. Kartoffeln in Wedges schneiden, mit 1 EL Öl, Salz und Paprikapulver vermengen und 20 Minuten knusprig backen.",
+        "Rinderhackfleisch zu 4 gleich großen Kugeln formen (nicht flach drücken).",
+        "Eine schwere Pfanne oder Gusseisenplatte sehr stark erhitzen. Hackkugeln hineinlegen und mit einem Pfannenwender extrem flach drücken (smashen).",
+        "Die Patties ca. 2 Minuten scharf anbraten, wenden, sofort mit dem laktosefreien Käse belegen und schmelzen lassen.",
+        "Glutenfreie Burger-Buns kurz anrösten, mit Ketchup, Senf, Tomatenscheiben und Gurken belegen, Patties einsetzen und mit den leckeren Wedges servieren."
+      ],
+      "tips": [
+        "Glutenfreie Burger-Buns brechen leicht, wenn sie kalt sind. Das vorherige Anrösten in etwas laktosefreier Butter oder in der Pfanne macht sie geschmeidig und stabil."
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "meal": "dinner",
+      "name": "Bunter Steak-Salat mit gegrilltem Gemüsemix & Kürbiskernen",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Knackiger Knacksalat mit zarten Steakstreifen, gegrillter Zucchini und Röstkernen",
+      "ingredients": [
+        { "amount": 350, "unit": "g", "name": "Rumpsteak oder Hähnchenbrustfillet" },
+        { "amount": 200, "unit": "g", "name": "gemischter Salat (z.B. Pflücksalat, Rucola)" },
+        { "amount": 1, "unit": "Stück", "name": "Zucchini" },
+        { "amount": 1, "unit": "Stück", "name": "Paprika" },
+        { "amount": 30, "unit": "g", "name": "Kürbiskerne" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 2, "unit": "EL", "name": "Balsamico-Essig oder glutenfreie Tamari-Sojasauce" },
+        { "name": "Salz und Pfeffer" }
+      ],
+      "steps": [
+        "Kürbiskerne in einer Pfanne ohne Fett goldbraun anrösten und beiseitestellen.",
+        "Zucchini und Paprika in Scheiben bzw. Streifen schneiden und in einer Grillpfanne mit 1 EL Olivenöl anbraten.",
+        "Das Steak bzw. die Hähnchenbrust salzen, pfeffern und nach Wunsch rosa oder durch braten. Anschließend in Tranchen schneiden.",
+        "Gemischten Salat auf Tellern anrichten, gegrilltes Gemüse und Fleischtranchen darauf platzieren.",
+        "Aus restlichem Olivenöl, Balsamico/Tamari, Salz und Pfeffer ein Dressing anrühren, über den Salat geben und mit den gerösteten Kürbiskernen bestreuen."
+      ],
+      "tips": [
+        "Tamari ist eine traditionelle japanische Sojasauce, die rein aus Sojabohnen gebraut wird und von Natur aus 100% glutenfrei ist."
+      ]
+    }
+  ]
+}
