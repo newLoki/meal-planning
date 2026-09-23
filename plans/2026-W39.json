@@ -1,156 +1,159 @@
 {
-  "kw": 39,
-  "year": 2026,
-  "dietary_flags": [
+  "week_label": "KW 39 (2026)",
+  "servings": 2,
+  "dietary_requirements": [
     "gluten-free",
     "lactose-free"
   ],
-  "servings": 2,
-  "schedule": [
+  "recipes": [
     {
-      "day": "Freitag",
+      "day_of_week": "Freitag",
       "date": "2026-09-25",
-      "meal": null,
-      "notes": "Keine Planung / Auswärts"
+      "meal_type": "Abendessen",
+      "title": "Keine Planung",
+      "category": "Auswärts / Frei",
+      "tagline": "Keine Essensplanung vorgesehen",
+      "prep_time_minutes": 0,
+      "cook_time_minutes": 0,
+      "ingredients": [],
+      "instructions": [],
+      "tips": ""
     },
     {
-      "day": "Samstag",
+      "day_of_week": "Samstag",
       "date": "2026-09-26",
-      "meal": "Soljanka",
+      "meal_type": "Abendessen",
+      "title": "Soljanka",
+      "category": "Suppen & Eintöpfe",
+      "tagline": "Herzhaft-saure Soljanka (glutenfrei & laktosefrei)",
       "prep_time_minutes": 20,
       "cook_time_minutes": 45,
-      "gluten_free": true,
-      "lactose_free": true,
       "ingredients": [
-        "Schweinefleisch / Kassler (200g)",
-        "Glutenfreie Fleischwurst (150g)",
-        "Zwiebeln (2 Stück)",
-        "Paprikaschote rot (1 Stück)",
-        "Gewürzgurken (150g, GF)",
-        "Tomatenmark (2 EL)",
-        "Gewürzgurkenwasser (100ml)",
-        "Fleischbrühe (750ml, GF)",
-        "Paprikapulver edelsüß",
-        "Lorbeerblatt (1 Stück)",
-        "Pflanzenöl",
-        "Laktosefreie saure Sahne / Schmand (100g)",
-        "Zitrone (1 Stück)",
-        "Salz",
-        "Pfeffer"
-      ]
+        { "name": "Kassler / Schweinefleisch", "amount": 200, "unit": "g", "category": "Fleisch & Wurst" },
+        { "name": "Fleischwurst (glutenfrei)", "amount": 150, "unit": "g", "category": "Fleisch & Wurst" },
+        { "name": "Zwiebeln", "amount": 2, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Paprikaschote rot", "amount": 1, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Gewürzgurken (glutenfrei)", "amount": 150, "unit": "g", "category": "Konserven" },
+        { "name": "Tomatenmark", "amount": 2, "unit": "EL", "category": "Konserven" },
+        { "name": "Gewürzgurkenwasser", "amount": 100, "unit": "ml", "category": "Konserven" },
+        { "name": "Fleischbrühe (glutenfrei)", "amount": 750, "unit": "ml", "category": "Brühen & Saucen" },
+        { "name": "Paprikapulver edelsüß", "amount": 1, "unit": "TL", "category": "Gewürze" },
+        { "name": "Lorbeerblatt", "amount": 1, "unit": "Stück", "category": "Gewürze" },
+        { "name": "Pflanzenöl", "amount": 2, "unit": "EL", "category": "Öle & Essige" },
+        { "name": "Saure Sahne (laktosefrei)", "amount": 100, "unit": "g", "category": "Kühlregal" },
+        { "name": "Zitrone", "amount": 1, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Salz", "amount": 1, "unit": "Prise", "category": "Gewürze" },
+        { "name": "Schwarzer Pfeffer", "amount": 1, "unit": "Prise", "category": "Gewürze" }
+      ],
+      "instructions": [
+        "Kassler, Fleischwurst, Zwiebeln, Paprika und Gewürzgurken in feine Streifen oder Würfel schneiden.",
+        "Öl in einem großen Topf erhitzen, Fleisch und Zwiebeln darin kräftig anbraten.",
+        "Paprika und Tomatenmark dazugeben und kurz mitrösten.",
+        "Mit Fleischbrühe und Gewürzgurkenwasser ablöschen. Gewürzgurken und Lorbeerblatt hinzufügen.",
+        "Bei mittlerer Hitze ca. 30 Minuten köcheln lassen. Mit Paprikapulver, Salz und Pfeffer abschmecken.",
+        "Mit einem Klecks laktosefreier saurer Sahne und einer Zitronenscheibe servieren."
+      ],
+      "tips": "Schmeckt aufgewärmt am nächsten Tag noch intensiver."
     },
     {
-      "day": "Sonntag",
+      "day_of_week": "Sonntag",
       "date": "2026-09-27",
-      "meal": "Schäufele mit Bayrisch Kraut und Kartoffelklößen",
+      "meal_type": "Abendessen",
+      "title": "Schäufele mit Bayrisch Kraut und Kartoffelklößen",
+      "category": "Braten & Sonntagsessen",
+      "tagline": "Knuspriges Schäufele mit cremigem Kraut und glutenfreien Klößen",
       "prep_time_minutes": 30,
       "cook_time_minutes": 150,
-      "gluten_free": true,
-      "lactose_free": true,
       "ingredients": [
-        "Schäufele mit Schwarte (ca. 1,2kg)",
-        "Suppengrün (1 Bund)",
-        "Zwiebeln (2 Stück)",
-        "Fleischbrühe (500ml, GF)",
-        "Dunkles GF-Bier oder Brühe zum Begießen (200ml)",
-        "Kümmel (ganz)",
-        "Weißkohl (1/2 Kopf, ca. 500g)",
-        "Durchwachsener Speck (50g)",
-        "Laktosefreies Schmalz / Butterersatz (1 EL)",
-        "Apfelessig (2 EL)",
-        "Glutenfreier Kartoffelknödelteig / Knödelmasse (halb & halb, GF, 500g)",
-        "Glutenfreie Speisestärke (1 TL)",
-        "Salz",
-        "Pfeffer"
-      ]
+        { "name": "Schäufele mit Schwarte", "amount": 1.2, "unit": "kg", "category": "Fleisch & Wurst" },
+        { "name": "Suppengrün", "amount": 1, "unit": "Bund", "category": "Gemüse & Obst" },
+        { "name": "Zwiebeln", "amount": 2, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Fleischbrühe (glutenfrei)", "amount": 500, "unit": "ml", "category": "Brühen & Saucen" },
+        { "name": "Dunkles Bier (glutenfrei)", "amount": 200, "unit": "ml", "category": "Getränke" },
+        { "name": "Kümmel (ganz)", "amount": 1, "unit": "TL", "category": "Gewürze" },
+        { "name": "Weißkohl", "amount": 500, "unit": "g", "category": "Gemüse & Obst" },
+        { "name": "Durchwachsener Speck", "amount": 50, "unit": "g", "category": "Fleisch & Wurst" },
+        { "name": "Schmalz (laktosefrei)", "amount": 1, "unit": "EL", "category": "Kühlregal" },
+        { "name": "Apfelessig", "amount": 2, "unit": "EL", "category": "Öle & Essige" },
+        { "name": "Kartoffelknödelteig (glutenfrei)", "amount": 500, "unit": "g", "category": "Kühlregal" },
+        { "name": "Speisestärke (glutenfrei)", "amount": 1, "unit": "TL", "category": "Backartikel" },
+        { "name": "Salz", "amount": 1, "unit": "Prise", "category": "Gewürze" },
+        { "name": "Schwarzer Pfeffer", "amount": 1, "unit": "Prise", "category": "Gewürze" }
+      ],
+      "instructions": [
+        "Schwarte des Schäufele rautenförmig einschneiden, kräftig mit Salz, Pfeffer und Kümmel einreiben.",
+        "Suppengrün und Zwiebeln grob würfeln. In einem Bräter verteilen, das Schäufele mit der Schwarte nach oben daraufsetzen und mit Fleischbrühe aufgießen.",
+        "Im vorgeheizten Ofen bei 160°C Umluft ca. 2 bis 2.5 Stunden braten. Zwischendurch mit glutenfreiem Bier / Bratensaft begießen. Am Ende Hitze auf 220°C erhöhen, damit die Schwarte poppt.",
+        "Für das Kraut: Weißkohl hobeln. Speck im Schmalz auslassen, Zwiebeln und Kohl dazugeben, anbraten. Mit etwas Wasser und Apfelessig ablöschen, Kümmel zugeben und ca. 30 Min. weich dünsten.",
+        "Glutenfreien Knödelteig zu Klößen formen und in leicht siedendem Salzwasser garen.",
+        "Bratensaft abseihen, leicht mit Speisestärke binden und mit Schäufele, Kraut und Klößen anrichten."
+      ],
+      "tips": "Die Schwarte vor dem Einschneiden kurz mit kochendem Wasser übergießen – lässt sich dann viel leichter schneiden."
     },
     {
-      "day": "Montag",
+      "day_of_week": "Montag",
       "date": "2026-09-28",
-      "meal": "Linseneintopf mit Würstchen",
+      "meal_type": "Abendessen",
+      "title": "Linseneintopf mit Würstchen",
+      "category": "Suppen & Eintöpfe",
+      "tagline": "Klassischer Linseneintopf mit Suppengrün, Kartoffeln und Wiener Würstchen",
       "prep_time_minutes": 20,
       "cook_time_minutes": 40,
-      "gluten_free": true,
-      "lactose_free": true,
       "ingredients": [
-        "Tellerlinsen (250g)",
-        "Suppengrün (Karotte, Sellerie, Lauch) (1 Bund)",
-        "Kartoffeln (festkochend, 300g)",
-        "Zwiebel (1 Stück)",
-        "Glutenfreie Wiener Würstchen (4 Stück)",
-        "Gemüsebrühe (1l, GF)",
-        "Bauchspeck / Katenschinken (50g)",
-        "Pflanzenöl",
-        "Kräuteressig (2-3 EL)",
-        "Majoran",
-        "Salz",
-        "Pfeffer"
-      ]
+        { "name": "Tellerlinsen", "amount": 250, "unit": "g", "category": "Trockenwaren" },
+        { "name": "Suppengrün", "amount": 1, "unit": "Bund", "category": "Gemüse & Obst" },
+        { "name": "Kartoffeln (festkochend)", "amount": 300, "unit": "g", "category": "Gemüse & Obst" },
+        { "name": "Zwiebeln", "amount": 1, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Wiener Würstchen (glutenfrei)", "amount": 4, "unit": "Stück", "category": "Fleisch & Wurst" },
+        { "name": "Gemüsebrühe (glutenfrei)", "amount": 1000, "unit": "ml", "category": "Brühen & Saucen" },
+        { "name": "Katenschinken / Bauchspeck", "amount": 50, "unit": "g", "category": "Fleisch & Wurst" },
+        { "name": "Pflanzenöl", "amount": 1, "unit": "EL", "category": "Öle & Essige" },
+        { "name": "Kräuteressig", "amount": 3, "unit": "EL", "category": "Öle & Essige" },
+        { "name": "Majoran (getrocknet)", "amount": 1, "unit": "TL", "category": "Gewürze" },
+        { "name": "Salz", "amount": 1, "unit": "Prise", "category": "Gewürze" },
+        { "name": "Schwarzer Pfeffer", "amount": 1, "unit": "Prise", "category": "Gewürze" }
+      ],
+      "instructions": [
+        "Suppengrün, Kartoffeln und Zwiebeln fein würfeln. Schinken streifig schneiden.",
+        "Öl im Topf erhitzen, Schinken und Zwiebeln darin anschitzen.",
+        "Suppengrün, Kartoffeln und Tellerlinsen kurz mitdünsten.",
+        "Mit Gemüsebrühe aufgießen, Majoran hinzufügen und ca. 35–40 Minuten köcheln lassen, bis die Linsensorte weich ist.",
+        "Die Wiener Würstchen in Scheiben schneiden oder im Ganzen die letzten 10 Minuten im Eintopf heiß werden lassen.",
+        "Mit Kräuteressig, Salz und Pfeffer abschmecken."
+      ],
+      "tips": "Essig erst ganz zum Schluss dazugeben, damit die Linsen beim Kochen schneller weich werden."
     },
     {
-      "day": "Dienstag",
+      "day_of_week": "Dienstag",
       "date": "2026-09-29",
-      "meal": "Bunter Gemischter Salat mit Putenbruststreifen",
+      "meal_type": "Abendessen",
+      "title": "Bunter Gemischter Salat mit Putenbruststreifen",
+      "category": "Salate",
+      "tagline": "Knackiger Salat mit gegrillten Putenbruststreifen und Honig-Senf-Dressing",
       "prep_time_minutes": 20,
       "cook_time_minutes": 10,
-      "gluten_free": true,
-      "lactose_free": true,
       "ingredients": [
-        "Putenbrustfillet (300g)",
-        "Pflücksalat / Gemischter Salat (200g)",
-        "Salatgurke (1/2 Stück)",
-        "Kirschtomaten (200g)",
-        "Radieschen (1 Bund)",
-        "Paprikaschote gelb (1 Stück)",
-        "Olivenöl (3 EL)",
-        "Balsamico-Essig / Apfelessig (2 EL)",
-        "Senf (1 TL, GF)",
-        "Ahornsirup oder Honig (1 TL)",
-        "Salz",
-        "Pfeffer"
-      ]
+        { "name": "Putenbrustfilet", "amount": 300, "unit": "g", "category": "Fleisch & Wurst" },
+        { "name": "Pflücksalat / Gemischter Salat", "amount": 200, "unit": "g", "category": "Gemüse & Obst" },
+        { "name": "Salatgurke", "amount": 0.5, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Kirschtomaten", "amount": 200, "unit": "g", "category": "Gemüse & Obst" },
+        { "name": "Radieschen", "amount": 1, "unit": "Bund", "category": "Gemüse & Obst" },
+        { "name": "Paprikaschote gelb", "amount": 1, "unit": "Stück", "category": "Gemüse & Obst" },
+        { "name": "Olivenöl", "amount": 3, "unit": "EL", "category": "Öle & Essige" },
+        { "name": "Balsamico-Essig", "amount": 2, "unit": "EL", "category": "Öle & Essige" },
+        { "name": "Senf (glutenfrei)", "amount": 1, "unit": "TL", "category": "Konserven" },
+        { "name": "Honig", "amount": 1, "unit": "TL", "category": "Süßungsmittel" },
+        { "name": "Salz", "amount": 1, "unit": "Prise", "category": "Gewürze" },
+        { "name": "Schwarzer Pfeffer", "amount": 1, "unit": "Prise", "category": "Gewürze" }
+      ],
+      "instructions": [
+        "Putenbrust in Streifen schneiden, salzen und pfeffern.",
+        "Salat waschen und trockenschleudern. Gurke, Tomaten, Radieschen und Paprika putzen und klein schneiden.",
+        "Für das Dressing: Olivenöl, Balsamico, Senf, Honig, Salz und Pfeffer gut verquirlen.",
+        "Putenbruststreifen in einer Pfanne mit etwas Öl ca. 6–8 Minuten goldbraun anbraten.",
+        "Salat und Gemüse mit dem Dressing vermengen, auf Tellern anrichten und die warmen Putenbruststreifen darauf verteilen."
+      ],
+      "tips": "Für zusätzlichen Grip im Dressing einfach einen Spritzer Zitronensaft ergänzen."
     }
-  ],
-  "shopping_list_summary": {
-    "gemuese_obst": [
-      "Suppengrün (2 Bünde)",
-      "Zwiebeln (5 Stück)",
-      "Paprikaschote rot (1 Stück)",
-      "Paprikaschote gelb (1 Stück)",
-      "Gewürzgurken (1 Glas, GF)",
-      "Zitrone (1 Stück)",
-      "Weißkohl (1/2 Kopf)",
-      "Kartoffeln festkochend (300g)",
-      "Pflücksalat / Gemischter Salat (200g)",
-      "Salatgurke (1 Stück)",
-      "Kirschtomaten (200g)",
-      "Radieschen (1 Bund)"
-    ],
-    "fleisch_wurst": [
-      "Schweinefleisch / Kassler (200g)",
-      "Glutenfreie Fleischwurst (150g)",
-      "Schäufele mit Schwarte (ca. 1,2kg)",
-      "Durchwachsener Speck / Katenschinken (100g)",
-      "Glutenfreie Wiener Würstchen (4 Stück)",
-      "Putenbrustfilet (300g)"
-    ],
-    "kuehlung": [
-      "Laktosefreie saure Sahne / Schmand (100g)",
-      "Laktosefreies Schmalz oder Butterersatz",
-      "Glutenfreier Kartoffelknödelteig (500g)"
-    ],
-    "vorrat_gewuerze": [
-      "Tellerlinsen (250g)",
-      "Tomatenmark",
-      "Fleischbrühe (GF)",
-      "Gemüsebrühe (GF)",
-      "Dunkles GF-Bier (optional)",
-      "Glutenfreie Speisestärke",
-      "Pflanzenöl & Olivenöl",
-      "Apfelessig & Kräuteressig",
-      "Senf (GF)",
-      "Ahornsirup oder Honig",
-      "Gewürze: Paprikapulver edelsüß, Lorbeerblatt, Kümmel (ganz), Majoran, Salz, Pfeffer"
-    ]
-  }
+  ]
 }
