@@ -7,19 +7,6 @@
   ],
   "recipes": [
     {
-      "day_of_week": "Freitag",
-      "date": "2026-09-25",
-      "meal_type": "Abendessen",
-      "title": "Keine Planung",
-      "category": "Auswärts / Frei",
-      "tagline": "Keine Essensplanung vorgesehen",
-      "prep_time_minutes": 0,
-      "cook_time_minutes": 0,
-      "ingredients": [],
-      "instructions": [],
-      "tips": ""
-    },
-    {
       "day_of_week": "Samstag",
       "date": "2026-09-26",
       "meal_type": "Abendessen",
