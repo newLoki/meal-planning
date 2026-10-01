@@ -1,30 +1,32 @@
 {
-  "calendar_week": 40,
-  "year": 2026,
-  "dietary_restrictions": [
-    "gluten-free",
-    "lactose-free"
-  ],
+  "week_label": "2026-W40",
+  "servings": 2,
+  "author": "MealAI",
+  "meal_times": {
+    "dinner": "19:30"
+  },
   "recipes": [
     {
-      "id": "bacon-cheeseburger",
       "date": "2026-10-02",
       "name": "Bacon Cheeseburger im GF-Bun",
-      "prep_time_minutes": 15,
-      "cook_time_minutes": 15,
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
       "servings": 2,
-      "dietary_tags": ["GF", "LF"],
+      "tagline": "Saftige Patties mit krossem Bacon und geschmolzenem LF-Käse auf getoastetem GF-Bun",
       "ingredients": [
-        "GF Burger Buns",
-        "Rinderhackfleisch",
-        "Bacon",
-        "LF Scheibenkäse (Cheddar-Art)",
-        "Gewürzgurken",
-        "Tomaten",
-        "Eisbergsalat",
-        "Rote Zwiebeln"
+        { "name": "GF Burger Buns", "amount": 2, "unit": "Stück" },
+        { "name": "Rinderhackfleisch", "amount": 300, "unit": "g" },
+        { "name": "Bacon", "amount": 1, "unit": "Packung" },
+        { "name": "LF Scheibenkäse (Cheddar-Art)", "amount": 2, "unit": "Scheiben" },
+        { "name": "Gewürzgurken", "amount": 2, "unit": "Stück" },
+        { "name": "Tomaten", "amount": 1, "unit": "Stück" },
+        { "name": "Eisbergsalat", "amount": 4, "unit": "Blätter" },
+        { "name": "Rote Zwiebeln", "amount": 1, "unit": "Stück" }
       ],
-      "instructions": [
+      "steps": [
         "Rinderhackfleisch zu 2 Patties formen und würzen.",
         "Bacon in der Pfanne kross anbraten und beiseitestellen.",
         "Patties von beiden Seiten braten, kurz vor Ende mit LF-Käse belegen und schmelzen lassen.",
@@ -32,22 +34,24 @@
       ]
     },
     {
-      "id": "spinat-kartoffeln-spiegelei",
       "date": "2026-10-03",
       "name": "Spinat mit Kartoffeln und Spiegelei",
-      "prep_time_minutes": 15,
-      "cook_time_minutes": 20,
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 20,
       "servings": 2,
-      "dietary_tags": ["GF", "LF", "Vegetarisch"],
+      "tagline": "Cremiger LF-Rahmspinat mit Salzkartoffeln und gebratenen Spiegeleiern",
       "ingredients": [
-        "Vorwiegend festkochende Kartoffeln",
-        "Rahmspinat (GF/LF)",
-        "Frische Eier",
-        "Knoblauch",
-        "Muskatnuss",
-        "LF Butter"
+        { "name": "Vorwiegend festkochende Kartoffeln", "amount": 600, "unit": "g" },
+        { "name": "Rahmspinat (GF/LF)", "amount": 400, "unit": "g" },
+        { "name": "Frische Eier", "amount": 4, "unit": "Stück" },
+        { "name": "Knoblauch", "amount": 1, "unit": "Zehe" },
+        { "name": "Muskatnuss", "amount": 1, "unit": "Prise" },
+        { "name": "LF Butter", "amount": 20, "unit": "g" }
       ],
-      "instructions": [
+      "steps": [
         "Kartoffeln schälen, würfeln und in Salzwasser ca. 20 Minuten gar kochen.",
         "TK-Spinat mit etwas LF-Butter und gehacktem Knoblauch erwärmen, mit Salz, Pfeffer und Muskatnuss abschmecken.",
         "Spiegeleier in einer Pfanne mit etwas LF-Butter braten.",
@@ -55,47 +59,51 @@
       ]
     },
     {
-      "id": "schweinefilet-pfefferrahm",
       "date": "2026-10-04",
       "name": "Schweinefilet in Pfefferrahm mit Ofengemüse",
-      "prep_time_minutes": 20,
-      "cook_time_minutes": 25,
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 25,
       "servings": 2,
-      "dietary_tags": ["GF", "LF"],
+      "tagline": "Zartes Schweinefilet in Pfeffersauce mit buntem Röstgemüse",
       "ingredients": [
-        "Schweinefilet",
-        "LF Kochsahne",
-        "Grüner Pfeffer (Einlegeglas)",
-        "Kartoffeln",
-        "Karotten",
-        "Zucchini",
-        "Rosmarin"
+        { "name": "Schweinefilet", "amount": 400, "unit": "g" },
+        { "name": "LF Kochsahne", "amount": 200, "unit": "ml" },
+        { "name": "Grüner Pfeffer (Einlegeglas)", "amount": 2, "unit": "TL" },
+        { "name": "Kartoffeln", "amount": 400, "unit": "g" },
+        { "name": "Karotten", "amount": 2, "unit": "Stück" },
+        { "name": "Zucchini", "amount": 1, "unit": "Stück" },
+        { "name": "Rosmarin", "amount": 2, "unit": "Zweige" }
       ],
-      "instructions": [
+      "steps": [
         "Kartoffeln, Karotten und Zucchini schneiden, mit Öl, Rosmarin, Salz und Pfeffer auf einem Blech bei 200°C ca. 25 Min. rösten.",
         "Schweinefilet medailloniert anbraten und aus der Pfanne nehmen.",
         "Bratensatz mit LF-Kochsahne und grünem Pfeffer ablöschen, einkochen lassen und Fleisch kurz darin ziehen lassen."
       ]
     },
     {
-      "id": "kartoffelsuppe-bockwurst",
       "date": "2026-10-05",
       "name": "Deftige Kartoffelsuppe mit Bockwurst",
-      "prep_time_minutes": 20,
-      "cook_time_minutes": 30,
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 30,
       "servings": 2,
-      "dietary_tags": ["GF", "LF"],
+      "tagline": "Sämige Kartoffelsuppe mit Wurzelgemüse und knackigen GF-Bockwürsten",
       "ingredients": [
-        "Kartoffeln",
-        "Karotten",
-        "Sellerie",
-        "Lauch",
-        "GF Bockwürste (LF)",
-        "Zwiebeln",
-        "Majoran",
-        "Gemüsebrühe (GF)"
+        { "name": "Kartoffeln", "amount": 600, "unit": "g" },
+        { "name": "Karotten", "amount": 2, "unit": "Stück" },
+        { "name": "Knollen- / Staudensellerie", "amount": 100, "unit": "g" },
+        { "name": "Lauch", "amount": 1, "unit": "Stange" },
+        { "name": "GF Bockwürste (LF)", "amount": 4, "unit": "Stück" },
+        { "name": "Gelbe Zwiebeln", "amount": 1, "unit": "Stück" },
+        { "name": "Majoran", "amount": 1, "unit": "TL" },
+        { "name": "Gemüsebrühe (GF)", "amount": 750, "unit": "ml" }
       ],
-      "instructions": [
+      "steps": [
         "Zwiebeln, Kartoffeln und Gemüse würfeln und in etwas Öl andünsten.",
         "Mit GF-Gemüsebrühe ablöschen und ca. 20 Minuten weich kochen.",
         "Die Hälfte der Suppe pürieren, mit Majoran, Salz und Pfeffer abschmecken.",
@@ -103,119 +111,31 @@
       ]
     },
     {
-      "id": "haehnchen-curry-reis",
       "date": "2026-10-06",
       "name": "Asiatisches Hähnchen-Geflügel-Curry mit Reis",
-      "prep_time_minutes": 15,
-      "cook_time_minutes": 20,
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 20,
       "servings": 2,
-      "dietary_tags": ["GF", "LF"],
+      "tagline": "Würziges, laktosefreies Curry mit Hähnchen, knackigem Gemüse und Jasminreis",
       "ingredients": [
-        "Hähnchenbrustfilet",
-        "Kokosmilch (400ml Dose)",
-        "Paprika",
-        "Zucchini",
-        "Zwiebeln",
-        "Tamari (GF Sojasauce)",
-        "Currypaste (GF)",
-        "Jasminreis"
+        { "name": "Hähnchenbrustfilet", "amount": 350, "unit": "g" },
+        { "name": "Kokosmilch", "amount": 400, "unit": "ml" },
+        { "name": "Paprika", "amount": 1, "unit": "Stück" },
+        { "name": "Zucchini", "amount": 1, "unit": "Stück" },
+        { "name": "Gelbe Zwiebeln", "amount": 1, "unit": "Stück" },
+        { "name": "Tamari (GF Sojasauce)", "amount": 2, "unit": "EL" },
+        { "name": "Currypaste (GF)", "amount": 1, "unit": "EL" },
+        { "name": "Jasminreis", "amount": 150, "unit": "g" }
       ],
-      "instructions": [
+      "steps": [
         "Jasminreis nach Packungsanweisung kochen.",
         "Hähnchenbrust in Streifen schneiden und scharf anbraten, dann herausnehmen.",
         "Gemüse und Currypaste anbraten, mit Kokosmilch und Tamari ablöschen.",
         "Hähnchen wieder hinzufügen, 5-10 Minuten köcheln lassen und mit Reis servieren."
       ]
     }
-  ],
-  "meals": [
-    {
-      "date": "2026-10-02",
-      "day_of_week": "Freitag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_id": "bacon-cheeseburger",
-      "recipe_name": "Bacon Cheeseburger im GF-Bun",
-      "servings": 2
-    },
-    {
-      "date": "2026-10-03",
-      "day_of_week": "Samstag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_id": "spinat-kartoffeln-spiegelei",
-      "recipe_name": "Spinat mit Kartoffeln und Spiegelei",
-      "servings": 2
-    },
-    {
-      "date": "2026-10-04",
-      "day_of_week": "Sonntag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_id": "schweinefilet-pfefferrahm",
-      "recipe_name": "Schweinefilet in Pfefferrahm mit Ofengemüse",
-      "servings": 2
-    },
-    {
-      "date": "2026-10-05",
-      "day_of_week": "Montag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_id": "kartoffelsuppe-bockwurst",
-      "recipe_name": "Deftige Kartoffelsuppe mit Bockwurst",
-      "servings": 2
-    },
-    {
-      "date": "2026-10-06",
-      "day_of_week": "Dienstag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_id": "haehnchen-curry-reis",
-      "recipe_name": "Asiatisches Hähnchen-Geflügel-Curry mit Reis",
-      "servings": 2
-    }
-  ],
-  "shopping_list": {
-    "produce": [
-      "Kartoffeln (vorwiegend festkochend, ca. 2–2,5 kg)",
-      "Karotten (1 Bund oder 500g Beutel)",
-      "Zucchini (2 Stück)",
-      "Paprika (1 Stück)",
-      "Knollen- / Staudensellerie (1 kleines Stück)",
-      "Lauch / Porree (1 Stange)",
-      "Tomaten (2 Stück)",
-      "Eisbergsalat (1 Kopf)",
-      "Rote & gelbe Zwiebeln (1 Netztasche)",
-      "Knoblauch (1 Knolle)",
-      "Frischer Rosmarin (1 Kästchen/Bund)"
-    ],
-    "meat_and_fish": [
-      "Rinderhackfleisch (ca. 300g–400g)",
-      "Bacon / Frühstücksspeck (1 Packung)",
-      "Schweinefilet (ca. 400g)",
-      "Hähnchenbrustfilet (ca. 300g–400g)",
-      "Bockwürste (GF / LF, 1 Glas oder Packung)"
-    ],
-    "refrigerated_and_frozen": [
-      "Frische Eier (6er–10er Packung)",
-      "Scheibenkäse (LF, Cheddar-Art)",
-      "Kochsahne (LF, 200ml)",
-      "Butter (LF)",
-      "Rahmspinat (TK, GF & LF)"
-    ],
-    "bakery_and_dry_goods": [
-      "Burger Buns (GF, 1 Packung)",
-      "Jasminreis (1 Packung)"
-    ],
-    "canned_and_pantry": [
-      "Kokosmilch (1 Dose, 400ml)",
-      "Gewürzgurken (1 Glas)",
-      "Grüner Pfeffer (in Lake, 1 kleines Glas)",
-      "Gelbe oder rote Currypaste (GF)",
-      "Tamari / GF Sojasauce",
-      "Gemüsebrühe (GF)",
-      "Muskatnuss (gemahlen oder ganz)",
-      "Majoran (getrocknet)"
-    ]
-  }
+  ]
 }
