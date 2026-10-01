@@ -8,6 +8,7 @@
   "recipes": [
     {
       "id": "bacon-cheeseburger",
+      "date": "2026-10-02",
       "name": "Bacon Cheeseburger im GF-Bun",
       "prep_time_minutes": 15,
       "cook_time_minutes": 15,
@@ -32,6 +33,7 @@
     },
     {
       "id": "spinat-kartoffeln-spiegelei",
+      "date": "2026-10-03",
       "name": "Spinat mit Kartoffeln und Spiegelei",
       "prep_time_minutes": 15,
       "cook_time_minutes": 20,
@@ -54,6 +56,7 @@
     },
     {
       "id": "schweinefilet-pfefferrahm",
+      "date": "2026-10-04",
       "name": "Schweinefilet in Pfefferrahm mit Ofengemüse",
       "prep_time_minutes": 20,
       "cook_time_minutes": 25,
@@ -76,6 +79,7 @@
     },
     {
       "id": "kartoffelsuppe-bockwurst",
+      "date": "2026-10-05",
       "name": "Deftige Kartoffelsuppe mit Bockwurst",
       "prep_time_minutes": 20,
       "cook_time_minutes": 30,
@@ -100,6 +104,7 @@
     },
     {
       "id": "haehnchen-curry-reis",
+      "date": "2026-10-06",
       "name": "Asiatisches Hähnchen-Geflügel-Curry mit Reis",
       "prep_time_minutes": 15,
       "cook_time_minutes": 20,
@@ -204,7 +209,7 @@
     ],
     "canned_and_pantry": [
       "Kokosmilch (1 Dose, 400ml)",
-      "Gewürzgurten (1 Glas)",
+      "Gewürzgurken (1 Glas)",
       "Grüner Pfeffer (in Lake, 1 kleines Glas)",
       "Gelbe oder rote Currypaste (GF)",
       "Tamari / GF Sojasauce",
