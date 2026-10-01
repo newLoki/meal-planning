@@ -5,20 +5,14 @@
     "gluten-free",
     "lactose-free"
   ],
-  "meals": [
+  "recipes": [
     {
-      "date": "2026-10-02",
-      "day_of_week": "Freitag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_name": "Bacon Cheeseburger im GF-Bun",
-      "servings": 2,
+      "id": "bacon-cheeseburger",
+      "name": "Bacon Cheeseburger im GF-Bun",
       "prep_time_minutes": 15,
       "cook_time_minutes": 15,
-      "dietary_tags": [
-        "GF",
-        "LF"
-      ],
+      "servings": 2,
+      "dietary_tags": ["GF", "LF"],
       "ingredients": [
         "GF Burger Buns",
         "Rinderhackfleisch",
@@ -28,22 +22,21 @@
         "Tomaten",
         "Eisbergsalat",
         "Rote Zwiebeln"
+      ],
+      "instructions": [
+        "Rinderhackfleisch zu 2 Patties formen und würzen.",
+        "Bacon in der Pfanne kross anbraten und beiseitestellen.",
+        "Patties von beiden Seiten braten, kurz vor Ende mit LF-Käse belegen und schmelzen lassen.",
+        "GF Buns anrösten und mit Salat, Tomaten, Gurken, Zwiebeln, Patties und Bacon belegen."
       ]
     },
     {
-      "date": "2026-10-03",
-      "day_of_week": "Samstag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_name": "Spinat mit Kartoffeln und Spiegelei",
-      "servings": 2,
+      "id": "spinat-kartoffeln-spiegelei",
+      "name": "Spinat mit Kartoffeln und Spiegelei",
       "prep_time_minutes": 15,
       "cook_time_minutes": 20,
-      "dietary_tags": [
-        "GF",
-        "LF",
-        "Vegetarisch"
-      ],
+      "servings": 2,
+      "dietary_tags": ["GF", "LF", "Vegetarisch"],
       "ingredients": [
         "Vorwiegend festkochende Kartoffeln",
         "Rahmspinat (GF/LF)",
@@ -51,21 +44,21 @@
         "Knoblauch",
         "Muskatnuss",
         "LF Butter"
+      ],
+      "instructions": [
+        "Kartoffeln schälen, würfeln und in Salzwasser ca. 20 Minuten gar kochen.",
+        "TK-Spinat mit etwas LF-Butter und gehacktem Knoblauch erwärmen, mit Salz, Pfeffer und Muskatnuss abschmecken.",
+        "Spiegeleier in einer Pfanne mit etwas LF-Butter braten.",
+        "Alles zusammen anrichten."
       ]
     },
     {
-      "date": "2026-10-04",
-      "day_of_week": "Sonntag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_name": "Schweinefilet in Pfefferrahm mit Ofengemüse",
-      "servings": 2,
+      "id": "schweinefilet-pfefferrahm",
+      "name": "Schweinefilet in Pfefferrahm mit Ofengemüse",
       "prep_time_minutes": 20,
       "cook_time_minutes": 25,
-      "dietary_tags": [
-        "GF",
-        "LF"
-      ],
+      "servings": 2,
+      "dietary_tags": ["GF", "LF"],
       "ingredients": [
         "Schweinefilet",
         "LF Kochsahne",
@@ -74,21 +67,20 @@
         "Karotten",
         "Zucchini",
         "Rosmarin"
+      ],
+      "instructions": [
+        "Kartoffeln, Karotten und Zucchini schneiden, mit Öl, Rosmarin, Salz und Pfeffer auf einem Blech bei 200°C ca. 25 Min. rösten.",
+        "Schweinefilet medailloniert anbraten und aus der Pfanne nehmen.",
+        "Bratensatz mit LF-Kochsahne und grünem Pfeffer ablöschen, einkochen lassen und Fleisch kurz darin ziehen lassen."
       ]
     },
     {
-      "date": "2026-10-05",
-      "day_of_week": "Montag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_name": "Deftige Kartoffelsuppe mit Bockwurst",
-      "servings": 2,
+      "id": "kartoffelsuppe-bockwurst",
+      "name": "Deftige Kartoffelsuppe mit Bockwurst",
       "prep_time_minutes": 20,
       "cook_time_minutes": 30,
-      "dietary_tags": [
-        "GF",
-        "LF"
-      ],
+      "servings": 2,
+      "dietary_tags": ["GF", "LF"],
       "ingredients": [
         "Kartoffeln",
         "Karotten",
@@ -98,21 +90,21 @@
         "Zwiebeln",
         "Majoran",
         "Gemüsebrühe (GF)"
+      ],
+      "instructions": [
+        "Zwiebeln, Kartoffeln und Gemüse würfeln und in etwas Öl andünsten.",
+        "Mit GF-Gemüsebrühe ablöschen und ca. 20 Minuten weich kochen.",
+        "Die Hälfte der Suppe pürieren, mit Majoran, Salz und Pfeffer abschmecken.",
+        "Bockwürste in Scheiben schneiden oder im Ganzen in der Suppe heiß werden lassen."
       ]
     },
     {
-      "date": "2026-10-06",
-      "day_of_week": "Dienstag",
-      "meal_type": "Abendessen",
-      "time": "19:30",
-      "recipe_name": "Asiatisches Hähnchen-Geflügel-Curry mit Reis",
-      "servings": 2,
+      "id": "haehnchen-curry-reis",
+      "name": "Asiatisches Hähnchen-Geflügel-Curry mit Reis",
       "prep_time_minutes": 15,
       "cook_time_minutes": 20,
-      "dietary_tags": [
-        "GF",
-        "LF"
-      ],
+      "servings": 2,
+      "dietary_tags": ["GF", "LF"],
       "ingredients": [
         "Hähnchenbrustfilet",
         "Kokosmilch (400ml Dose)",
@@ -122,7 +114,60 @@
         "Tamari (GF Sojasauce)",
         "Currypaste (GF)",
         "Jasminreis"
+      ],
+      "instructions": [
+        "Jasminreis nach Packungsanweisung kochen.",
+        "Hähnchenbrust in Streifen schneiden und scharf anbraten, dann herausnehmen.",
+        "Gemüse und Currypaste anbraten, mit Kokosmilch und Tamari ablöschen.",
+        "Hähnchen wieder hinzufügen, 5-10 Minuten köcheln lassen und mit Reis servieren."
       ]
+    }
+  ],
+  "meals": [
+    {
+      "date": "2026-10-02",
+      "day_of_week": "Freitag",
+      "meal_type": "Abendessen",
+      "time": "19:30",
+      "recipe_id": "bacon-cheeseburger",
+      "recipe_name": "Bacon Cheeseburger im GF-Bun",
+      "servings": 2
+    },
+    {
+      "date": "2026-10-03",
+      "day_of_week": "Samstag",
+      "meal_type": "Abendessen",
+      "time": "19:30",
+      "recipe_id": "spinat-kartoffeln-spiegelei",
+      "recipe_name": "Spinat mit Kartoffeln und Spiegelei",
+      "servings": 2
+    },
+    {
+      "date": "2026-10-04",
+      "day_of_week": "Sonntag",
+      "meal_type": "Abendessen",
+      "time": "19:30",
+      "recipe_id": "schweinefilet-pfefferrahm",
+      "recipe_name": "Schweinefilet in Pfefferrahm mit Ofengemüse",
+      "servings": 2
+    },
+    {
+      "date": "2026-10-05",
+      "day_of_week": "Montag",
+      "meal_type": "Abendessen",
+      "time": "19:30",
+      "recipe_id": "kartoffelsuppe-bockwurst",
+      "recipe_name": "Deftige Kartoffelsuppe mit Bockwurst",
+      "servings": 2
+    },
+    {
+      "date": "2026-10-06",
+      "day_of_week": "Dienstag",
+      "meal_type": "Abendessen",
+      "time": "19:30",
+      "recipe_id": "haehnchen-curry-reis",
+      "recipe_name": "Asiatisches Hähnchen-Geflügel-Curry mit Reis",
+      "servings": 2
     }
   ],
   "shopping_list": {
@@ -159,7 +204,7 @@
     ],
     "canned_and_pantry": [
       "Kokosmilch (1 Dose, 400ml)",
-      "Gewürzgurken (1 Glas)",
+      "Gewürzgurten (1 Glas)",
       "Grüner Pfeffer (in Lake, 1 kleines Glas)",
       "Gelbe oder rote Currypaste (GF)",
       "Tamari / GF Sojasauce",
