@@ -1,0 +1,174 @@
+{
+  "week_label": "2026-W41",
+  "servings": 2,
+  "meal_times": {
+    "dinner": "19:30"
+  },
+  "recipes": [
+    {
+      "date": "2026-10-09",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Cremige Kürbis-Karotten-Ingwer-Suppe mit GF-Croutons",
+      "type": "vegetarian",
+      "prep_min": 20,
+      "cook_min": 30,
+      "category": "Hauptgericht",
+      "tagline": "Wärmende, vorbereitbare Kürbissuppe mit feiner Ingwernote und knusprigen GF-Croutons.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hokkaido-Kürbis" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Dose", "name": "Kokosmilch (400 ml)" },
+        { "amount": 15, "unit": "g", "name": "Ingwer" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 750, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 2, "unit": "Scheiben", "name": "Glutenfreies Brot" },
+        { "amount": 20, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Kürbis entkernen und würfeln. Karotten schälen und in Scheiben schneiden. Ingwer und Knoblauch fein hacken.",
+        "Olivenöl in einem Topf erhitzen. Ingwer, Knoblauch, Kürbis und Karotten ca. 5 Minuten anbraten.",
+        "Mit Gemüsebrühe und Kokosmilch aufgießen. Abgedeckt ca. 20 Minuten köcheln lassen, bis das Gemüse weich ist.",
+        "Suppe mit dem Pürierstab fein pürieren, mit Salz und Pfeffer abschmecken.",
+        "Für die Croutons das GF-Brot würfeln und in laktosefreier Butter in einer Pfanne knusprig anbraten. Über die Suppe geben."
+      ],
+      "tips": [
+        "Lässt sich hervorragend am Vortag oder morgens vorbereiten und abends nur noch erwärmen.",
+        "Achte bei der Gemüsebrühe auf die Kennzeichnung 'glutenfrei'."
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "meal": "dinner",
+      "time": "18:30",
+      "name": "Rinder-Hüftsteaks mit Ofen-Kürbis-Wedges & Kräuterbutter",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Saftiges Rindersteak mit krossen Kürbis- und Karottenspalten aus dem Ofen.",
+      "ingredients": [
+        { "amount": 2, "unit": "Stück", "name": "Rinder-Hüftsteaks (à ca. 200g)" },
+        { "amount": 400, "unit": "g", "name": "Hokkaido-Kürbis" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 40, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 1, "unit": "Zweig", "name": "Rosmarin" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Backofen auf 200 °C Ober-/Unterhitze vorheizen.",
+        "Kürbis und Karotten in Wedges/Spalten schneiden, mit Olivenöl, Salz und Pfeffer vermengen und auf einem Backblech 25 Minuten rösten.",
+        "Laktosefreie Butter mit gehacktem Rosmarin, Knoblauch und Salz vermengen.",
+        "Steaks trocken tupfen. Eine Pfanne stark erhitzen und die Steaks von jeder Seite ca. 2-3 Minuten scharf anbraten, danach kurz ruhen lassen.",
+        "Steaks mit den Ofen-Wedges und der Kräuterbutter servieren."
+      ],
+      "tips": [
+        "Laktosefreie Butter lässt sich schnell mit frischem Rosmarin und Knoblauch verfeinern."
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Schweinebraten in GF-Dunkelbiersauce mit Rotkohl & GF-Knödeln",
+      "type": "meat",
+      "prep_min": 25,
+      "cook_min": 90,
+      "category": "Hauptgericht",
+      "tagline": "Klassischer Sonntagsbraten mit sämiger Dunkelbiersauce, Apfel-Rotkohl und GF-Knödeln.",
+      "ingredients": [
+        { "amount": 800, "unit": "g", "name": "Schweinenacken" },
+        { "amount": 330, "unit": "ml", "name": "Glutenfreies Dunkelbier" },
+        { "amount": 250, "unit": "g", "name": "Suppengrün (Karotte, Sellerie, Lauch)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 500, "unit": "ml", "name": "Rinderbrühe (glutenfrei)" },
+        { "amount": 400, "unit": "g", "name": "Apfel-Rotkohl (Glas)" },
+        { "amount": 1, "unit": "Packung", "name": "Glutenfreie Knödelmasse / Kloßteig" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Schweinenacken kräftig mit Salz und Pfeffer einreiben. In einem Bräter in Öl von allen Seiten anbraten.",
+        "Würfeliges Suppengrün und Zwiebel mitanbraten. Mit GF-Dunkelbier und Rinderbrühe ablöschen.",
+        "Im Ofen bei 180 °C ca. 75-90 Minuten schmoren lassen.",
+        "Knödel nach Packungsanleitung aus dem GF-Teig formen und in leicht siedendem Salzwasser gar ziehen lassen.",
+        "Rotkohl im Topf erwärmen.",
+        "Braten herausnehmen. Saucenfond pürieren oder durch ein Sieb streichen, einkochen lassen und mit dem Braten, Rotkohl und Knödeln anrichten."
+      ],
+      "tips": [
+        "Achte darauf, ein zertifiziertes glutenfreies Bier (z. B. auf Hirse- oder Buchweizenbasis) zum Ablöschen zu verwenden."
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Asiatische Puten-Pfanne mit Gemüsestreifen & Tamari-Kaffir-Sauce",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Knackiges Wok-Gemüse mit Putenbrust in cremiger Tamari-Kokos-Sauce zu Basmatireis.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Putenbrustfilet" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 1, "unit": "Stück", "name": "Rote Paprika" },
+        { "amount": 1, "unit": "Dose", "name": "Kokosmilch (400 ml)" },
+        { "amount": 3, "unit": "EL", "name": "Tamari-Sojasauce (glutenfrei)" },
+        { "amount": 150, "unit": "g", "name": "Basmatireis" },
+        { "amount": 1, "unit": "Stück", "name": "Ingwer (daumengroß)" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Basmatireis nach Packungsanweisung in Salzwasser garen.",
+        "Putenbrust in Streifen schneiden. Karotten und Paprika in feine Stifte schneiden.",
+        "Sesamöl im Wok erhitzen. Putenstreifen anbraten, herausnehmen. Gemüse und gehackten Ingwer ca. 5 Minuten pfannenrühren.",
+        "Mit Kokosmilch und GF-Tamari ablöschen. Fleischeingießen und ca. 5 Minuten leicht köcheln lassen.",
+        "Mit Basmatireis servieren."
+      ],
+      "tips": [
+        "Verwende ausschließlich Tamari-Sojasauce, da herkömmliche Sojasaucen Weizen enthalten."
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Glutenfreie & Laktosefreie Apfelpfannkuchen mit Zimt & Zucker",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Süßer Klassiker: Fluffige Pfannkuchen mit saftigen Apfelscheiben.",
+      "ingredients": [
+        { "amount": 2, "unit": "Stück", "name": "Äpfel" },
+        { "amount": 200, "unit": "g", "name": "Glutenfreie Mehlmischung (Kuchen/Universal)" },
+        { "amount": 300, "unit": "ml", "name": "Laktosefreie Milch" },
+        { "amount": 3, "unit": "Stück", "name": "Eier" },
+        { "amount": 1, "unit": "Prise", "name": "Salz" },
+        { "amount": 30, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 2, "unit": "EL", "name": "Zucker" },
+        { "amount": 1, "unit": "TL", "name": "Zimt" }
+      ],
+      "steps": [
+        "GF-Mehl, laktosefreie Milch, Eier und 1 Prise Salz zu einem glatten Teig verrühren. 10 Minuten quellen lassen.",
+        "Äpfel entkernen und in feine Scheiben schneiden.",
+        "Etwas laktosefreie Butter in einer Pfanne erhitzen. Apfelscheiben hineinlegen und kurz anbraten.",
+        "Eine Kelle Teig über die Äpfel gießen und bei mittlerer Hitze goldbraun ausbacken, dann wenden.",
+        "Mit einer Mischung aus Zimt und Zucker bestreut servieren."
+      ],
+      "tips": [
+        "Glutenfreier Teig braucht ein paar Minuten Ruhezeit zum Quellen, damit die Konsistenz optimal wird."
+      ]
+    }
+  ]
+}
