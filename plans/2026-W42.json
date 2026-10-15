@@ -30,6 +30,7 @@
           "uhrzeit": "19:30",
           "gericht": "Nudeln mit Tomatensoße und Jagdwurst",
           "geplant": true,
+          "rezept_id": "nudeln_tomatensose_jagdwurst",
           "eigenschaften": {
             "glutenfrei": true,
             "laktosefrei": true,
@@ -52,6 +53,7 @@
           "uhrzeit": "12:00",
           "gericht": "Grüne Bohnensuppe",
           "geplant": true,
+          "rezept_id": "grune_bohnensuppe",
           "eigenschaften": {
             "glutenfrei": true,
             "laktosefrei": true,
@@ -75,6 +77,7 @@
           "uhrzeit": "19:30",
           "gericht": "Cordon bleu mit Pommes und Mischgemüse",
           "geplant": true,
+          "rezept_id": "cordon_bleu_pommes_mischgemuse",
           "eigenschaften": {
             "glutenfrei": true,
             "laktosefrei": true,
@@ -93,5 +96,60 @@
       "datum": "2026-10-18",
       "mahlzeiten": []
     }
+  ],
+  "recipes": [
+    {
+      "id": "nudeln_tomatensose_jagdwurst",
+      "name": "Nudeln mit Tomatensoße und Jagdwurst",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vegetarisch": false
+      },
+      "zutaten": [
+        "250g glutenfreie Nudeln",
+        "200g Jagdwurst",
+        "400g stückige Tomaten (Dose)",
+        "1 Zwiebel",
+        "1 Knoblauchzehe",
+        "Gewürze (Salz, Pfeffer, Oregano)"
+      ]
+    },
+    {
+      "id": "grune_bohnensuppe",
+      "name": "Grüne Bohnensuppe",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vegetarisch": true
+      },
+      "zutaten": [
+        "400g grüne Bohnen",
+        "300g festkochende Kartoffeln",
+        "1 Bund Suppengrün",
+        "1 Zwiebel",
+        "750ml Gemüsebrühe (glutenfrei)",
+        "Bohnenkraut, Salz, Pfeffer"
+      ]
+    },
+    {
+      "id": "cordon_bleu_pommes_mischgemuse",
+      "name": "Cordon bleu mit Pommes und Mischgemüse",
+      "eigenschaften": {
+        "glutenfrei": true,
+        "laktosefrei": true,
+        "vegetarisch": false
+      },
+      "zutaten": [
+        "2 Schnitzel (Schwein oder Pute)",
+        "2 Scheiben Kochschinken",
+        "2 Scheiben laktosefreier Käse",
+        "Glutenfreies Mehl & Paniermehl",
+        "1 Ei",
+        "1 Beutel Pommes frites (glutenfrei)",
+        "1 Packung Mischgemüse"
+      ]
+    }
   ]
 }
+
