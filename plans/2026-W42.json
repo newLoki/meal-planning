@@ -1,232 +1,163 @@
 {
-  "kalenderwoche": 42,
-  "jahr": 2026,
-  "zeitraum": {
-    "start_datum": "2026-10-12",
-    "end_datum": "2026-10-18"
-  },
-  "tage": [
-    {
-      "tag": "Montag",
-      "datum": "2026-10-12",
-      "mahlzeiten": []
-    },
-    {
-      "tag": "Dienstag",
-      "datum": "2026-10-13",
-      "mahlzeiten": []
-    },
-    {
-      "tag": "Mittwoch",
-      "datum": "2026-10-14",
-      "mahlzeiten": []
-    },
-    {
-      "tag": "Donnerstag",
-      "datum": "2026-10-15",
-      "mahlzeiten": [
-        {
-          "typ": "Abendessen",
-          "uhrzeit": "19:30",
-          "gericht": "Nudeln mit Tomatensoße und Jagdwurst",
-          "geplant": true,
-          "rezept_id": "nudeln_tomatensose_jagdwurst",
-          "eigenschaften": {
-            "glutenfrei": true,
-            "laktosefrei": true,
-            "vegetarisch": false
-          },
-          "komponenten": [
-            "Glutenfreie Nudeln",
-            "Tomatensoße",
-            "Jagdwurst"
-          ]
-        }
-      ]
-    },
-    {
-      "tag": "Freitag",
-      "datum": "2026-10-16",
-      "mahlzeiten": [
-        {
-          "typ": "Mittagessen",
-          "uhrzeit": "12:00",
-          "gericht": "Grüne Bohnensuppe",
-          "geplant": true,
-          "rezept_id": "grune_bohnensuppe",
-          "eigenschaften": {
-            "glutenfrei": true,
-            "laktosefrei": true,
-            "vegetarisch": true
-          },
-          "komponenten": [
-            "Grüne Bohnen",
-            "Kartoffeln",
-            "Suppengrün",
-            "Gemüsebrühe"
-          ]
-        }
-      ]
-    },
-    {
-      "tag": "Samstag",
-      "datum": "2026-10-17",
-      "mahlzeiten": [
-        {
-          "typ": "Abendessen",
-          "uhrzeit": "19:30",
-          "gericht": "Cordon bleu mit Pommes und Mischgemüse",
-          "geplant": true,
-          "rezept_id": "cordon_bleu_pommes_mischgemuse",
-          "eigenschaften": {
-            "glutenfrei": true,
-            "laktosefrei": true,
-            "vegetarisch": false
-          },
-          "komponenten": [
-            "Cordon bleu (glutenfreie Panade, laktosefreier Käse, Kochschinken)",
-            "Pommes frites",
-            "Mischgemüse"
-          ]
-        }
-      ]
-    },
-    {
-      "tag": "Sonntag",
-      "datum": "2026-10-18",
-      "mahlzeiten": []
-    }
-  ],
+  "week_label": "2026-W42",
+  "servings": 2,
+  "author": "MealAI",
   "recipes": [
     {
-      "id": "nudeln_tomatensose_jagdwurst",
-      "name": "Nudeln mit Tomatensoße und Jagdwurst",
       "date": "2026-10-15",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vegetarisch": false
-      },
+      "name": "Nudeln mit Tomatensoße und Jagdwurst",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 10,
+      "cook_min": 15,
+      "servings": 2,
       "ingredients": [
         {
-          "name": "glutenfreie Nudeln",
           "amount": 250,
-          "unit": "g"
+          "unit": "g",
+          "name": "glutenfreie Nudeln"
         },
         {
-          "name": "Jagdwurst",
           "amount": 200,
-          "unit": "g"
+          "unit": "g",
+          "name": "Jagdwurst"
         },
         {
-          "name": "stückige Tomaten (Dose)",
           "amount": 400,
-          "unit": "g"
+          "unit": "g",
+          "name": "stückige Tomaten (Dose)"
         },
         {
-          "name": "Zwiebel",
           "amount": 1,
-          "unit": "Stk."
+          "unit": "Stk.",
+          "name": "Zwiebel"
         },
         {
-          "name": "Knoblauchzehe",
           "amount": 1,
-          "unit": "Stk."
+          "unit": "Stk.",
+          "name": "Knoblauchzehe"
         },
         {
-          "name": "Gewürze (Salz, Pfeffer, Oregano)",
-          "amount": null,
-          "unit": ""
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Salz, Pfeffer & Oregano"
         }
+      ],
+      "steps": [
+        "Nudeln in reichlich Salzwasser nach Packungsanweisung kochen.",
+        "Zwiebel und Knoblauch fein würfeln, Jagdwurst in Scheiben oder Würfel schneiden.",
+        "Jagdwurst in einer Pfanne mit etwas Öl anbraten, Zwiebeln und Knoblauch dazugeben.",
+        "Mit den stückigen Tomaten ablöschen, würzen und kurz einkochen lassen.",
+        "Nudeln mit der Soße servieren."
       ]
     },
     {
-      "id": "grune_bohnensuppe",
-      "name": "Grüne Bohnensuppe",
       "date": "2026-10-16",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vegetarisch": true
-      },
+      "name": "Grüne Bohnensuppe",
+      "meal": "lunch",
+      "time": "12:00",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "servings": 2,
       "ingredients": [
         {
-          "name": "grüne Bohnen",
           "amount": 400,
-          "unit": "g"
+          "unit": "g",
+          "name": "grüne Bohnen"
         },
         {
-          "name": "festkochende Kartoffeln",
           "amount": 300,
-          "unit": "g"
+          "unit": "g",
+          "name": "festkochende Kartoffeln"
         },
         {
-          "name": "Suppengrün",
           "amount": 1,
-          "unit": "Bund"
+          "unit": "Bund",
+          "name": "Suppengrün"
         },
         {
-          "name": "Zwiebel",
           "amount": 1,
-          "unit": "Stk."
+          "unit": "Stk.",
+          "name": "Zwiebel"
         },
         {
-          "name": "Gemüsebrühe (glutenfrei)",
           "amount": 750,
-          "unit": "ml"
+          "unit": "ml",
+          "name": "Gemüsebrühe (glutenfrei)"
         },
         {
-          "name": "Bohnenkraut, Salz, Pfeffer",
-          "amount": null,
-          "unit": ""
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Bohnenkraut, Salz & Pfeffer"
         }
+      ],
+      "steps": [
+        "Kartoffeln, Suppengrün und Zwiebel putzen und würfeln.",
+        "Bohnen waschen und die Enden abschneiden.",
+        "Zwiebel in einem Topf andünsten, Suppengrün und Kartoffeln kurz mitbraten.",
+        "Mit Gemüsebrühe auffüllen, Bohnen und Bohnenkraut hinzugeben und ca. 20 Minuten köcheln lassen.",
+        "Mit Salz und Pfeffer abschmecken."
       ]
     },
     {
-      "id": "cordon_bleu_pommes_mischgemuse",
-      "name": "Cordon bleu mit Pommes und Mischgemüse",
       "date": "2026-10-17",
-      "eigenschaften": {
-        "glutenfrei": true,
-        "laktosefrei": true,
-        "vegetarisch": false
-      },
+      "name": "Cordon bleu mit Pommes und Mischgemüse",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 25,
+      "servings": 2,
       "ingredients": [
         {
-          "name": "Schnitzel (Schwein oder Pute)",
           "amount": 2,
-          "unit": "Stk."
+          "unit": "Stk.",
+          "name": "Schnitzel (Schwein oder Pute)"
         },
         {
-          "name": "Kochschinken",
           "amount": 2,
-          "unit": "Scheiben"
+          "unit": "Scheiben",
+          "name": "Kochschinken"
         },
         {
-          "name": "laktosefreier Käse",
           "amount": 2,
-          "unit": "Scheiben"
+          "unit": "Scheiben",
+          "name": "laktosefreier Käse"
         },
         {
-          "name": "Glutenfreies Mehl & Paniermehl",
-          "amount": null,
-          "unit": ""
+          "amount": 50,
+          "unit": "g",
+          "name": "glutenfreies Mehl"
         },
         {
-          "name": "Ei",
+          "amount": 50,
+          "unit": "g",
+          "name": "glutenfreies Paniermehl"
+        },
+        {
           "amount": 1,
-          "unit": "Stk."
+          "unit": "Stk.",
+          "name": "Ei"
         },
         {
-          "name": "Pommes frites (glutenfrei)",
           "amount": 1,
-          "unit": "Beutel"
+          "unit": "Beutel",
+          "name": "Pommes frites (glutenfrei)"
         },
         {
-          "name": "Mischgemüse",
           "amount": 1,
-          "unit": "Packung"
+          "unit": "Packung",
+          "name": "Mischgemüse"
         }
+      ],
+      "steps": [
+        "Pommes im Ofen oder Airfryer nach Packungsanweisung knusprig backen.",
+        "Schnitzel flach klopfen, jeweils mit Schinken und laktosefreiem Käse füllen und klappen/feststecken.",
+        "Panierstraße aufbauen (glutenfreies Mehl, verquirltes Ei, glutenfreies Paniermehl) und Cordon bleus panieren.",
+        "In reichlich Fett von beiden Seiten golden ausbacken.",
+        "Mischgemüse in etwas Salzwasser oder laktosefreier Butter dämpfen und zusammen servieren."
       ]
     }
   ]
