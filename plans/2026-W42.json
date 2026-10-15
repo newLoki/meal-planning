@@ -107,7 +107,7 @@
         "laktosefrei": true,
         "vegetarisch": false
       },
-      "zutaten": [
+      "ingredients": [
         "250g glutenfreie Nudeln",
         "200g Jagdwurst",
         "400g stückige Tomaten (Dose)",
@@ -125,7 +125,7 @@
         "laktosefrei": true,
         "vegetarisch": true
       },
-      "zutaten": [
+      "ingredients": [
         "400g grüne Bohnen",
         "300g festkochende Kartoffeln",
         "1 Bund Suppengrün",
@@ -143,7 +143,7 @@
         "laktosefrei": true,
         "vegetarisch": false
       },
-      "zutaten": [
+      "ingredients": [
         "2 Schnitzel (Schwein oder Pute)",
         "2 Scheiben Kochschinken",
         "2 Scheiben laktosefreier Käse",
