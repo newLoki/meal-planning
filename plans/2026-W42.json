@@ -101,6 +101,7 @@
     {
       "id": "nudeln_tomatensose_jagdwurst",
       "name": "Nudeln mit Tomatensoße und Jagdwurst",
+      "date": "2026-10-15",
       "eigenschaften": {
         "glutenfrei": true,
         "laktosefrei": true,
@@ -118,6 +119,7 @@
     {
       "id": "grune_bohnensuppe",
       "name": "Grüne Bohnensuppe",
+      "date": "2026-10-16",
       "eigenschaften": {
         "glutenfrei": true,
         "laktosefrei": true,
@@ -135,6 +137,7 @@
     {
       "id": "cordon_bleu_pommes_mischgemuse",
       "name": "Cordon bleu mit Pommes und Mischgemüse",
+      "date": "2026-10-17",
       "eigenschaften": {
         "glutenfrei": true,
         "laktosefrei": true,
@@ -152,4 +155,3 @@
     }
   ]
 }
-
