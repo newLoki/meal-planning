@@ -108,12 +108,36 @@
         "vegetarisch": false
       },
       "ingredients": [
-        "250g glutenfreie Nudeln",
-        "200g Jagdwurst",
-        "400g stückige Tomaten (Dose)",
-        "1 Zwiebel",
-        "1 Knoblauchzehe",
-        "Gewürze (Salz, Pfeffer, Oregano)"
+        {
+          "name": "glutenfreie Nudeln",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Jagdwurst",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "stückige Tomaten (Dose)",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Knoblauchzehe",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Gewürze (Salz, Pfeffer, Oregano)",
+          "amount": null,
+          "unit": ""
+        }
       ]
     },
     {
@@ -126,12 +150,36 @@
         "vegetarisch": true
       },
       "ingredients": [
-        "400g grüne Bohnen",
-        "300g festkochende Kartoffeln",
-        "1 Bund Suppengrün",
-        "1 Zwiebel",
-        "750ml Gemüsebrühe (glutenfrei)",
-        "Bohnenkraut, Salz, Pfeffer"
+        {
+          "name": "grüne Bohnen",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "name": "festkochende Kartoffeln",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Suppengrün",
+          "amount": 1,
+          "unit": "Bund"
+        },
+        {
+          "name": "Zwiebel",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Gemüsebrühe (glutenfrei)",
+          "amount": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "Bohnenkraut, Salz, Pfeffer",
+          "amount": null,
+          "unit": ""
+        }
       ]
     },
     {
@@ -144,13 +192,41 @@
         "vegetarisch": false
       },
       "ingredients": [
-        "2 Schnitzel (Schwein oder Pute)",
-        "2 Scheiben Kochschinken",
-        "2 Scheiben laktosefreier Käse",
-        "Glutenfreies Mehl & Paniermehl",
-        "1 Ei",
-        "1 Beutel Pommes frites (glutenfrei)",
-        "1 Packung Mischgemüse"
+        {
+          "name": "Schnitzel (Schwein oder Pute)",
+          "amount": 2,
+          "unit": "Stk."
+        },
+        {
+          "name": "Kochschinken",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "laktosefreier Käse",
+          "amount": 2,
+          "unit": "Scheiben"
+        },
+        {
+          "name": "Glutenfreies Mehl & Paniermehl",
+          "amount": null,
+          "unit": ""
+        },
+        {
+          "name": "Ei",
+          "amount": 1,
+          "unit": "Stk."
+        },
+        {
+          "name": "Pommes frites (glutenfrei)",
+          "amount": 1,
+          "unit": "Beutel"
+        },
+        {
+          "name": "Mischgemüse",
+          "amount": 1,
+          "unit": "Packung"
+        }
       ]
     }
   ]
