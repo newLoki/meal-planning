@@ -1,0 +1,97 @@
+{
+  "kalenderwoche": 42,
+  "jahr": 2026,
+  "zeitraum": {
+    "start_datum": "2026-10-12",
+    "end_datum": "2026-10-18"
+  },
+  "tage": [
+    {
+      "tag": "Montag",
+      "datum": "2026-10-12",
+      "mahlzeiten": []
+    },
+    {
+      "tag": "Dienstag",
+      "datum": "2026-10-13",
+      "mahlzeiten": []
+    },
+    {
+      "tag": "Mittwoch",
+      "datum": "2026-10-14",
+      "mahlzeiten": []
+    },
+    {
+      "tag": "Donnerstag",
+      "datum": "2026-10-15",
+      "mahlzeiten": [
+        {
+          "typ": "Abendessen",
+          "uhrzeit": "19:30",
+          "gericht": "Nudeln mit Tomatensoße und Jagdwurst",
+          "geplant": true,
+          "eigenschaften": {
+            "glutenfrei": true,
+            "laktosefrei": true,
+            "vegetarisch": false
+          },
+          "komponenten": [
+            "Glutenfreie Nudeln",
+            "Tomatensoße",
+            "Jagdwurst"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Freitag",
+      "datum": "2026-10-16",
+      "mahlzeiten": [
+        {
+          "typ": "Mittagessen",
+          "uhrzeit": "12:00",
+          "gericht": "Grüne Bohnensuppe",
+          "geplant": true,
+          "eigenschaften": {
+            "glutenfrei": true,
+            "laktosefrei": true,
+            "vegetarisch": true
+          },
+          "komponenten": [
+            "Grüne Bohnen",
+            "Kartoffeln",
+            "Suppengrün",
+            "Gemüsebrühe"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Samstag",
+      "datum": "2026-10-17",
+      "mahlzeiten": [
+        {
+          "typ": "Abendessen",
+          "uhrzeit": "19:30",
+          "gericht": "Cordon bleu mit Pommes und Mischgemüse",
+          "geplant": true,
+          "eigenschaften": {
+            "glutenfrei": true,
+            "laktosefrei": true,
+            "vegetarisch": false
+          },
+          "komponenten": [
+            "Cordon bleu (glutenfreie Panade, laktosefreier Käse, Kochschinken)",
+            "Pommes frites",
+            "Mischgemüse"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Sonntag",
+      "datum": "2026-10-18",
+      "mahlzeiten": []
+    }
+  ]
+}
