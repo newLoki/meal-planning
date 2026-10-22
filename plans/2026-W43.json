@@ -1,110 +1,162 @@
+
 {
-"$schema": "http://json-schema.org/draft-07/schema#",
-"week_label": "2026-W43",
-"servings": 2,
-"author": "MealAI",
-"meal_times": {
-"breakfast": "09:00",
-"lunch": "12:00",
-"dinner": "19:30",
-"other": "15:00"
-},
-"recipes": [
-{
-"date": "2026-10-22",
-"name": "Glutenfreier Leberkäse im Brötchen mit Gurkensalat",
-"author": "MealAI",
-"meal": "dinner",
-"time": "19:30",
-"type": "meat",
-"prep_min": 15,
-"cook_min": 15,
-"servings": 2,
-"category": "Hauptgericht",
-"tagline": "Knusprig gebackener Leberkäse in gf Brötchen serviert mit frischem, laktosefreiem Gurkensalat.",
-"ingredients": [
-{ "amount": 2, "unit": "Stück", "name": "Leberkäsescheiben (glutenfrei)" },
-{ "amount": 2, "unit": "Stück", "name": "Brötchen (glutenfrei)" },
-{ "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
-{ "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
-{ "amount": 1, "unit": "EL", "name": "Essig" },
-{ "amount": 1, "unit": "TL", "name": "Senf (glutenfrei)" },
-{ "amount": null, "unit": null, "name": "Salz, Pfeffer & Dill" }
-],
-"steps": [
-"Die Salatgurke gründlich waschen, in dünne Scheiben hobeln und mit Salz, Pfeffer, Essig, Öl und frisch gehacktem Dill zu einem Gurkensalat anmachen.",
-"Die glutenfreien Brötchen nach Packungsanweisung aufbacken oder toasten.",
-"Den glutenfreien Leberkäse in einer Pfanne bei mittlerer Hitze von beiden Seiten goldbraun und knusprig anbraten (oder im Ofen aufbacken).",
-"Die Brötchen aufschneiden, nach Wunsch mit Senf bestreichen, die heißen Leberkäsescheiben hineinlegen und zusammen mit dem Gurkensalat servieren."
-],
-"tips": [
-"Achte beim Kauf des Leberkäses und des Senfs auf die Kennzeichnung 'glutenfrei'.",
-"Die zweite Hälfte der Gurke wird für den morgigen Tag (Freitag) aufbewahrt."
-]
-},
-{
-"date": "2026-10-23",
-"name": "Bratwurst mit laktosefreiem Kartoffelbrei & Rahmgurken",
-"author": "MealAI",
-"meal": "dinner",
-"time": "19:30",
-"type": "meat",
-"prep_min": 15,
-"cook_min": 25,
-"servings": 2,
-"category": "Hauptgericht",
-"tagline": "Herzhafte glutenfreie Bratwürste mit cremigem Kartoffelpüree und erfrischenden Gurken.",
-"ingredients": [
-{ "amount": 4, "unit": "Stück", "name": "Bratwürste (glutenfrei)" },
-{ "amount": 600, "unit": "g", "name": "Kartoffeln (vorwiegend festkochend)" },
-{ "amount": 100, "unit": "ml", "name": "Milch (laktosefrei)" },
-{ "amount": 20, "unit": "g", "name": "Butter (laktosefrei)" },
-{ "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
-{ "amount": 2, "unit": "EL", "name": "Saure Sahne / Schmand (laktosefrei)" },
-{ "amount": null, "unit": null, "name": "Salz, Pfeffer & Muskatnuss" }
-],
-"steps": [
-"Kartoffeln schälen, in Würfel schneiden und in Salzwasser ca. 15–20 Minuten weich kochen.",
-"Die restliche Hälfte der Salatgurke hobeln und mit laktosefreier Saurer Sahne/Schmand, Salz und Pfeffer anmachen.",
-"Die glutenfreien Bratwürste in einer Pfanne mit etwas Öl rundherum goldbraun anbraten.",
-"Die abgegossenen Kartoffeln mit laktosefreier Milch und Butter stampfen. Mit Salz, Pfeffer und einer Prise Muskatnuss cremig abschmecken.",
-"Kross gebratene Bratwürste zusammen mit dem Kartoffelbrei und den Rahmgurken anrichten."
-],
-"tips": [
-"Kartoffelbrei nicht pürieren, sondern stampfen, damit er eine schöne lockere Textur behält."
-]
-},
-{
-"date": "2026-10-26",
-"name": "Gebratene glutenfreie Nudeln mit Schinken, Ei & Ketchup",
-"author": "MealAI",
-"meal": "dinner",
-"time": "19:30",
-"type": "meat",
-"prep_min": 10,
-"cook_min": 15,
-"servings": 2,
-"category": "Hauptgericht",
-"tagline": "Schnell, herzhaft und kinderleicht: Gebratene Pasta mit Kochschinken, Ei und Ketchup.",
-"ingredients": [
-{ "amount": 250, "unit": "g", "name": "Nudeln (glutenfrei, z. B. Fussili oder Penne)" },
-{ "amount": 150, "unit": "g", "name": "Kochschinken (glutenfrei / laktosefrei)" },
-{ "amount": 3, "unit": "Stück", "name": "Eier" },
-{ "amount": 1, "unit": "EL", "name": "Butter (laktosefrei) oder Öl" },
-{ "amount": null, "unit": null, "name": "Ketchup (glutenfrei)" },
-{ "amount": null, "unit": null, "name": "Salz, Pfeffer & Paprikapulver edelsüß" }
-],
-"steps": [
-"Die glutenfreien Nudeln in reichlich Salzwasser nach Packungsanweisung al dente kochen und abgießen.",
-"Den Kochschinken in mundgerechte Streifen oder Würfel schneiden.",
-"Die Eier in einer kleinen Schüssel verquirlen und leicht salzen und pfeffern.",
-"Laktosefreie Butter oder Öl in einer großen Pfanne erhitzen. Schinken kurz anbraten, dann die gegarten Nudeln dazugeben und leicht knusprig mitanbraten.",
-"Die verquirlten Eier über die Nudeln gießen und unter Wenden stocken lassen.",
-"Mit Salz, Pfeffer und Paprikapulver abschmecken und direkt mit einem Klecks glutenfreiem Ketchup servieren."
-],
-"tips": [
-"Perfekt zur Verwertung von bereits gekochten Nudeln vom Vortag."
-]
-}
-]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Weekly meal plan",
+  "week_label": "2026-W43",
+  "servings": 2,
+  "author": "MealAI",
+  "meal_times": {
+    "breakfast": "09:00",
+    "lunch": "12:00",
+    "dinner": "19:30",
+    "other": "15:00"
+  },
+  "recipes": [
+    {
+      "date": "2026-10-22",
+      "name": "Leberkäse im Brötchen mit Gurkensalat",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 15,
+      "servings": 2,
+      "tagline": "Knuspriger Leberkäse im glutenfreien Brötchen mit frischem Gurkensalat",
+      "ingredients": [
+        { "amount": 2, "unit": "Scheiben", "name": "Glutenfreier Leberkäse zum Aufbacken" },
+        { "amount": 2, "unit": "Stück", "name": "Glutenfreie Brötchen" },
+        { "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
+        { "amount": 2, "unit": "EL", "name": "Süßer oder mittelscharfer Senf" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "amount": 1, "unit": "EL", "name": "Kräuteressig" },
+        { "amount": 1, "unit": "Prise", "name": "Salz & Pfeffer" }
+      ],
+      "steps": [
+        "Den Backofen auf 180°C Ober-/Unterhitze vorheizen.",
+        "Leberkäsescheiben auf einem mit Backpapier ausgelegten Blech ca. 12-15 Minuten goldbraun aufbacken.",
+        "Gurke in feine Scheiben hobeln und mit Essig, Öl, Salz und Pfeffer anmachen.",
+        "Glutenfreie Brötchen in den letzten 5 Minuten im Ofen aufbacken und aufschneiden.",
+        "Brötchen mit Senf bestreichen, heißen Leberkäse einlegen und zusammen mit dem Gurkensalat servieren."
+      ],
+      "tips": [
+        "Die zweite Hälfte der Gurke für die Beilage am Freitag kühl aufbewahren."
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Bratwurst mit laktosefreiem Kartoffelbrei & Rahmgurken",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "servings": 2,
+      "tagline": "Herzhafte Bratwurst mit cremigem Kartoffelpüree",
+      "ingredients": [
+        { "amount": 4, "unit": "Stück", "name": "Glutenfreie Bratwürste" },
+        { "amount": 600, "unit": "g", "name": "Vorwiegend festkochende Kartoffeln" },
+        { "amount": 100, "unit": "ml", "name": "Laktosefreie Milch" },
+        { "amount": 20, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
+        { "amount": 2, "unit": "EL", "name": "Laktosefreie Saure Sahne / Schmand" },
+        { "amount": 1, "unit": "Prise", "name": "Muskatnuss, Salz & Pfeffer" }
+      ],
+      "steps": [
+        "Kartoffeln schälen, würfeln und in Salzwasser ca. 15-20 Minuten gar kochen.",
+        "Währenddessen Bratwürste in einer Pfanne mit etwas Öl bei mittlerer Hitze rundherum braun braten.",
+        "Restliche Gurkenhälfte hobeln und mit laktosefreier Saurer Sahne, Salz und Pfeffer verrühren.",
+        "Gekochte Kartoffeln abgießen, laktosefreie Milch und Butter dazugeben und stampfen.",
+        "Mit Salz, Pfeffer und frischer Muskatnuss abschmecken und zusammen mit Bratwurst und Rahmgurken anrichten."
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "name": "Cremiges Kürbis-Linsen-Curry",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 20,
+      "servings": 2,
+      "tagline": "Wärmendes herbstliches Curry mit Kokosmilch und roten Linsen",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hokkaido-Kürbis (Gewürfelt)" },
+        { "amount": 120, "unit": "g", "name": "Rote Linsen" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 200, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
+        { "amount": 2, "unit": "TL", "name": "Currypulver" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "amount": 1, "unit": "Prise", "name": "Salz, Pfeffer & Limettensaft" }
+      ],
+      "steps": [
+        "Zwiebel und Knoblauch fein würfeln. Hokkaido-Kürbis entkernen und in mundgerechte Stücke schneiden.",
+        "Öl in einem Topf erhitzen, Zwiebel, Knoblauch und Kürbis 3 Minuten anbraten.",
+        "Currypulver dazugeben und kurz mitrösten.",
+        "Rote Linsen, Kokosmilch und Gemüsebrühe hinzufügen, einmal aufkochen lassen.",
+        "Bei mittlerer Hitze ca. 15 Minuten köcheln lassen, bis Kürbis und Linsen weich sind.",
+        "Mit Salz, Pfeffer und einem Spritzer Limettensaft abschmecken."
+      ],
+      "tips": [
+        "Das Gericht bringt Abwechslung als vegetarischer Wochenbeitrag und ist komplett laktose- und glutenfrei."
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Gebratene Nudeln mit Schinken, Ei & Ketchup",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 10,
+      "cook_min": 15,
+      "servings": 2,
+      "tagline": "Klassische gebratene glutenfreie Nudeln mit Schinkenwürfeln und Ei",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Glutenfreie Nudeln (z.B. Fussili oder Penne)" },
+        { "amount": 150, "unit": "g", "name": "Kochschinken (glutenfrei)" },
+        { "amount": 3, "unit": "Stück", "name": "Eier" },
+        { "amount": 1, "unit": "EL", "name": "Laktosefreie Butter oder Pflanzenöl" },
+        { "amount": 3, "unit": "EL", "name": "Ketchup (glutenfrei)" },
+        { "amount": 1, "unit": "Prise", "name": "Salz & Pfeffer" }
+      ],
+      "steps": [
+        "Nudeln in reichlich Salzwasser nach Packungsanweisung al dente kochen und abgießen.",
+        "Kochschinken in Streifen oder Würfel schneiden.",
+        "Butter/Öl in einer großen Pfanne erhitzen und den Schinken leicht anbraten.",
+        "Die vorgekochten Nudeln hinzugeben und bei hoher Hitze kross anbraten.",
+        "Die Eier direkt in die Pfanne schlagen, gründlich unter die Nudeln rühren und stocken lassen.",
+        "Mit Salz und Pfeffer abschmecken und heiß mit Ketchup servieren."
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "name": "Gefüllte Zucchini mit Hackfleisch & laktosefreiem Käse überbacken",
+      "meal": "dinner",
+      "time": "19:30",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "servings": 2,
+      "tagline": "Ofenfrische Zucchini-Schiffchen mit würziger Hackfleischfüllung",
+      "ingredients": [
+        { "amount": 2, "unit": "Stück", "name": "Große Zucchini" },
+        { "amount": 300, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 1, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 100, "unit": "g", "name": "Laktosefreier Reibekäse (z.B. Gouda)" },
+        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
+        { "amount": 1, "unit": "TL", "name": "Oregano / Italienische Kräuter" },
+        { "amount": 1, "unit": "Prise", "name": "Salz & Pfeffer" }
+      ],
+      "steps": [
+        "Backofen auf 200°C Ober-/Unterhitze vorheizen.",
+        "Zucchini längs halbieren und das Fruchtfleisch mit einem Löffel vorsichtig aushöhlen. Fruchtfleisch klein hacken.",
+        "Zwiebel würfeln. Öl in einer Pfanne erhitzen, Hackfleisch, Zwiebel und das Zucchini-Fruchtfleisch kräftig anbraten.",
+        "Tomatenmark und Kräuter einrühren, mit Salz und Pfeffer abschmecken.",
+        "Zucchini-Hälften in eine Auflaufform legen, mit dem Hackfleisch befüllen und mit laktosefreiem Käse bestreuen.",
+        "Im Ofen ca. 20-25 Minuten überbacken, bis der Käse geschmolzen und goldbraun ist."
+      ]
+    }
+  ]
 }
