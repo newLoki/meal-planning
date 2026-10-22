@@ -1,4 +1,3 @@
-
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Weekly meal plan",
@@ -71,35 +70,40 @@
     },
     {
       "date": "2026-10-25",
-      "name": "Cremiges Kürbis-Linsen-Curry",
+      "name": "Klassische Rinderrouladen mit Speck-Rosenkohl & Salzkartoffeln",
       "meal": "dinner",
       "time": "19:30",
-      "type": "vegetarian",
-      "prep_min": 15,
-      "cook_min": 20,
+      "type": "meat",
+      "prep_min": 30,
+      "cook_min": 90,
       "servings": 2,
-      "tagline": "Wärmendes herbstliches Curry mit Kokosmilch und roten Linsen",
+      "tagline": "Zarte Rinderrouladen in kräftiger Soße, serviert mit feinem Speck-Rosenkohl und Kartoffeln",
       "ingredients": [
-        { "amount": 400, "unit": "g", "name": "Hokkaido-Kürbis (Gewürfelt)" },
-        { "amount": 120, "unit": "g", "name": "Rote Linsen" },
-        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
-        { "amount": 200, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 2, "unit": "Stück", "name": "Rinderrouladen" },
+        { "amount": 2, "unit": "TL", "name": "Senf (mittelscharf)" },
+        { "amount": 4, "unit": "Scheiben", "name": "Bacon / Frühstücksspeck" },
+        { "amount": 2, "unit": "Stück", "name": "Gewürzgurken" },
         { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
-        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
-        { "amount": 2, "unit": "TL", "name": "Currypulver" },
-        { "amount": 1, "unit": "EL", "name": "Pflanzenöl" },
-        { "amount": 1, "unit": "Prise", "name": "Salz, Pfeffer & Limettensaft" }
+        { "amount": 400, "unit": "g", "name": "Frischer Rosenkohl" },
+        { "amount": 50, "unit": "g", "name": "Speckwürfel (glutenfrei)" },
+        { "amount": 400, "unit": "g", "name": "Vorwiegend festkochende Kartoffeln" },
+        { "amount": 250, "unit": "ml", "name": "Rinderbrühe (glutenfrei)" },
+        { "amount": 100, "unit": "ml", "name": "Rotwein (trocken)" },
+        { "amount": 1, "unit": "EL", "name": "Laktosefreie Butter oder Schmalz" },
+        { "amount": 1, "unit": "Prise", "name": "Salz, Pfeffer & Muskatnuss" }
       ],
       "steps": [
-        "Zwiebel und Knoblauch fein würfeln. Hokkaido-Kürbis entkernen und in mundgerechte Stücke schneiden.",
-        "Öl in einem Topf erhitzen, Zwiebel, Knoblauch und Kürbis 3 Minuten anbraten.",
-        "Currypulver dazugeben und kurz mitrösten.",
-        "Rote Linsen, Kokosmilch und Gemüsebrühe hinzufügen, einmal aufkochen lassen.",
-        "Bei mittlerer Hitze ca. 15 Minuten köcheln lassen, bis Kürbis und Linsen weich sind.",
-        "Mit Salz, Pfeffer und einem Spritzer Limettensaft abschmecken."
+        "Rinderrouladen flach auslegen, trocken tupfen, mit Salz und Pfeffer würzen und mit Senf bestreichen.",
+        "Jede Roulade mit Speckscheiben, halbierter Gewürzgurke und feinen Zwiebelstreifen belegen.",
+        "Die Seiten leicht einschlagen, fest aufrollen und mit Rouladennadeln oder Garn fixieren.",
+        "Schmalz/Butter in einem Bräter erhitzen und Rouladen rundherum kräftig anbraten.",
+        "Mit Rotwein ablöschen, Rinderbrühe dazugeben und abgedeckt bei kleiner Hitze ca. 80-90 Minuten schmoren lassen.",
+        "Kartoffeln schälen und in Salzwasser kochen.",
+        "Rosenkohl putzen, halbieren und in kochendem Salzwasser ca. 10 Minuten blanchieren. Speckwürfel in einer Pfanne anbraten, den abgetropften Rosenkohl dazugeben, kurz mitschwenken und mit Muskatnuss würzen.",
+        "Rouladen aus dem Bräter nehmen, die Soße nach Wunsch binden und mit Salz und Pfeffer abschmecken. Zusammen mit Kartoffeln und Rosenkohl servieren."
       ],
       "tips": [
-        "Das Gericht bringt Abwechslung als vegetarischer Wochenbeitrag und ist komplett laktose- und glutenfrei."
+        "Speck-Rosenkohl passt hervorragend zur dunklen Rouladensoße und ist komplett gluten- sowie laktosefrei."
       ]
     },
     {
