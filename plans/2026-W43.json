@@ -1,0 +1,110 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"week_label": "2026-W43",
+"servings": 2,
+"author": "MealAI",
+"meal_times": {
+"breakfast": "09:00",
+"lunch": "12:00",
+"dinner": "19:30",
+"other": "15:00"
+},
+"recipes": [
+{
+"date": "2026-10-22",
+"name": "Glutenfreier Leberkäse im Brötchen mit Gurkensalat",
+"author": "MealAI",
+"meal": "dinner",
+"time": "19:30",
+"type": "meat",
+"prep_min": 15,
+"cook_min": 15,
+"servings": 2,
+"category": "Hauptgericht",
+"tagline": "Knusprig gebackener Leberkäse in gf Brötchen serviert mit frischem, laktosefreiem Gurkensalat.",
+"ingredients": [
+{ "amount": 2, "unit": "Stück", "name": "Leberkäsescheiben (glutenfrei)" },
+{ "amount": 2, "unit": "Stück", "name": "Brötchen (glutenfrei)" },
+{ "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
+{ "amount": 2, "unit": "EL", "name": "Pflanzenöl" },
+{ "amount": 1, "unit": "EL", "name": "Essig" },
+{ "amount": 1, "unit": "TL", "name": "Senf (glutenfrei)" },
+{ "amount": null, "unit": null, "name": "Salz, Pfeffer & Dill" }
+],
+"steps": [
+"Die Salatgurke gründlich waschen, in dünne Scheiben hobeln und mit Salz, Pfeffer, Essig, Öl und frisch gehacktem Dill zu einem Gurkensalat anmachen.",
+"Die glutenfreien Brötchen nach Packungsanweisung aufbacken oder toasten.",
+"Den glutenfreien Leberkäse in einer Pfanne bei mittlerer Hitze von beiden Seiten goldbraun und knusprig anbraten (oder im Ofen aufbacken).",
+"Die Brötchen aufschneiden, nach Wunsch mit Senf bestreichen, die heißen Leberkäsescheiben hineinlegen und zusammen mit dem Gurkensalat servieren."
+],
+"tips": [
+"Achte beim Kauf des Leberkäses und des Senfs auf die Kennzeichnung 'glutenfrei'.",
+"Die zweite Hälfte der Gurke wird für den morgigen Tag (Freitag) aufbewahrt."
+]
+},
+{
+"date": "2026-10-23",
+"name": "Bratwurst mit laktosefreiem Kartoffelbrei & Rahmgurken",
+"author": "MealAI",
+"meal": "dinner",
+"time": "19:30",
+"type": "meat",
+"prep_min": 15,
+"cook_min": 25,
+"servings": 2,
+"category": "Hauptgericht",
+"tagline": "Herzhafte glutenfreie Bratwürste mit cremigem Kartoffelpüree und erfrischenden Gurken.",
+"ingredients": [
+{ "amount": 4, "unit": "Stück", "name": "Bratwürste (glutenfrei)" },
+{ "amount": 600, "unit": "g", "name": "Kartoffeln (vorwiegend festkochend)" },
+{ "amount": 100, "unit": "ml", "name": "Milch (laktosefrei)" },
+{ "amount": 20, "unit": "g", "name": "Butter (laktosefrei)" },
+{ "amount": 0.5, "unit": "Stück", "name": "Salatgurke" },
+{ "amount": 2, "unit": "EL", "name": "Saure Sahne / Schmand (laktosefrei)" },
+{ "amount": null, "unit": null, "name": "Salz, Pfeffer & Muskatnuss" }
+],
+"steps": [
+"Kartoffeln schälen, in Würfel schneiden und in Salzwasser ca. 15–20 Minuten weich kochen.",
+"Die restliche Hälfte der Salatgurke hobeln und mit laktosefreier Saurer Sahne/Schmand, Salz und Pfeffer anmachen.",
+"Die glutenfreien Bratwürste in einer Pfanne mit etwas Öl rundherum goldbraun anbraten.",
+"Die abgegossenen Kartoffeln mit laktosefreier Milch und Butter stampfen. Mit Salz, Pfeffer und einer Prise Muskatnuss cremig abschmecken.",
+"Kross gebratene Bratwürste zusammen mit dem Kartoffelbrei und den Rahmgurken anrichten."
+],
+"tips": [
+"Kartoffelbrei nicht pürieren, sondern stampfen, damit er eine schöne lockere Textur behält."
+]
+},
+{
+"date": "2026-10-26",
+"name": "Gebratene glutenfreie Nudeln mit Schinken, Ei & Ketchup",
+"author": "MealAI",
+"meal": "dinner",
+"time": "19:30",
+"type": "meat",
+"prep_min": 10,
+"cook_min": 15,
+"servings": 2,
+"category": "Hauptgericht",
+"tagline": "Schnell, herzhaft und kinderleicht: Gebratene Pasta mit Kochschinken, Ei und Ketchup.",
+"ingredients": [
+{ "amount": 250, "unit": "g", "name": "Nudeln (glutenfrei, z. B. Fussili oder Penne)" },
+{ "amount": 150, "unit": "g", "name": "Kochschinken (glutenfrei / laktosefrei)" },
+{ "amount": 3, "unit": "Stück", "name": "Eier" },
+{ "amount": 1, "unit": "EL", "name": "Butter (laktosefrei) oder Öl" },
+{ "amount": null, "unit": null, "name": "Ketchup (glutenfrei)" },
+{ "amount": null, "unit": null, "name": "Salz, Pfeffer & Paprikapulver edelsüß" }
+],
+"steps": [
+"Die glutenfreien Nudeln in reichlich Salzwasser nach Packungsanweisung al dente kochen und abgießen.",
+"Den Kochschinken in mundgerechte Streifen oder Würfel schneiden.",
+"Die Eier in einer kleinen Schüssel verquirlen und leicht salzen und pfeffern.",
+"Laktosefreie Butter oder Öl in einer großen Pfanne erhitzen. Schinken kurz anbraten, dann die gegarten Nudeln dazugeben und leicht knusprig mitanbraten.",
+"Die verquirlten Eier über die Nudeln gießen und unter Wenden stocken lassen.",
+"Mit Salz, Pfeffer und Paprikapulver abschmecken und direkt mit einem Klecks glutenfreiem Ketchup servieren."
+],
+"tips": [
+"Perfekt zur Verwertung von bereits gekochten Nudeln vom Vortag."
+]
+}
+]
+}
