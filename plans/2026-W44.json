@@ -1,0 +1,132 @@
+{
+  "week_label": "2026-W44",
+  "servings": 2,
+  "meal_times": {
+    "dinner": "19:30"
+  },
+  "recipes": [
+    {
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "GF Currywurst mit knusprigen Pommes",
+      "type": "meat",
+      "servings": 2,
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Hausgemachte Currywurst mit Ofenpommes",
+      "ingredients": [
+        { "amount": 4, "unit": "Stück", "name": "GF Rostbratwürste" },
+        { "amount": 600, "unit": "g", "name": "Kartoffeln" },
+        { "amount": 250, "unit": "ml", "name": "Passierte Tomaten" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "name": "Currypulver" },
+        { "name": "Salz" },
+        { "name": "Paprikapulver" },
+        { "name": "Olivenöl" }
+      ],
+      "steps": [
+        "Kartoffeln schälen, in Pommes-Stifte schneiden, mit Öl und Paprikapulver vermengen und im Ofen bei 200°C ca. 25-30 Minuten knusprig backen.",
+        "Würste in einer Pfanne rundherum anbraten und in Scheiben schneiden.",
+        "Passierte Tomaten und Tomatenmark mit Currypulver, Salz und etwas Wasser aufkochen und einköcheln lassen.",
+        "Die Würste in der Soße schwenken und zusammen mit den Ofenpommes servieren."
+      ],
+      "tips": [
+        "Achte darauf, dass die Rostbratwürste explizit als glutenfrei gekennzeichnet sind."
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Pikantes Harissa-Hähnchen aus dem Ofen",
+      "type": "meat",
+      "servings": 2,
+      "prep_min": 15,
+      "cook_min": 35,
+      "category": "Hauptgericht",
+      "tagline": "Saftiges Hähnchen auf geschmorten Paprika",
+      "ingredients": [
+        { "amount": 2, "unit": "Stück", "name": "Hähnchenbrustfilet" },
+        { "amount": 2, "unit": "EL", "name": "Harissa-Paste" },
+        { "amount": 2, "unit": "Stück", "name": "Paprikaschoten" },
+        { "amount": 200, "unit": "ml", "name": "Passierte Tomaten" },
+        { "name": "Olivenöl" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Paprikaschoten in Streifen schneiden und in eine Auflaufform geben.",
+        "Hähnchenbrustfilets mit Harissa-Paste, Olivenöl und Salz einreiben.",
+        "Passierte Tomaten über die Paprika gießen, das Hähnchen darauf platzieren.",
+        "Im Ofen bei 190°C für ca. 35 Minuten backen, bis das Hähnchen durchgegart ist."
+      ],
+      "tips": [
+        "Die Schärfe der Harissa-Paste nach Geschmack anpassen."
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Shakshuka mit Hummus",
+      "type": "vegetarian",
+      "servings": 2,
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Eier in würziger Tomaten-Paprika-Soße mit Hummus",
+      "ingredients": [
+        { "amount": 4, "unit": "Stück", "name": "Eier" },
+        { "amount": 400, "unit": "g", "name": "Passierte Tomaten" },
+        { "amount": 1, "unit": "Stück", "name": "Paprikaschoten" },
+        { "amount": 1, "unit": "Zehe", "name": "Knoblauch" },
+        { "amount": 150, "unit": "g", "name": "Hummus" },
+        { "name": "Kreuzkümmel" },
+        { "name": "Paprikapulver" },
+        { "name": "Olivenöl" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Paprika würfeln und Knoblauch hacken. In einer Pfanne mit Olivenöl anbraten.",
+        "Passierte Tomaten und Gewürze (Kreuzkümmel, Paprikapulver, Salz) dazugeben und ca. 10 Minuten köcheln lassen.",
+        "Kleine Mulden in die Soße drücken und die Eier hineinschlagen. Mit Deckel stocken lassen.",
+        "Mit frischem Hummus servieren."
+      ],
+      "tips": [
+        "Perfekt mit glutenfreiem Brot zum Dippen."
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "meal": "dinner",
+      "time": "19:30",
+      "name": "Überbackene Schinkenröllchen mit Hackfleischfüllung",
+      "type": "meat",
+      "servings": 2,
+      "prep_min": 20,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Herzhafte Schinkenröllchen in cremiger Soße überbacken",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Gemischtes Hackfleisch" },
+        { "amount": 6, "unit": "Scheiben", "name": "Kochschinken" },
+        { "amount": 100, "unit": "g", "name": "Laktosefreier Geriebener Käse" },
+        { "amount": 1, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 150, "unit": "ml", "name": "Schlagsahne (laktosefrei)" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" },
+        { "name": "Paprikapulver" }
+      ],
+      "steps": [
+        "Hackfleisch mit Salz, Pfeffer und Paprikapulver würzen und anbraten.",
+        "Das Hackfleisch in die Kochschinkenscheiben wickeln und Röllchen formen. In eine Auflaufform legen.",
+        "Tomatenmark und laktosefreie Schlagsahne verrühren, mit Salz und Pfeffer abschmecken und über die Röllchen gießen.",
+        "Mit laktosefreiem Käse bestreuen und bei 200°C Ober-/Unterhitze ca. 25 Minuten überbacken."
+      ],
+      "tips": [
+        "Sicherstellen, dass der Kochschinken gluten- und laktosefrei ist."
+      ]
+    }
+  ]
+}
