@@ -1,0 +1,154 @@
+{
+  "week_label": "2026-W45",
+  "servings": 2,
+  "meal_times": {
+    "dinner": "19:30"
+  },
+  "recipes": [
+    {
+      "date": "2026-11-05",
+      "meal": "dinner",
+      "name": "Schnelle GF/LF Gnocchi-Pfanne mit Tomaten & Basilikum",
+      "type": "vegetarian",
+      "servings": 2,
+      "prep_min": 10,
+      "cook_min": 10,
+      "category": "Hauptgericht",
+      "tagline": "Ein schnelles 20-Minuten-Gericht mit Gnocchi und Tomaten.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "GF Gnocchi (aus dem Kühlregal)" },
+        { "amount": 250, "unit": "g", "name": "Kirschtomaten" },
+        { "amount": 1, "unit": "Bund", "name": "Frischer Basilikum" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "name": "LF Streukäse oder Hefeflocken" }
+      ],
+      "steps": [
+        "GF-Gnocchi direkt in einer Pfanne mit Olivenöl knusprig anbraten.",
+        "Kirschtomaten und Knoblauch dazugeben, mitmischen und braten, bis die Tomaten leicht aufplatzen.",
+        "Mit frischem Basilikum und LF Streukäse/Hefeflocken verfeinern und servieren."
+      ],
+      "tips": [
+        "Achte darauf, dass die Gnocchi explizit als glutenfrei gekennzeichnet sind."
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "meal": "dinner",
+      "name": "Klassische Deftige Erbsensuppe mit Mettenden & Suppengrün",
+      "type": "meat",
+      "servings": 2,
+      "prep_min": 20,
+      "cook_min": 40,
+      "category": "Hauptgericht",
+      "tagline": "Deftige Erbsensuppe mit frischem Suppengrün und Mettenden.",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Schälerbsen (grün)" },
+        { "amount": 2, "unit": "Stk", "name": "Mettenden (GF/LF)" },
+        { "amount": 1, "unit": "Bund", "name": "Suppengrün (Karotten, Sellerie, Lauch)" },
+        { "amount": 3, "unit": "Stk", "name": "Kartoffeln" },
+        { "amount": 1, "unit": "TL", "name": "Majoran" },
+        { "amount": 1, "unit": "l", "name": "Gemüsebrühe (GF)" }
+      ],
+      "steps": [
+        "Erbsen abspülen und mit Gemüsebrühe ansetzen.",
+        "Suppengrün und Kartoffeln klein schneiden und dazugeben.",
+        "Ca. 30-40 Minuten köcheln lassen, bis alles sämig ist.",
+        "Mettenden in Scheiben schneiden und in den letzten 10 Minuten in der Suppe erwärmen.",
+        "Mit Majoran abschmecken."
+      ],
+      "tips": [
+        "Prüfen, ob die Mettenden gluten- und laktosefrei sind."
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "meal": "dinner",
+      "name": "Schweine-Saltimbocca mit Salbei, Parma-Schinken & GF-Pasta",
+      "type": "meat",
+      "servings": 2,
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Zarte Schweinemedallions mit Salbei und Parmaschinken.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Schweineschnitzel/Filetscheiben" },
+        { "amount": 4, "unit": "Scheiben", "name": "Parmaschinken" },
+        { "amount": 1, "unit": "Handvoll", "name": "Frischer Salbei" },
+        { "amount": 100, "unit": "ml", "name": "Weißwein (trocken)" },
+        { "amount": 30, "unit": "g", "name": "LF Butter-Alternative" },
+        { "amount": 200, "unit": "g", "name": "GF Fettuccine / Bandnudeln" }
+      ],
+      "steps": [
+        "GF-Bandnudeln nach Packungsanweisung kochen.",
+        "Fleisch in dünne Medaillons schneiden, je ein Salbeiblatt und eine Scheibe Parmaschinken mit einem Zahnstocher aufstecken.",
+        "In LF Butter von beiden Seiten anbraten.",
+        "Mit Weißwein ablöschen und kurz einköcheln lassen.",
+        "Zusammen mit den Bandnudeln servieren."
+      ],
+      "tips": [
+        "Parmaschinken ist von Natur aus meist gluten- und laktosefrei, Etikett prüfen."
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "meal": "dinner",
+      "name": "Rinder-Hackfleisch-Pfanne mit Karotten & GF-Mie-Nudeln (Asia-Style)",
+      "type": "meat",
+      "servings": 2,
+      "prep_min": 15,
+      "cook_min": 15,
+      "category": "Hauptgericht",
+      "tagline": "Würzige Hackfleisch-Nudel-Pfanne mit asiatischen Aromen.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 200, "unit": "g", "name": "GF Mie-Nudeln (oder Reisbandnudeln)" },
+        { "amount": 2, "unit": "Stk", "name": "Karotten" },
+        { "amount": 3, "unit": "Stk", "name": "Lauchzwiebeln" },
+        { "amount": 1, "unit": "Stk", "name": "Ingwer (daumengroß)" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 3, "unit": "EL", "name": "Tamari (GF Sojasauce)" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" }
+      ],
+      "steps": [
+        "GF-Nudeln nach Anleitung kochen.",
+        "Rinderhackfleisch in einer Pfanne kräftig anbraten.",
+        "Karotten in feine Stifte schneiden, Lauchzwiebeln, Ingwer und Knoblauch dazugeben und kurz mitanbraten.",
+        "Mit Tamari und Sesamöl ablöschen.",
+        "Die Nudeln unterheben und alles gut vermengen."
+      ],
+      "steps": [
+        "Normale Sojasauce enthält Gluten; unbedingt Tamari (glutenfreie Sojasauce) verwenden."
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "meal": "dinner",
+      "name": "Ofen-Lachsfilet mit Kräuterkruste auf Zucchini-Tomaten-Gemüse",
+      "type": "fish",
+      "servings": 2,
+      "prep_min": 10,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Saftiges Lachsfilet auf mediterranem Ofengemüse.",
+      "ingredients": [
+        { "amount": 2, "unit": "Stk", "name": "Lachsfilets" },
+        { "amount": 200, "unit": "g", "name": "Kirschtomaten" },
+        { "amount": 1, "unit": "Stk", "name": "Zucchini" },
+        { "amount": 1, "unit": "Bund", "name": "Frischer Basilikum" },
+        { "amount": 4, "unit": "EL", "name": "GF Paniermehl" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 0.5, "unit": "Stk", "name": "Zitrone" }
+      ],
+      "steps": [
+        "Zucchini und Kirschtomaten in eine Auflaufform geben, mit Olivenöl, Salz und Basilikum vermengen.",
+        "Lachsfilets auf das Gemüse legen.",
+        "GF Paniermehl mit etwas Olivenöl und Kräutern vermischen und als Kruste auf dem Lachs verteilen.",
+        "Bei ca. 180°C Umluft für 20 Minuten im Ofen backen."
+      ],
+      "tips": [
+        "Darauf achten, dass das Paniermehl explizit als glutenfrei ausgezeichnet ist."
+      ]
+    }
+  ]
+}
