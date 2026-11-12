@@ -1,0 +1,217 @@
+{
+  "week_label": "2026-W46",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-11-13",
+      "meal": "dinner",
+      "name": "Teriyaki-Hähnchen-Pfanne mit Jasminreis & Brokkoli",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Schnelle asiatische Pfanne in glänzender glutenfreier Tamari-Ingwer-Glasur auf Jasminreis.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 1, "unit": "Kopf", "name": "Brokkoli" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
+        { "amount": 3, "unit": "EL", "name": "Tamari (glutenfrei)" },
+        { "amount": 2, "unit": "Stangen", "name": "Frühlingszwiebeln" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "cm", "name": "Ingwer" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 1, "unit": "TL", "name": "Honig" },
+        { "amount": 1, "unit": "TL", "name": "Maisstärke (glutenfrei)" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Jasminreis nach Packungsanweisung in leicht gesalzenem Wasser garen.",
+        "Hähnchenbrust in mundgerechte Stücke schneiden, Brokkoli in kleine Röschen teilen, Knoblauch und Ingwer fein reiben und Frühlingszwiebeln in Ringe schneiden.",
+        "Tamari, geriebenen Knoblauch, Ingwer, Honig, Maisstärke und 3 EL Wasser in einer kleinen Schüssel glatt rühren.",
+        "Sesamöl in einer großen Pfanne oder einem Wok erhitzen und das Hähnchen 5–6 Minuten rundherum goldbraun anbraten.",
+        "Brokkoliröschen dazugeben und 4–5 Minuten bissfest mitbraten (bei Bedarf 2 EL Wasser zum Dämpfen zugeben).",
+        "Die angerührte Tamari-Sauce darüber gießen, 1–2 Minuten aufkochen lassen, bis sie glänzend eindickt, und mit Frühlingszwiebeln über dem Jasminreis servieren."
+      ],
+      "tips": [
+        "Unbedingt glutenfreie Tamari-Sauce verwenden, da herkömmliche Sojasauce Weizen enthält."
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "meal": "dinner",
+      "name": "Schnelle Süßkartoffel-Kichererbsen-Kokos-Suppe",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Cremiger, wärmender One-Pot-Eintopf, der sich ideal vorkochen und blitzschnell aufwärmen lässt.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Süßkartoffeln" },
+        { "amount": 400, "unit": "g", "name": "Kichererbsen (Dose, abgetropft)" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 500, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 2, "unit": "Stück", "name": "Zwiebeln" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "Stangen", "name": "Frühlingszwiebeln" },
+        { "amount": 1, "unit": "EL", "name": "Currypulver (glutenfrei)" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "Stück", "name": "Limette" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Zwiebeln und Knoblauch fein würfeln; Süßkartoffeln schälen und in ca. 1,5 cm große Würfel schneiden.",
+        "Olivenöl in einem Topf erhitzen, Zwiebeln und Knoblauch 3 Minuten glasig dünsten und das Currypulver kurz mitrösten.",
+        "Süßkartoffelwürfel und abgetropfte Kichererbsen zugeben, mit glutenfreier Gemüsebrühe und Kokosmilch ablöschen.",
+        "Alles zugedeckt ca. 20 Minuten sanft köcheln lassen, bis die Süßkartoffeln weich sind.",
+        "Nach Belieben ein Drittel der Suppe mit dem Stabmixer kurz anpürieren oder stückig lassen. Mit Limettensaft, Salz und Pfeffer abschmecken und mit Frühlingszwiebeln garnieren."
+      ],
+      "tips": [
+        "Lässt sich perfekt komplett vorkochen und am Samstagabend in 5 Minuten wieder aufwärmen."
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "meal": "dinner",
+      "name": "Saftige Rinderhackbällchen in mediterraner Kräuter-Tomatensauce mit GF Pasta",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Italienische Rinderhackbällchen geschmort in würziger Tomatensauce zu glutenfreier Pasta.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 250, "unit": "g", "name": "Glutenfreie Pasta (Fusilli oder Penne)" },
+        { "amount": 400, "unit": "g", "name": "Gehackte Tomaten (Dose)" },
+        { "amount": 2, "unit": "Stück", "name": "Zwiebeln" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 1, "unit": "Stück", "name": "Ei" },
+        { "amount": 2, "unit": "EL", "name": "Glutenfreie Semmelbrösel" },
+        { "amount": 2, "unit": "TL", "name": "Italienische Kräuter (getrocknet)" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 40, "unit": "g", "name": "Laktosefreier Hartkäse" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Die Hälfte der Zwiebeln und des Knoblauchs sehr fein hacken und mit Rinderhackfleisch, Ei, glutenfreien Semmelbröseln, 1 TL italienischen Kräutern, Salz und Pfeffer verkneten. Kleine Hackbällchen formen.",
+        "1 EL Olivenöl in einer Pfanne erhitzen und die Hackbällchen rundherum 6–8 Minuten kräftig anbraten, dann herausnehmen.",
+        "Restliche Zwiebeln und Knoblauch im Bratensatz andünsten, Tomatenmark einrühren und kurz anrösten.",
+        "Mit gehackten Tomaten und 100 ml Wasser ablöschen, restliche Kräuter zugeben und 10 Minuten einköcheln lassen. Hackbällchen einlegen und 5 Minuten in der Sauce gar ziehen lassen.",
+        "Parallel die glutenfreie Pasta in reichlich Salzwasser al dente kochen, abgießen und mit den Hackbällchen und laktosefreiem Hartkäse anrichten."
+      ],
+      "tips": [
+        "Glutenfreie Pasta vor dem Abgießen gut testen, da sie schneller weich wird als Weizenpasta."
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "meal": "dinner",
+      "name": "Kräuter-Lammfilet mit Kichererbsen-Spinat-Gemüse",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Rosa gebratenes Lammfilet auf warmem, orientalisch gewürztem Kichererbsen-Blattspinat-Bett.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Lammfilet" },
+        { "amount": 400, "unit": "g", "name": "Kichererbsen (Dose, abgetropft)" },
+        { "amount": 250, "unit": "g", "name": "Frischer Blattspinat" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel (gemahlen)" },
+        { "amount": 1, "unit": "TL", "name": "Paprikapulver edelsüß" },
+        { "amount": 2, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 0.5, "unit": "Stück", "name": "Zitrone" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Lammfilets trocken tupfen, salzen, pfeffern und 15 Minuten vor dem Braten Raumtemperatur annehmen lassen.",
+        "Zwiebel und Knoblauch fein würfeln; Blattspinat waschen und abtropfen lassen.",
+        "1 EL Olivenöl in einer Pfanne erhitzen und die Lammfilets je nach Dicke 3–4 Minuten pro Seite rosa braten. Herausnehmen und in Alufolie gewickelt 5 Minuten ruhen lassen.",
+        "Im verbliebenen Öl Zwiebel und Knoblauch glasig dünsten, abgetropfte Kichererbsen, Kreuzkümmel und Paprikapulver zugeben und 3–4 Minuten anrösten.",
+        "Blattspinat portionsweise unterheben, zusammenfallen lassen und mit Zitronensaft, Salz und Pfeffer abschmecken. Lamm aufschneiden und darauf anrichten."
+      ],
+      "tips": [
+        "Von Natur aus komplett gluten- und laktosefrei; bei Gewürzen auf reine Qualität ohne weizenbasierte Rieselhilfen achten."
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "meal": "dinner",
+      "name": "Cremiges Kokos-Limetten-Hähnchen mit Paprika & Reis",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Aromatische Hähnchenpfanne mit knackiger roter Paprika in samtiger, laktosefreier Kokos-Limetten-Sauce.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 2, "unit": "Stück", "name": "Rote Paprika" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 2, "unit": "Stangen", "name": "Frühlingszwiebeln" },
+        { "amount": 1, "unit": "Stück", "name": "Limette" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "amount": 1, "unit": "TL", "name": "Kurkuma" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Jasminreis in leicht gesalzenem Wasser nach Packungsanweisung kochen.",
+        "Hähnchenbrust in Streifen schneiden; rote Paprika entkernen und in Streifen schneiden; Zwiebel und Knoblauch fein hacken.",
+        "Öl in einer tiefen Pfanne erhitzen und die Hähnchenstreifen 5 Minuten rundherum anbraten, dann kurz herausnehmen.",
+        "Zwiebel, Knoblauch und Paprikastreifen im Bratensatz 4 Minuten anbraten, Kurkuma kurz mitrösten.",
+        "Mit Kokosmilch und Limettensaft ablöschen, Hähnchen wieder zugeben und 8–10 Minuten sanft köcheln lassen. Mit Limettenabrieb, Salz, Pfeffer und Frühlingszwiebeln verfeinern und zum Reis servieren."
+      ],
+      "tips": [
+        "Die Kokosmilch ersetzt klassische Sahne vollständig und sorgt für eine samtige, laktosefreie Sauce."
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "meal": "dinner",
+      "name": "Herzhafte Soljanka (~10 Liter) mit Kochschinken, Bockwurst & eingelegten Paprikas",
+      "type": "meat",
+      "servings": 10,
+      "prep_min": 45,
+      "cook_min": 60,
+      "category": "Hauptgericht",
+      "tagline": "Großer 10-Liter-Topf würzige Soljanka mit Kochschinken statt Kassler, Bockwurst statt Gulasch und eingelegten Paprikas.",
+      "ingredients": [
+        { "amount": 1200, "unit": "g", "name": "Kochschinken (glutenfrei)" },
+        { "amount": 1200, "unit": "g", "name": "Bockwurst (glutenfrei)" },
+        { "amount": 2, "unit": "Gläser", "name": "Eingelegte Paprika in Streifen (inkl. Sud)" },
+        { "amount": 1, "unit": "Glas", "name": "Gewürzgurken (inkl. Gurkenwasser)" },
+        { "amount": 1500, "unit": "g", "name": "Gemüsezwiebeln" },
+        { "amount": 400, "unit": "g", "name": "Tomatenmark" },
+        { "amount": 1600, "unit": "g", "name": "Gehackte Tomaten (4 Dosen)" },
+        { "amount": 3500, "unit": "ml", "name": "Rinder- oder Gemüsebrühe (glutenfrei)" },
+        { "amount": 3, "unit": "EL", "name": "Butterschmalz oder Rapsöl" },
+        { "amount": 2, "unit": "EL", "name": "Paprikapulver edelsüß" },
+        { "amount": 3, "unit": "Stück", "name": "Lorbeerblätter" },
+        { "amount": 2, "unit": "Stück", "name": "Bio-Zitronen" },
+        { "amount": 400, "unit": "g", "name": "Laktosefreie Crème fraîche oder Schmand" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Kochschinken in mundgerechte Würfel schneiden, Bockwürste in Scheiben schneiden. Zwiebeln schälen und in feine Streifen oder Würfel schneiden. Gewürzgurken in kleine Würfel schneiden (Gurkenwasser auffangen).",
+        "In einem großen Suppentopf (mind. 12–15 Liter Fassungsvermögen) Butterschmalz oder Öl erhitzen und die Zwiebeln 8–10 Minuten glasig anschwitzen.",
+        "Kochschinken und Bockwurstscheiben zugeben und 5 Minuten kräftig mitbraten.",
+        "Tomatenmark und Paprikapulver einrühren und 3 Minuten unter Rühren anrösten, bis alles leicht karamellisiert.",
+        "Mit gehackten Tomaten, heißer glutenfreier Brühe, dem Gurkenwasser und dem Sud der eingelegten Paprikas aufgießen. Lorbeerblätter zugeben.",
+        "Eingelegte Paprikastreifen und Gewürzgurkenwürfel hinzufügen und die Soljanka ca. 35–40 Minuten bei mittlerer Hitze sanft köcheln lassen, bis sie auf ca. 10 Liter eingekocht und intensiv durchgezogen ist.",
+        "Lorbeerblätter entfernen, mit Salz, Pfeffer und bei Bedarf etwas mehr Gurkenwasser abschmecken und mit Zitronenscheiben sowie laktosefreier Crème fraîche servieren."
+      ],
+      "tips": [
+        "Beim Einkauf von Kochschinken, Bockwurst und Brühe auf das glutenfreie Siegel / Zutatenliste ohne Weizenstärke achten. Durch das Weglassen von Mehlschwitze bindet die Soljanka rein über Zwiebeln, Tomatenmark und gehackte Tomaten."
+      ]
+    }
+  ]
+}
