@@ -1,0 +1,166 @@
+{
+  "week_label": "2026-W47",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-11-20",
+      "meal": "dinner",
+      "name": "Cremige Lauch-Käse-Suppe mit Hackfleischbällchen",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Herzhafte, vorbereitbare Lauch-Käse-Suppe mit würzigen Mini-Rinderhackbällchen.",
+      "ingredients": [
+        { "amount": 300, "unit": "g", "name": "Rinderhackfleisch" },
+        { "amount": 2, "unit": "Stangen", "name": "Lauch (Porree)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 300, "unit": "g", "name": "Kartoffeln (mehligkochend)" },
+        { "amount": 150, "unit": "g", "name": "Frischkäse (laktosefrei)" },
+        { "amount": 100, "unit": "g", "name": "Gouda gerieben (laktosefrei)" },
+        { "amount": 600, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 2, "unit": "EL", "name": "Paniermehl (glutenfrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Ei" },
+        { "amount": 1, "unit": "TL", "name": "Senf (mittelscharf, glutenfrei)" },
+        { "amount": 1, "unit": "EL", "name": "Rapsöl" },
+        { "name": "Salz" },
+        { "name": "Schwarzer Pfeffer" },
+        { "name": "Muskatnuss (gemahlen)" }
+      ],
+      "steps": [
+        "Rinderhackfleisch mit Ei, glutenfreiem Paniermehl, Senf, Salz und Pfeffer verkneten und zu ca. 16 kleinen Hackbällchen formen.",
+        "Lauch längs halbieren, gründlich waschen und in feine Ringe schneiden. Zwiebel fein würfeln und Kartoffeln schälen sowie klein würfeln.",
+        "Rapsöl in einem großen Topf erhitzen, die Hackbällchen darin rundherum 4–5 Minuten kräftig anbraten und anschließend herausnehmen.",
+        "Zwiebel- und Kartoffelwürfel im Bratensatz 3 Minuten glasig dünsten, Lauch zugeben und kurz mitdünsten. Mit glutenfreier Gemüsebrühe ablöschen und 15 Minuten sanft köcheln lassen, bis die Kartoffeln weich sind.",
+        "Laktosefreien Frischkäse und geriebenen Gouda einrühren, bis alles geschmolzen ist. Optional kurz anpürieren, Hackbällchen einlegen, 5 Minuten ziehen lassen und mit Salz, Pfeffer und Muskatnuss abschmecken."
+      ],
+      "tips": [
+        "Achte beim Senf und der Gemüsebrühe darauf, dass sie ausdrücklich als glutenfrei deklariert sind.",
+        "Die Suppe lässt sich wunderbar am Vortag vorkochen und bei schwacher Hitze wieder erwärmen."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "meal": "dinner",
+      "name": "Tex-Mex Pulled-Chicken-Tacos mit Limetten-Crema & Salat",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Knusprige Mais-Tacos mit saftig gezupftem Gewürzhähnchen, frischer Salsa und Limetten-Crema.",
+      "ingredients": [
+        { "amount": 350, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 6, "unit": "Stück", "name": "Mais-Taco-Shells (100 % Mais, glutenfrei)" },
+        { "amount": 1, "unit": "Stück", "name": "Limette" },
+        { "amount": 0.5, "unit": "Bund", "name": "Koriander (frisch)" },
+        { "amount": 1, "unit": "Stück", "name": "Rote Zwiebel" },
+        { "amount": 100, "unit": "g", "name": "Eisbergsalat" },
+        { "amount": 2, "unit": "Stück", "name": "Tomaten" },
+        { "amount": 150, "unit": "g", "name": "Crème fraîche (laktosefrei)" },
+        { "amount": 100, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 1, "unit": "TL", "name": "Kreuzkümmel (gemahlen)" },
+        { "amount": 1, "unit": "TL", "name": "Paprikapulver (edelsüß oder geräuchert)" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Schwarzer Pfeffer" }
+      ],
+      "steps": [
+        "Hähnchenbrust mit Salz, Pfeffer, Kreuzkümmel und Paprikapulver einreiben. Olivenöl in einer Pfanne erhitzen, das Hähnchen beidseitig scharf anbraten, mit glutenfreier Gemüsebrühe ablöschen und zugedeckt 12–15 Minuten sanft schmoren.",
+        "Währenddessen Tomaten entkernen und fein würfeln, rote Zwiebel schälen und fein hacken, Eisbergsalat in feine Streifen schneiden und Koriander grob hacken.",
+        "Laktosefreie Crème fraîche mit dem Abrieb und Saft einer halben Limette sowie einer Prise Salz glatt rühren.",
+        "Gegartes Hähnchen aus der Pfanne nehmen, mit zwei Gabeln zerzupfen (Pulled Chicken) und zurück in den würzigen Pfannensud geben.",
+        "Mais-Taco-Shells nach Packungsanleitung im Ofen kurz knusprig erwärmen, mit Pulled Chicken, Salat, Tomaten-Zwiebel-Salsa, Koriander und Limetten-Crema füllen und sofort servieren."
+      ],
+      "tips": [
+        "Verwende ausschließlich Taco-Shells oder Tortillas aus 100 % Maismehl mit Glutenfrei-Siegel, um Kreuzkontaminationen auszuschließen."
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "meal": "dinner",
+      "name": "Schneller Schmorbraten nach Rheinischer Sauerbraten-Art mit Kartoffelstampf",
+      "type": "meat",
+      "prep_min": 20,
+      "cook_min": 90,
+      "category": "Hauptgericht",
+      "tagline": "Zarter Rinderschmorbraten in würzig-süßsaurer Rotwein-Essig-Soße ohne mehrtägige Beize.",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Rinderschmorbraten (aus der Keule oder Schulter)" },
+        { "amount": 1, "unit": "Bund", "name": "Suppengrün (Karotten, Knollensellerie, Lauch)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 150, "unit": "ml", "name": "Rotwein (trocken)" },
+        { "amount": 80, "unit": "ml", "name": "Rotweinessig" },
+        { "amount": 250, "unit": "ml", "name": "Rinderbrühe (glutenfrei)" },
+        { "amount": 30, "unit": "g", "name": "Rosinen" },
+        { "amount": 1, "unit": "EL", "name": "Zuckerrübensirup (Rübenkraut)" },
+        { "amount": 2, "unit": "Stück", "name": "Lorbeerblätter" },
+        { "amount": 4, "unit": "Stück", "name": "Wacholderbeeren" },
+        { "amount": 1, "unit": "EL", "name": "Speisestärke (glutenfrei)" },
+        { "amount": 500, "unit": "g", "name": "Kartoffeln (mehligkochend)" },
+        { "amount": 100, "unit": "ml", "name": "Milch (laktosefrei)" },
+        { "amount": 25, "unit": "g", "name": "Butter (laktosefrei)" },
+        { "amount": 1, "unit": "EL", "name": "Butterschmalz (laktosefrei) oder Rapsöl" },
+        { "name": "Salz" },
+        { "name": "Schwarzer Pfeffer" },
+        { "name": "Muskatnuss (gemahlen)" }
+      ],
+      "steps": [
+        "Rinderschmorbraten trocken tupfen, kräftig mit Salz und Pfeffer würzen. Suppengrün und Zwiebel putzen, schälen und grob würfeln.",
+        "Butterschmalz in einem Bräter stark erhitzen und das Fleisch rundherum 5 Minuten scharf anbraten, dann herausnehmen.",
+        "Gemüse im Bratensatz 4 Minuten anrösten, mit Rotweinessig und Rotwein ablöschen und kurz einkochen lassen. Rinderbrühe, Lorbeerblätter, Wacholderbeeren, Rosinen und Rübenkraut zugeben.",
+        "Fleisch zurück in den Sud legen und zugedeckt bei schwacher Hitze ca. 75–80 Minuten butterzart schmoren.",
+        "In den letzten 25 Minuten Kartoffeln schälen, würfeln und in Salzwasser 20 Minuten weich kochen. Abgießen, mit warmer laktosefreier Milch, laktosefreier Butter, Salz und Muskatnuss zerstampfen.",
+        "Braten aus dem Topf nehmen und warm halten. Soße durch ein Sieb passieren, aufkochen, mit angerührter glutenfreier Speisestärke binden und mit Salz, Pfeffer und optional einem Spritzer Essig abschmecken. Braten aufschneiden und mit Soße und Kartoffelstampf anrichten."
+      ],
+      "tips": [
+        "Klassische Soßenkuchen oder Printen zum Binden enthalten Gluten – Zuckerrübensirup plus glutenfreie Speisestärke sorgt für die authentische Süße und Bindung ganz ohne Gluten."
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "meal": "dinner",
+      "name": "Marokkanische Lamm-Tajine mit Kichererbsen & Datteln",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 45,
+      "category": "Hauptgericht",
+      "tagline": "Aromatischer Schmortopf mit zartem Lamm, süßen Datteln und Kichererbsen – ideal zum Warmhalten.",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Lammgulasch (aus der Keule)" },
+        { "amount": 1, "unit": "Dose", "name": "Kichererbsen (ca. 240 g Abtropfgewicht)" },
+        { "amount": 60, "unit": "g", "name": "Datteln (entsteint)" },
+        { "amount": 1, "unit": "Dose", "name": "Tomaten (gehackt, 400 g)" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten" },
+        { "amount": 200, "unit": "ml", "name": "Gemüsebrühe (glutenfrei)" },
+        { "amount": 2, "unit": "TL", "name": "Ras el-Hanout (glutenfrei)" },
+        { "amount": 0.5, "unit": "TL", "name": "Zimt (gemahlen)" },
+        { "amount": 0.5, "unit": "Bund", "name": "Koriander (frisch)" },
+        { "amount": 1, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Schwarzer Pfeffer" }
+      ],
+      "steps": [
+        "Lammgulasch trocken tupfen und mit Salz, Pfeffer sowie Ras el-Hanout würzen. Zwiebel schälen und würfeln, Karotten schälen und in Scheiben schneiden, Datteln grob hacken.",
+        "Olivenöl in einem Schmortopf erhitzen und das Lammfleisch darin 4–5 Minuten rundherum kräftig anbraten. Zwiebeln und Karotten zugeben und 3 Minuten mitdünsten.",
+        "Gehackte Tomaten, glutenfreie Gemüsebrühe, Zimt und gehackte Datteln einrühren. Aufkochen und zugedeckt bei schwacher Hitze 35 Minuten schmoren.",
+        "Kichererbsen abspülen, abtropfen lassen und für die letzten 10 Minuten mit in den Topf geben.",
+        "Tajine mit Salz und Pfeffer abschmecken, bei Bedarf auf niedrigster Stufe warm halten und vor dem Servieren mit frisch gezupftem Koriander bestreuen."
+      ],
+      "tips": [
+        "Gewürzmischungen wie Ras el-Hanout können Spuren von Weizen enthalten – nutze eine zertifiziert glutenfreie Variante.",
+        "Perfekt zum Warmhalten: Durch längeres Ziehen auf kleinster Stufe wird das Lamm noch zarter und die Soße noch aromatischer."
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "meal": "dinner",
+      "name": "Cremiges Thai-Kürbis-Curry mit Jasminreis",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Samtiges, leicht scharfes Kokos-Curry mit Hokkaido-Kürbis, Karotten und frischem Koriander.",
+      "ingredients": [
+        { "amount": 450, "unit": "g", "name": "Hokkaido-Kürbis" },
+        { "
