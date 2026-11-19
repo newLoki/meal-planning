@@ -163,4 +163,26 @@
       "tagline": "Samtiges, leicht scharfes Kokos-Curry mit Hokkaido-Kürbis, Karotten und frischem Koriander.",
       "ingredients": [
         { "amount": 450, "unit": "g", "name": "Hokkaido-Kürbis" },
-        { "
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 2, "unit": "EL", "name": "Rote Thai-Currypaste (glutenfrei)" },
+        { "amount": 1, "unit": "EL", "name": "Tamari (glutenfreie Sojasauce)" },
+        { "amount": 2, "unit": "Stück", "name": "Karotten" },
+        { "amount": 150, "unit": "g", "name": "Jasminreis" },
+        { "amount": 1, "unit": "Stück", "name": "Limette" },
+        { "amount": 0.5, "unit": "Bund", "name": "Koriander (frisch)" },
+        { "amount": 1, "unit": "EL", "name": "Kokosöl oder Rapsöl" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Jasminreis gründlich waschen und nach Packungsanleitung in leicht gesalzenem Wasser ca. 12–15 Minuten garen.",
+        "Hokkaido-Kürbis waschen, entkernen und in mundgerechte Würfel schneiden (Schale kann mitgegessen werden). Karotten schälen und in schräge Scheiben schneiden.",
+        "Öl in einem Wok oder tiefen Topf erhitzen, rote Thai-Currypaste darin 1 Minute anrösten, bis sie duftet. Kürbiswürfel und Karottenscheiben zugeben und 2 Minuten mitbraten.",
+        "Mit Kokosmilch ablöschen, Tamari einrühren und alles bei mittlerer Hitze 15–18 Minuten köcheln lassen, bis Kürbis und Karotten gar, aber noch leicht bissfest sind.",
+        "Curry mit dem Saft einer halben Limette abschmecken, zusammen mit dem Jasminreis anrichten und mit frischem Koriander bestreuen."
+      ],
+      "tips": [
+        "Herkömmliche Sojasauce enthält Weizen – verwende immer Tamari oder ausdrücklich glutenfreie Sojasauce sowie eine glutenfreie Currypaste (ohne Weizenmehl als Verdickungsmittel)."
+      ]
+    }
+  ]
+}
