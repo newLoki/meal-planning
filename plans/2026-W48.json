@@ -1,0 +1,186 @@
+{
+  "week_label": "2026-W48",
+  "servings": 2,
+  "recipes": [
+    {
+      "date": "2026-11-27",
+      "meal": "dinner",
+      "name": "Asiatisches Rindfleisch-Pfannengericht mit Brokkoli & Jasminreis",
+      "type": "meat",
+      "prep_min": 25,
+      "cook_min": 20,
+      "category": "Hauptgericht",
+      "tagline": "Schnelles Wok-Gericht zum Vorbereiten mit zartem Rindfleisch und knackigem Gemüse",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Rinderhüftsteak" },
+        { "amount": 500, "unit": "g", "name": "Brokkoli" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 0.5, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 250, "unit": "g", "name": "Jasminreis" },
+        { "amount": 4, "unit": "EL", "name": "Glutenfreie Tamari-Sojasauce" },
+        { "amount": 20, "unit": "g", "name": "Frischer Ingwer" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 1, "unit": "EL", "name": "Sesamöl" },
+        { "amount": 1, "unit": "TL", "name": "Speisestärke (Maisstärke)" },
+        { "amount": 2, "unit": "EL", "name": "Rapsöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Rinderhüftsteak quer zur Faser in feine Streifen schneiden und mit 2 EL Tamari, 1 TL Speisestärke, geriebenem Ingwer und gepresstem Knoblauch mindestens 20 Minuten (oder bereits nachmittags im Kühlschrank) marinieren.",
+        "Brokkoli in kleine Röschen teilen, Karotten schräg in dünne Scheiben schneiden und Frühlingszwiebeln in feine Ringe schneiden.",
+        "Jasminreis nach Packungsanweisung in leicht gesalzenem Wasser garen.",
+        "Rapsöl in einem Wok oder einer großen Pfanne stark erhitzen und die marinierten Rindfleischstreifen 2 Minuten scharf anbraten, dann herausnehmen.",
+        "Brokkoli und Karotten mit 3 EL Wasser im Wok 5 Minuten bissfest pfannenrühren.",
+        "Fleisch samt Marinade, restliche 2 EL Tamari und Sesamöl zugeben, 2 Minuten durchschwenken, mit Frühlingszwiebeln bestreuen und mit Jasminreis servieren."
+      ],
+      "tips": [
+        "Achte darauf, explizit zertifizierte glutenfreie Tamari-Sojasauce zu verwenden, da herkömmliche Sojasauce Weizen enthält.",
+        "Das Fleisch und das Gemüse lassen sich perfekt schon am Nachmittag schneiden und getrennt im Kühlschrank lagern, sodass abends nur noch gebraten werden muss."
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "meal": "dinner",
+      "name": "Cremiges Zitronen-Kräuter-Hähnchen mit Rosmarinkartoffeln & Bohnen",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 35,
+      "category": "Hauptgericht",
+      "tagline": "Aromatische Hähnchenbrust in Zitronen-Sahnesauce mit knusprigen Ofenkartoffeln",
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "Hähnchenbrustfilet" },
+        { "amount": 600, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 400, "unit": "g", "name": "Grüne Bohnen" },
+        { "amount": 200, "unit": "ml", "name": "Laktosefreie Kochsahne" },
+        { "amount": 100, "unit": "ml", "name": "Glutenfreie Hühnerbrühe" },
+        { "amount": 1, "unit": "Stück", "name": "Bio-Zitrone" },
+        { "amount": 3, "unit": "Zweige", "name": "Frischer Rosmarin" },
+        { "amount": 2, "unit": "Zehen", "name": "Knoblauch" },
+        { "amount": 3, "unit": "EL", "name": "Olivenöl" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Backofen auf 200 °C Umluft vorheizen. Kartoffeln waschen, in Spalten schneiden, mit 2 EL Olivenöl, gezupftem Rosmarin, Salz und Pfeffer mischen und auf einem Blech 30 Minuten knusprig backen.",
+        "Grüne Bohnen putzen und in kochendem Salzwasser 8–10 Minuten bissfest garen, danach abgießen.",
+        "Hähnchenbrustfilets mit Salz und Pfeffer würzen und in einer Pfanne mit 1 EL Olivenöl von beiden Seiten je 4–5 Minuten goldbraun braten.",
+        "Knoblauch fein hacken, kurz mitbraten, dann mit Hühnerbrühe, Saft und Abrieb der halben Bio-Zitrone sowie laktosefreier Kochsahne ablöschen und 5 Minuten cremig einköcheln lassen.",
+        "Hähnchen mit der Zitronen-Kräuter-Sauce, den Rosmarinkartoffeln und den grünen Bohnen servieren."
+      ],
+      "tips": [
+        "Laktosefreie Kochsahne bindet genauso gut wie herkömmliche Sahne und benötigt keine glutenhaltigen Soßenbinder."
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "meal": "dinner",
+      "name": "Geschmortes Hirschgulasch in Wacholder-Rotwein-Sauce mit Sellerie-Kartoffel-Püree & Preiselbeeren",
+      "type": "meat",
+      "prep_min": 30,
+      "cook_min": 140,
+      "category": "Hauptgericht",
+      "tagline": "Festliches Wild-Schmorgericht mit kräftiger Rotweinsauce und cremigem Selleriepüree",
+      "ingredients": [
+        { "amount": 600, "unit": "g", "name": "Hirschgulasch" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 400, "unit": "g", "name": "Knollensellerie" },
+        { "amount": 400, "unit": "g", "name": "Mehligkochende Kartoffeln" },
+        { "amount": 1, "unit": "Stück", "name": "Zwiebel" },
+        { "amount": 250, "unit": "ml", "name": "Trockener Rotwein" },
+        { "amount": 400, "unit": "ml", "name": "Glutenfreier Wildfond" },
+        { "amount": 2, "unit": "EL", "name": "Tomatenmark" },
+        { "amount": 6, "unit": "Stück", "name": "Wacholderbeeren" },
+        { "amount": 3, "unit": "Zweige", "name": "Frischer Thymian" },
+        { "amount": 2, "unit": "Stück", "name": "Lorbeerblätter" },
+        { "amount": 50, "unit": "g", "name": "Laktosefreie Butter" },
+        { "amount": 2, "unit": "EL", "name": "Rapsöl" },
+        { "amount": 2, "unit": "EL", "name": "Wildpreiselbeeren (Glas)" },
+        { "name": "Muskatnuss" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Backofen auf 160 °C Ober-/Unterhitze vorheizen. Hirschgulasch trocken tupfen, salzen, pfeffern und in einem Bräter in heißem Rapsöl rundherum kräftig anbraten, dann herausnehmen.",
+        "Zwiebel, 150g der Karotten sowie 100g des Knollenselleries würfeln, im Bratensatz anrösten und Tomatenmark kurz mitrösten.",
+        "Mit Rotwein ablöschen, fast vollständig einkochen lassen, Wildfond, zerdrückte Wacholderbeeren, Lorbeer und Thymian zugeben. Fleisch einlegen und zugedeckt im Ofen ca. 2 Stunden schmoren.",
+        "30 Minuten vor Ende der Schmorzeit restlichen Knollensellerie (300g) und mehligkochende Kartoffeln schälen, würfeln und in Salzwasser 20 Minuten weich kochen.",
+        "Wasser abgießen, Kartoffeln und Sellerie mit laktosefreier Butter fein stampfen und mit Salz und Muskatnuss abschmecken.",
+        "Hirschgulasch aus dem Ofen nehmen, Sauce bei Bedarf noch etwas einkochen lassen und mit Sellerie-Kartoffel-Püree sowie Preiselbeeren servieren."
+      ],
+      "tips": [
+        "Prüfe beim Wildfond auf dem Etikett, dass keine Weizenstärke oder glutenhaltigen Hefeextrakte enthalten sind.",
+        "Falls die Sauce am Ende noch etwas Bindung braucht, 1 TL Maisstärke in kaltem Wasser anrühren und kurz mitkochen."
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "meal": "dinner",
+      "name": "Herzhafter Schwäbischer Linseneintopf mit Schweinebauch & Saitenwürstchen",
+      "type": "meat",
+      "prep_min": 15,
+      "cook_min": 45,
+      "category": "Hauptgericht",
+      "tagline": "Deftiger Klassiker zum Vorkochen und Warmhalten",
+      "ingredients": [
+        { "amount": 250, "unit": "g", "name": "Tellerlinsen (trocken)" },
+        { "amount": 200, "unit": "g", "name": "Geräucherter Schweinebauch" },
+        { "amount": 2, "unit": "Stück", "name": "Glutenfreie Saitenwürstchen (Wiener)" },
+        { "amount": 250, "unit": "g", "name": "Karotten" },
+        { "amount": 300, "unit": "g", "name": "Festkochende Kartoffeln" },
+        { "amount": 1, "unit": "Stange", "name": "Lauch" },
+        { "amount": 100, "unit": "g", "name": "Knollensellerie" },
+        { "amount": 1000, "unit": "ml", "name": "Glutenfreie Gemüsebrühe" },
+        { "amount": 2, "unit": "EL", "name": "Apfelessig" },
+        { "amount": 1, "unit": "TL", "name": "Glutenfreier Senf" },
+        { "amount": 1, "unit": "Stück", "name": "Lorbeerblatt" },
+        { "name": "Salz" },
+        { "name": "Pfeffer" }
+      ],
+      "steps": [
+        "Karotten, Knollensellerie und festkochende Kartoffeln schälen und in kleine Würfel schneiden. Lauch gründlich waschen und in Ringe schneiden.",
+        "Tellerlinsen unter kaltem Wasser abspülen. Zusammen mit dem gewürfelten Gemüse, dem ganzen Stück Schweinebauch, Lorbeerblatt und der Gemüsebrühe in einen großen Topf geben.",
+        "Alles aufkochen und zugedeckt bei schwacher Hitze ca. 35–40 Minuten köcheln lassen, bis Linsen und Kartoffeln weich sind.",
+        "Schweinebauch herausnehmen, in Scheiben oder Würfel schneiden und zurück in den Topf geben. Eintopf mit Apfelessig, Senf, Salz und Pfeffer herzhaft abschmecken.",
+        "Saitenwürstchen in den letzten 5 Minuten im heißen Eintopf ziehen lassen (nicht kochen). Der Eintopf lässt sich danach problemlos auf kleinster Stufe warmhalten."
+      ],
+      "tips": [
+        "Achte bei Saitenwürstchen und Senf auf die Deklaration 'glutenfrei', da in Wurstwaren oder Gewürzmischungen gelegentlich Weizenmehl als Bindemittel eingesetzt wird.",
+        "Lässt sich wunderbar am Nachmittag komplett fertig kochen und bei Bedarf auf niedriger Stufe warmhalten."
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "meal": "dinner",
+      "name": "Kürbis-Kichererbsen-Curry mit Kokosmilch & Spinat",
+      "type": "vegetarian",
+      "prep_min": 15,
+      "cook_min": 25,
+      "category": "Hauptgericht",
+      "tagline": "Cremiges, rein pflanzliches Curry mit Hokkaido und frischem Babyspinat",
+      "ingredients": [
+        { "amount": 500, "unit": "g", "name": "Hokkaidokürbis" },
+        { "amount": 240, "unit": "g", "name": "Kichererbsen (Abtropfgewicht)" },
+        { "amount": 400, "unit": "ml", "name": "Kokosmilch" },
+        { "amount": 150, "unit": "g", "name": "Frischer Babyspinat" },
+        { "amount": 0.5, "unit": "Bund", "name": "Frühlingszwiebeln" },
+        { "amount": 2, "unit": "EL", "name": "Glutenfreie gelbe Currypaste" },
+        { "amount": 200, "unit": "g", "name": "Basmatireis" },
+        { "amount": 100, "unit": "ml", "name": "Glutenfreie Gemüsebrühe" },
+        { "amount": 1, "unit": "EL", "name": "Kokosöl" },
+        { "amount": 0.5, "unit": "Stück", "name": "Limette" },
+        { "name": "Salz" }
+      ],
+      "steps": [
+        "Basmatireis nach Packungsanweisung in leicht gesalzenem Wasser kochen.",
+        "Hokkaidokürbis waschen, entkernen und ungeschält in mundgerechte Würfel schneiden. Kichererbsen abgießen und abspülen.",
+        "Kokosöl in einer tiefen Pfanne erhitzen, Currypaste 1 Minute anrösten, dann Kürbiswürfel zugeben und 3 Minuten mitbraten.",
+        "Mit Kokosmilch und Gemüsebrühe ablöschen und zugedeckt 15 Minuten köcheln lassen, bis der Kürbis weich ist.",
+        "Abgetropfte Kichererbsen und gewaschenen Babyspinat unterheben, 3 Minuten zusammenfallen lassen, mit Limettensaft und Salz abschmecken und mit Frühlingszwiebeln bestreut zum Reis servieren."
+      ],
+      "tips": [
+        "Die meisten thailändischen gelben Currypasten sind von Natur aus gluten- und laktosefrei — zur Sicherheit kurz die Zutatenliste auf Sojasaucen-Zusätze prüfen."
+      ]
+    }
+  ]
+}
